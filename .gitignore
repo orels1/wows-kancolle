@@ -1,7 +1,14 @@
+# ignore file types
+
 *.psd
 *.jpg
 *.png
 *.bmp
 *.mfm
+*.zip
+
+# ignore folders
+
 misc/*
-src/
+src/*
+release/*
