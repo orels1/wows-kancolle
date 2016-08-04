@@ -2,7 +2,7 @@
 
 # Пак скинов для World of Warships
 
-![Купи мне пива!](https://img.shields.io/badge/buy%20me%20a-beer-yellow.svg)
+[<img src="https://img.shields.io/badge/buy%20me%20a-beer-yellow.svg" title="Купи мне пива" />](https://paypal.me/orels)
 
 ## Текущий набор кораблей
 
