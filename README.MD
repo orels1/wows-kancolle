@@ -11,7 +11,7 @@
 - [x] Umikaze
 - [ ] Kuma
 - [x] Kongo (корпус А)
-- [ ] Kongo (корпус B,C)
+- [x] Kongo (корпус B,C)
 
 ## Установка
 
