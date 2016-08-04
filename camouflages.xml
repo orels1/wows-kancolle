@@ -1,0 +1,4079 @@
+<data>
+<!--//Default tile camouflage-->
+	<!--//tier 1-->
+	<camouflage>
+		<annotation>Блок дефолтного тайленого камуфляжа первого типа, пятна</annotation>
+        <name>camo_1_tile</name>
+        <tiled>true</tiled>
+        <UV>
+            <Tile>4 4</Tile>
+			<Bow_DeckHouse>2 2</Bow_DeckHouse>
+			<MidFront_DeckHouse>2 2</MidFront_DeckHouse>
+			<MidBack_DeckHouse>2 2</MidBack_DeckHouse>
+			<Stern_DeckHouse>2 2</Stern_DeckHouse>
+			<Gun>0.5 0.5</Gun>
+			<Bulge>2 2</Bulge>
+        </UV>
+        <Textures>
+                <Tile>content/gameplay/common/camouflage/textures/transparent.dds</Tile>
+        </Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+    </camouflage>
+	<!--//tier 2-->
+	<camouflage>
+		<annotation>Блок дефолтного тайленого камуфляжа второго типа, полосы</annotation>
+        <name>camo_2_tile</name>
+        <tiled>true</tiled>
+        <UV>
+			<Tile>3 3</Tile>
+			<Bow_DeckHouse>1.5 1.5</Bow_DeckHouse>
+			<MidFront_DeckHouse>1.5 1.5</MidFront_DeckHouse>
+			<MidBack_DeckHouse>1.5 1.5</MidBack_DeckHouse>
+			<Stern_DeckHouse>1.5 1.5</Stern_DeckHouse>
+			<Gun>0.5 0.5</Gun>
+			<Bulge>1.5 1.5</Bulge>
+        </UV>
+        <Textures>
+                <Tile>content/gameplay/common/camouflage/textures/transparent.dds</Tile>
+        </Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+    </camouflage>
+	<!--//tier 3-->
+	<camouflage>
+		<annotation>Блок дефолтного тайленого камуфляжа третьего типа, даззл</annotation>
+        <name>camo_3_tile</name>
+        <tiled>true</tiled>
+        <UV>
+			<Tile>3 3</Tile>
+			<Bow_DeckHouse>1.5 1.5</Bow_DeckHouse>
+			<MidFront_DeckHouse>1.5 1.5</MidFront_DeckHouse>
+			<MidBack_DeckHouse>1.5 1.5</MidBack_DeckHouse>
+			<Stern_DeckHouse>1.5 1.5</Stern_DeckHouse>
+			<Gun>0.5 0.5</Gun>
+			<Bulge>1.5 1.5</Bulge>
+        </UV>
+        <Textures>
+                <Tile>content/gameplay/common/camouflage/textures/transparent.dds</Tile>
+        </Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+    </camouflage>
+	<!--//Economic camouflage-->
+	<camouflage>
+		<annotation>Блок тайленого экономического камуфляжа</annotation>
+        <name>camo_economic_tile</name>
+        <tiled>true</tiled>
+        <UV>
+            <Tile>3.8 3.8</Tile>
+			<Bow_DeckHouse>1.9 1.9</Bow_DeckHouse>
+			<MidFront_DeckHouse>1.9 1.9</MidFront_DeckHouse>
+			<MidBack_DeckHouse>1.9 1.9</MidBack_DeckHouse>
+			<Stern_DeckHouse>1.9 1.9</Stern_DeckHouse>
+			<Gun>0.6 0.6</Gun>
+			<Bulge>1.9 1.9</Bulge>
+        </UV>
+        <Textures>
+                <Tile>content/gameplay/common/camouflage/textures/transparent.dds</Tile>
+        </Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+    </camouflage>
+<!--//Japanese ships tile camouflage-->
+	<!--//tier 1-->
+	<camouflage>
+		<annotation>Блок тайленых японских камуфляжей для большинства кораблей с квадратной текстурой</annotation>
+        <name>camo_1_tile</name>
+        <targetShip>PJSC503_Katori PJSA002_Hosho_1939 PJSA006_Zuiho_1944 PJSA009_Ryujo_1933 PJSA011_Hiryu_1942 PJSA017_Hakuryu_1942 PJSB001_Kawachi_1912 PJSB007_Kongo_1942 PJSB006_Fuso_1943 PJSB010_Nagato_1944 PJSB013_Amagi_1942 PJSB021_Izumo_1938 PJSB018_Yamato_1944 PJSB008_Ishizuchi_1921 PJSB011_Mikasa_1905 PJSD001_Tachibana_1912 PJSD002_Umikaze_1925 PJSD024_Wakatake_1923 PJSD003_Isokaze_1917 PJSD004_Minekadze_1920 PJSD005_Mutsuki_1926 PJSD006_Hatsuharu_1945 PJSD007_Fubuki_1944 PJSD010_Kagero_1943 PJSD012_Shimakaze_1943 PJSD014_Tachibana_1912_Asus PJSD017_Kamikaze_1930 PJSD025_True_Kamikaze PJSD026_Camo_Kamikaze</targetShip>
+        <tiled>true</tiled>
+        <UV>
+			<Tile>3.7 3.7</Tile>
+			<Bow_DeckHouse>1.85 1.85</Bow_DeckHouse>
+			<MidFront_DeckHouse>1.85 1.85</MidFront_DeckHouse>
+			<MidBack_DeckHouse>1.85 1.85</MidBack_DeckHouse>
+			<Stern_DeckHouse>1.85 1.85</Stern_DeckHouse>
+			<Gun>0.6 0.6</Gun>
+			<Bulge>1.8 1.8</Bulge>
+        </UV>
+        <Textures>
+            <Tile>content/gameplay/common/camouflage/textures/transparent.dds</Tile>
+        </Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+    </camouflage>
+	<camouflage>
+		<annotation>Блок тайленых японских камуфляжей для кораблей с квадратной текстурой корпуса и прямоугольной текстурой надстройки</annotation>
+        <name>camo_1_tile</name>
+        <targetShip>PJSB003_Myogi_1912</targetShip>
+        <tiled>true</tiled>
+        <UV>
+			<Tile>3.7 3.7</Tile>
+			<Bow_DeckHouse>3.7 1.85</Bow_DeckHouse>
+			<MidFront_DeckHouse>3.7 1.85</MidFront_DeckHouse>
+			<MidBack_DeckHouse>3.7 1.85</MidBack_DeckHouse>
+			<Stern_DeckHouse>3.7 1.85</Stern_DeckHouse>
+			<Gun>0.6 0.6</Gun>
+			<Bulge>1.8 1.8</Bulge>
+        </UV>
+        <Textures>
+            <Tile>content/gameplay/common/camouflage/textures/transparent.dds</Tile>
+        </Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+    </camouflage>
+	<camouflage>
+		<annotation>Блок тайленых японских камуфляжей для кораблей с квадратной текстурой корпуса и малой текстурой надстройки</annotation>
+        <name>camo_1_tile</name>
+        <targetShip>PJSA012_Zuikaku_1944</targetShip>
+        <tiled>true</tiled>
+        <UV>
+			<Tile>3 3</Tile>
+			<Bow_DeckHouse>1 1</Bow_DeckHouse>
+			<MidFront_DeckHouse>1 1</MidFront_DeckHouse>
+			<MidBack_DeckHouse>1 1</MidBack_DeckHouse>
+			<Stern_DeckHouse>1 1</Stern_DeckHouse>
+			<Gun>0.6 0.6</Gun>
+			<Bulge>2 2</Bulge>
+        </UV>
+        <Textures>
+            <Tile>content/gameplay/common/camouflage/textures/transparent.dds</Tile>
+        </Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+    </camouflage>
+	<camouflage>
+		<annotation>Блок тайленых японских камуфляжей для кораблей с квадратной текстурой корпуса и большой текстурой надстройки</annotation>
+        <name>camo_1_tile</name>
+        <targetShip>PJSA015_Taiho_1944</targetShip>
+        <tiled>true</tiled>
+        <UV>
+			<Tile>4 4</Tile>
+			<Bow_DeckHouse>2 2</Bow_DeckHouse>
+			<MidFront_DeckHouse>2 2</MidFront_DeckHouse>
+			<MidBack_DeckHouse>2 2</MidBack_DeckHouse>
+			<Stern_DeckHouse>2 2</Stern_DeckHouse>
+			<Gun>0.6 0.6</Gun>
+			<Bulge>1.8 1.8</Bulge>
+        </UV>
+        <Textures>
+            <Tile>content/gameplay/common/camouflage/textures/transparent.dds</Tile>
+        </Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+    </camouflage>
+	<camouflage>
+		<annotation>Блок тайленых японских камуфляжей для кораблей с прямоугольной текстурой</annotation>
+        <name>camo_1_tile</name>
+        <targetShip>PJSC035_Chikuma_1912 PJSC015_Tatsuta_1919 PJSC026_Iwaki_1944</targetShip>
+        <tiled>true</tiled>
+        <UV>
+			<Tile>4 2</Tile>
+			<Bow_DeckHouse>2 2</Bow_DeckHouse>
+			<MidFront_DeckHouse>2 2</MidFront_DeckHouse>
+			<MidBack_DeckHouse>2 2</MidBack_DeckHouse>
+			<Stern_DeckHouse>2 2</Stern_DeckHouse>
+			<Gun>0.6 0.6</Gun>
+			<Bulge>2 2</Bulge>
+        </UV>
+        <Textures>
+            <Tile>content/gameplay/common/camouflage/textures/transparent.dds</Tile>
+        </Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+    </camouflage>
+	<camouflage>
+		<annotation>Блок тайленых японских камуфляжей для крейсеров с квадратной текстурой</annotation>
+        <name>camo_1_tile</name>
+        <targetShip>PJSC013_Kuma_1938 PJSC005_Furutaka_1926 PJSC007_Aoba_1943 PJSC009_Mogami_1935 PJSC008_Myoko_1945 PJSC012_Ibuki_1944 PJSC034_Zao_1944 PJSC014_Kitakami_1945 PJSC004_Yubari_1944 PJSC038_Atago_1944 PJSC037_Hashidate_1940 PJSC018_Tone</targetShip>
+        <tiled>true</tiled>
+        <UV>
+			<Tile>2.9 2.9</Tile>
+			<Bow_DeckHouse>1.45 1.45</Bow_DeckHouse>
+			<MidFront_DeckHouse>1.45 1.45</MidFront_DeckHouse>
+			<MidBack_DeckHouse>1.45 1.45</MidBack_DeckHouse>
+			<Stern_DeckHouse>1.45 1.45</Stern_DeckHouse>
+			<Gun>0.5 0.5</Gun>
+			<Bulge>1.45 1.45</Bulge>
+        </UV>
+        <Textures>
+            <Tile>content/gameplay/common/camouflage/textures/transparent.dds</Tile>
+        </Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+    </camouflage>
+	<!--//tier 2-->
+	<camouflage>
+		<annotation>Блок тайленых японских камуфляжей для большинства кораблей с квадратной текстурой</annotation>
+        <name>camo_2_tile</name>
+        <targetShip>PJSC503_Katori PJSA002_Hosho_1939 PJSA006_Zuiho_1944 PJSA009_Ryujo_1933 PJSA011_Hiryu_1942 PJSA017_Hakuryu_1942 PJSB001_Kawachi_1912 PJSB007_Kongo_1942 PJSB006_Fuso_1943 PJSB010_Nagato_1944 PJSB013_Amagi_1942 PJSB021_Izumo_1938 PJSB018_Yamato_1944 PJSB008_Ishizuchi_1921 PJSB011_Mikasa_1905 PJSD001_Tachibana_1912 PJSD002_Umikaze_1925 PJSD024_Wakatake_1923 PJSD003_Isokaze_1917 PJSD004_Minekadze_1920 PJSD005_Mutsuki_1926 PJSD006_Hatsuharu_1945 PJSD007_Fubuki_1944 PJSD010_Kagero_1943 PJSD012_Shimakaze_1943 PJSD014_Tachibana_1912_Asus PJSD017_Kamikaze_1930 PJSD025_True_Kamikaze PJSD026_Camo_Kamikaze</targetShip>
+        <tiled>true</tiled>
+        <UV>
+			<Tile>3 3</Tile>
+			<Bow_DeckHouse>1.5 1.5</Bow_DeckHouse>
+			<MidFront_DeckHouse>1.5 1.5</MidFront_DeckHouse>
+			<MidBack_DeckHouse>1.5 1.5</MidBack_DeckHouse>
+			<Stern_DeckHouse>1.5 1.5</Stern_DeckHouse>
+			<Gun>0.5 0.5</Gun>
+			<Bulge>1.5 1.5</Bulge>
+        </UV>
+        <Textures>
+            <Tile>content/gameplay/common/camouflage/textures/transparent.dds</Tile>
+        </Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+    </camouflage>
+	<camouflage>
+		<annotation>Блок тайленых японских камуфляжей для кораблей с квадратной текстурой корпуса и прямоугольной текстурой надстройки</annotation>
+        <name>camo_2_tile</name>
+        <targetShip>PJSB003_Myogi_1912</targetShip>
+        <tiled>true</tiled>
+        <UV>
+			<Tile>3 3</Tile>
+			<Bow_DeckHouse>3.0 1.5</Bow_DeckHouse>
+			<MidFront_DeckHouse>3.0 1.5</MidFront_DeckHouse>
+			<MidBack_DeckHouse>3.0 1.5</MidBack_DeckHouse>
+			<Stern_DeckHouse>3.0 1.5</Stern_DeckHouse>
+			<Gun>0.5 0.5</Gun>
+			<Bulge>1.5 1.5</Bulge>
+        </UV>
+        <Textures>
+            <Tile>content/gameplay/common/camouflage/textures/transparent.dds</Tile>
+        </Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+    </camouflage>
+	<camouflage>
+		<annotation>Блок тайленых японских камуфляжей для кораблей с квадратной текстурой корпуса и малой текстурой надстройки</annotation>
+        <name>camo_2_tile</name>
+        <targetShip>PJSA012_Zuikaku_1944</targetShip>
+        <tiled>true</tiled>
+        <UV>
+			<Tile>3 3</Tile>
+			<Bow_DeckHouse>0.6 0.6</Bow_DeckHouse>
+			<MidFront_DeckHouse>0.6 0.6</MidFront_DeckHouse>
+			<MidBack_DeckHouse>0.6 0.6</MidBack_DeckHouse>
+			<Stern_DeckHouse>0.6 0.6</Stern_DeckHouse>
+			<Gun>0.6 0.6</Gun>
+			<Bulge>1.5 1.5</Bulge>
+        </UV>
+        <Textures>
+            <Tile>content/gameplay/common/camouflage/textures/transparent.dds</Tile>
+        </Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+    </camouflage>
+	<camouflage>
+		<annotation>Блок тайленых японских камуфляжей для кораблей с квадратной текстурой корпуса и большой текстурой надстройки</annotation>
+        <name>camo_2_tile</name>
+        <targetShip>PJSA015_Taiho_1944</targetShip>
+        <tiled>true</tiled>
+        <UV>
+			<Tile>3 3</Tile>
+			<Bow_DeckHouse>1.5 1.5</Bow_DeckHouse>
+			<MidFront_DeckHouse>1.5 1.5</MidFront_DeckHouse>
+			<MidBack_DeckHouse>1.5 1.5</MidBack_DeckHouse>
+			<Stern_DeckHouse>1.5 1.5</Stern_DeckHouse>
+			<Gun>0.5 0.5</Gun>
+			<Bulge>1.5 1.5</Bulge>
+        </UV>
+        <Textures>
+            <Tile>content/gameplay/common/camouflage/textures/transparent.dds</Tile>
+        </Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+    </camouflage>
+	<camouflage>
+		<annotation>Блок тайленых японских камуфляжей для кораблей с прямоугольной текстурой</annotation>
+        <name>camo_2_tile</name>
+        <targetShip>PJSC035_Chikuma_1912 PJSC015_Tatsuta_1919 PJSC026_Iwaki_1944</targetShip>
+        <tiled>true</tiled>
+        <UV>
+			<Tile>3 1.5</Tile>
+			<Bow_DeckHouse>1.5 1.5</Bow_DeckHouse>
+			<MidFront_DeckHouse>1.5 1.5</MidFront_DeckHouse>
+			<MidBack_DeckHouse>1.5 1.5</MidBack_DeckHouse>
+			<Stern_DeckHouse>1.5 1.5</Stern_DeckHouse>
+			<Gun>0.5 0.5</Gun>
+			<Bulge>1.5 1.5</Bulge>
+        </UV>
+        <Textures>
+            <Tile>content/gameplay/common/camouflage/textures/transparent.dds</Tile>
+        </Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+    </camouflage>
+	<camouflage>
+		<annotation>Блок тайленых японских камуфляжей для крейсеров с квадратной текстурой</annotation>
+        <name>camo_2_tile</name>
+        <targetShip>PJSC013_Kuma_1938 PJSC005_Furutaka_1926 PJSC007_Aoba_1943 PJSC009_Mogami_1935 PJSC008_Myoko_1945 PJSC012_Ibuki_1944 PJSC034_Zao_1944 PJSC014_Kitakami_1945 PJSC004_Yubari_1944 PJSC038_Atago_1944 PJSC037_Hashidate_1940 PJSC018_Tone</targetShip>
+        <tiled>true</tiled>
+        <UV>
+			<Tile>2.9 2.9</Tile>
+			<Bow_DeckHouse>1.45 1.45</Bow_DeckHouse>
+			<MidFront_DeckHouse>1.45 1.45</MidFront_DeckHouse>
+			<MidBack_DeckHouse>1.45 1.45</MidBack_DeckHouse>
+			<Stern_DeckHouse>1.45 1.45</Stern_DeckHouse>
+			<Gun>0.5 0.5</Gun>
+			<Bulge>1.45 1.45</Bulge>
+        </UV>
+        <Textures>
+            <Tile>content/gameplay/common/camouflage/textures/transparent.dds</Tile>
+        </Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+    </camouflage>
+	<!--//tier 3-->
+	<camouflage>
+		<annotation>Блок тайленых японских камуфляжей для большинства кораблей с квадратной текстурой</annotation>
+        <name>camo_3_tile</name>
+        <targetShip>PJSC503_Katori PJSA002_Hosho_1939 PJSA006_Zuiho_1944 PJSA009_Ryujo_1933 PJSA011_Hiryu_1942 PJSA017_Hakuryu_1942 PJSB001_Kawachi_1912 PJSB007_Kongo_1942 PJSB006_Fuso_1943 PJSB010_Nagato_1944 PJSB013_Amagi_1942 PJSB021_Izumo_1938 PJSB018_Yamato_1944 PJSB008_Ishizuchi_1921 PJSB011_Mikasa_1905 PJSD001_Tachibana_1912 PJSD002_Umikaze_1925 PJSD024_Wakatake_1923 PJSD003_Isokaze_1917 PJSD004_Minekadze_1920 PJSD005_Mutsuki_1926 PJSD006_Hatsuharu_1945 PJSD007_Fubuki_1944 PJSD010_Kagero_1943 PJSD012_Shimakaze_1943 PJSD014_Tachibana_1912_Asus PJSD017_Kamikaze_1930 PJSD025_True_Kamikaze PJSD026_Camo_Kamikaze</targetShip>
+        <tiled>true</tiled>
+        <UV>
+			<Tile>3.6 3.6</Tile>
+			<Bow_DeckHouse>1.8 1.8</Bow_DeckHouse>
+			<MidFront_DeckHouse>1.8 1.8</MidFront_DeckHouse>
+			<MidBack_DeckHouse>1.8 1.8</MidBack_DeckHouse>
+			<Stern_DeckHouse>1.8 1.8</Stern_DeckHouse>
+			<Gun>0.6 0.6</Gun>
+			<Bulge>1.8 1.8</Bulge>
+        </UV>
+        <Textures>
+            <Tile>content/gameplay/common/camouflage/textures/transparent.dds</Tile>
+        </Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+    </camouflage>
+	<camouflage>
+		<annotation>Блок тайленых японских камуфляжей для кораблей с квадратной текстурой корпуса и прямоугольной текстурой надстройки</annotation>
+        <name>camo_3_tile</name>
+        <targetShip>PJSB003_Myogi_1912</targetShip>
+        <tiled>true</tiled>
+        <UV>
+			<Tile>3.6 3.6</Tile>
+			<Bow_DeckHouse>3.6 1.5</Bow_DeckHouse>
+			<MidFront_DeckHouse>3.0 1.8</MidFront_DeckHouse>
+			<MidBack_DeckHouse>3.0 1.8</MidBack_DeckHouse>
+			<Stern_DeckHouse>3.0 1.8</Stern_DeckHouse>
+			<Gun>0.6 0.6</Gun>
+			<Bulge>1.8 1.8</Bulge>
+        </UV>
+        <Textures>
+            <Tile>content/gameplay/common/camouflage/textures/transparent.dds</Tile>
+        </Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+    </camouflage>
+	<camouflage>
+		<annotation>Блок тайленых японских камуфляжей для кораблей с квадратной текстурой корпуса и малой текстурой надстройки</annotation>
+        <name>camo_3_tile</name>
+        <targetShip>PJSA012_Zuikaku_1944</targetShip>
+        <tiled>true</tiled>
+        <UV>
+			<Tile>3 3</Tile>
+			<Bow_DeckHouse>0.6 0.6</Bow_DeckHouse>
+			<MidFront_DeckHouse>0.6 0.6</MidFront_DeckHouse>
+			<MidBack_DeckHouse>0.6 0.6</MidBack_DeckHouse>
+			<Stern_DeckHouse>0.6 0.6</Stern_DeckHouse>
+			<Gun>0.6 0.6</Gun>
+			<Bulge>1.5 1.5</Bulge>
+        </UV>
+        <Textures>
+            <Tile>content/gameplay/common/camouflage/textures/transparent.dds</Tile>
+        </Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+    </camouflage>
+	<camouflage>
+		<annotation>Блок тайленых японских камуфляжей для кораблей с квадратной текстурой корпуса и большой текстурой надстройки</annotation>
+        <name>camo_3_tile</name>
+        <targetShip>PJSA015_Taiho_1944</targetShip>
+        <tiled>true</tiled>
+        <UV>
+			<Tile>3.8 3.8</Tile>
+			<Bow_DeckHouse>3 3</Bow_DeckHouse>
+			<MidFront_DeckHouse>3 3</MidFront_DeckHouse>
+			<MidBack_DeckHouse>3 3</MidBack_DeckHouse>
+			<Stern_DeckHouse>3 3</Stern_DeckHouse>
+			<Gun>0.5 0.5</Gun>
+			<Bulge>1.9 1.9</Bulge>
+        </UV>
+        <Textures>
+            <Tile>content/gameplay/common/camouflage/textures/transparent.dds</Tile>
+        </Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+    </camouflage>
+	<camouflage>
+		<annotation>Блок тайленых японских камуфляжей для кораблей с прямоугольной текстурой</annotation>
+        <name>camo_3_tile</name>
+        <targetShip>PJSC035_Chikuma_1912 PJSC015_Tatsuta_1919 PJSC026_Iwaki_1944</targetShip>
+        <tiled>true</tiled>
+        <UV>
+			<Tile>3.8 1.9</Tile>
+			<Bow_DeckHouse>1.9 1.9</Bow_DeckHouse>
+			<MidFront_DeckHouse>1.9 1.9</MidFront_DeckHouse>
+			<MidBack_DeckHouse>1.9 1.9</MidBack_DeckHouse>
+			<Stern_DeckHouse>1.9 1.9</Stern_DeckHouse>
+			<Gun>0.6 0.6</Gun>
+			<Bulge>1.9 1.9</Bulge>
+        </UV>
+        <Textures>
+            <Tile>content/gameplay/common/camouflage/textures/transparent.dds</Tile>
+        </Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+    </camouflage>
+	<camouflage>
+		<annotation>Блок тайленых японских камуфляжей для крейсеров с квадратной текстурой</annotation>
+        <name>camo_3_tile</name>
+        <targetShip>PJSC013_Kuma_1938 PJSC005_Furutaka_1926 PJSC007_Aoba_1943 PJSC009_Mogami_1935 PJSC008_Myoko_1945 PJSC012_Ibuki_1944 PJSC034_Zao_1944 PJSC014_Kitakami_1945 PJSC004_Yubari_1944 PJSC038_Atago_1944 PJSC037_Hashidate_1940 PJSC018_Tone</targetShip>
+        <tiled>true</tiled>
+        <UV>
+			<Tile>2.9 2.9</Tile>
+			<Bow_DeckHouse>1.45 1.45</Bow_DeckHouse>
+			<MidFront_DeckHouse>1.45 1.45</MidFront_DeckHouse>
+			<MidBack_DeckHouse>1.45 1.45</MidBack_DeckHouse>
+			<Stern_DeckHouse>1.45 1.45</Stern_DeckHouse>
+			<Gun>0.5 0.5</Gun>
+			<Bulge>1.45 1.45</Bulge>
+        </UV>
+        <Textures>
+            <Tile>content/gameplay/common/camouflage/textures/transparent.dds</Tile>
+        </Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+    </camouflage>
+	<!--//Economic camouflage-->
+	<camouflage>
+		<annotation>Блок тайленых экномических японских камуфляжей для большинства кораблей с квадратной текстурой</annotation>
+        <name>camo_economic_tile</name>
+        <targetShip>PJSC503_Katori PJSA002_Hosho_1939 PJSA006_Zuiho_1944 PJSA009_Ryujo_1933 PJSA011_Hiryu_1942 PJSA017_Hakuryu_1942 PJSB001_Kawachi_1912 PJSB007_Kongo_1942 PJSB006_Fuso_1943 PJSB010_Nagato_1944 PJSB013_Amagi_1942 PJSB021_Izumo_1938 PJSB018_Yamato_1944 PJSB008_Ishizuchi_1921 PJSB011_Mikasa_1905 PJSD001_Tachibana_1912 PJSD002_Umikaze_1925 PJSD024_Wakatake_1923 PJSD003_Isokaze_1917 PJSD004_Minekadze_1920 PJSD005_Mutsuki_1926 PJSD006_Hatsuharu_1945 PJSD007_Fubuki_1944 PJSD010_Kagero_1943 PJSD012_Shimakaze_1943 PJSD014_Tachibana_1912_Asus PJSD017_Kamikaze_1930 PJSD025_True_Kamikaze PJSD026_Camo_Kamikaze</targetShip>
+        <tiled>true</tiled>
+        <UV>
+			<Tile>3.6 3.6</Tile>
+			<Bow_DeckHouse>1.8 1.8</Bow_DeckHouse>
+			<MidFront_DeckHouse>1.8 1.8</MidFront_DeckHouse>
+			<MidBack_DeckHouse>1.8 1.8</MidBack_DeckHouse>
+			<Stern_DeckHouse>1.8 1.8</Stern_DeckHouse>
+			<Gun>0.6 0.6</Gun>
+			<Bulge>1.8 1.8</Bulge>
+        </UV>
+        <Textures>
+            <Tile>content/gameplay/common/camouflage/textures/transparent.dds</Tile>
+        </Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+    </camouflage>
+	<camouflage>
+		<annotation>Блок тайленых экномических японских камуфляжей для кораблей с квадратной текстурой корпуса и прямоугольной текстурой надстройки</annotation>
+        <name>camo_economic_tile</name>
+        <targetShip>PJSB003_Myogi_1912</targetShip>
+        <tiled>true</tiled>
+        <UV>
+			<Tile>3.6 3.6</Tile>
+			<Bow_DeckHouse>3.6 1.5</Bow_DeckHouse>
+			<MidFront_DeckHouse>3.0 1.8</MidFront_DeckHouse>
+			<MidBack_DeckHouse>3.0 1.8</MidBack_DeckHouse>
+			<Stern_DeckHouse>3.0 1.8</Stern_DeckHouse>
+			<Gun>0.6 0.6</Gun>
+			<Bulge>1.8 1.8</Bulge>
+        </UV>
+        <Textures>
+            <Tile>content/gameplay/common/camouflage/textures/transparent.dds</Tile>
+        </Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+    </camouflage>
+	<camouflage>
+		<annotation>Блок тайленых экномических японских камуфляжей для кораблей с квадратной текстурой корпуса и малой текстурой надстройки</annotation>
+        <name>camo_economic_tile</name>
+        <targetShip>PJSA012_Zuikaku_1944</targetShip>
+        <tiled>true</tiled>
+        <UV>
+			<Tile>3 3</Tile>
+			<Bow_DeckHouse>0.6 0.6</Bow_DeckHouse>
+			<MidFront_DeckHouse>0.6 0.6</MidFront_DeckHouse>
+			<MidBack_DeckHouse>0.6 0.6</MidBack_DeckHouse>
+			<Stern_DeckHouse>0.6 0.6</Stern_DeckHouse>
+			<Gun>0.6 0.6</Gun>
+			<Bulge>1.5 1.5</Bulge>
+        </UV>
+        <Textures>
+            <Tile>content/gameplay/common/camouflage/textures/transparent.dds</Tile>
+        </Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+    </camouflage>
+	<camouflage>
+		<annotation>Блок тайленых экномических японских камуфляжей для кораблей с квадратной текстурой корпуса и большой текстурой надстройки</annotation>
+        <name>camo_economic_tile</name>
+        <targetShip>PJSA015_Taiho_1944</targetShip>
+        <tiled>true</tiled>
+        <UV>
+			<Tile>3.8 3.8</Tile>
+			<Bow_DeckHouse>3.8 3.8</Bow_DeckHouse>
+			<MidFront_DeckHouse>3.8 3.8</MidFront_DeckHouse>
+			<MidBack_DeckHouse>3.8 3.8</MidBack_DeckHouse>
+			<Stern_DeckHouse>3.8 3.8</Stern_DeckHouse>
+			<Gun>0.5 0.5</Gun>
+			<Bulge>1.9 1.9</Bulge>
+        </UV>
+        <Textures>
+            <Tile>content/gameplay/common/camouflage/textures/transparent.dds</Tile>
+        </Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+    </camouflage>
+	<camouflage>
+		<annotation>Блок тайленых экномических японских камуфляжей для кораблей с прямоугольной текстурой</annotation>
+        <name>camo_economic_tile</name>
+        <targetShip>PJSC035_Chikuma_1912 PJSC015_Tatsuta_1919 PJSC026_Iwaki_1944</targetShip>
+        <tiled>true</tiled>
+        <UV>
+			<Tile>3.8 1.9</Tile>
+			<Bow_DeckHouse>1.9 1.9</Bow_DeckHouse>
+			<MidFront_DeckHouse>1.9 1.9</MidFront_DeckHouse>
+			<MidBack_DeckHouse>1.9 1.9</MidBack_DeckHouse>
+			<Stern_DeckHouse>1.9 1.9</Stern_DeckHouse>
+			<Gun>0.6 0.6</Gun>
+			<Bulge>1.9 1.9</Bulge>
+        </UV>
+        <Textures>
+            <Tile>content/gameplay/common/camouflage/textures/transparent.dds</Tile>
+        </Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+    </camouflage>
+	<camouflage>
+		<annotation>Блок тайленых экномических японских камуфляжей для крейсеров с квадратной текстурой</annotation>
+        <name>camo_economic_tile</name>
+        <targetShip>PJSC013_Kuma_1938 PJSC005_Furutaka_1926 PJSC007_Aoba_1943 PJSC009_Mogami_1935 PJSC008_Myoko_1945 PJSC012_Ibuki_1944 PJSC034_Zao_1944 PJSC014_Kitakami_1945 PJSC004_Yubari_1944 PJSC038_Atago_1944 PJSC037_Hashidate_1940 PJSC018_Tone</targetShip>
+        <tiled>true</tiled>
+        <UV>
+			<Tile>2.9 2.9</Tile>
+			<Bow_DeckHouse>1.45 1.45</Bow_DeckHouse>
+			<MidFront_DeckHouse>1.45 1.45</MidFront_DeckHouse>
+			<MidBack_DeckHouse>1.45 1.45</MidBack_DeckHouse>
+			<Stern_DeckHouse>1.45 1.45</Stern_DeckHouse>
+			<Gun>0.5 0.5</Gun>
+			<Bulge>1.45 1.45</Bulge>
+        </UV>
+        <Textures>
+            <Tile>content/gameplay/common/camouflage/textures/transparent.dds</Tile>
+        </Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+    </camouflage>
+<!--//American ships tile camouflage-->
+	<!--//tier 1-->
+	<camouflage>
+		<annotation>Блок тайленых американских камуфляжей для крейсеров с квадратной текстурой</annotation>
+        <name>camo_1_tile</name>
+        <targetShip>PASC001_Erie_1936 PASC024_Phoenix_1917 PASC005_Omaha_1923 PASC007_Cleveland_1945 PASC012_Pensacola_1944 PASC014_New_Orlean_1944 PASC017_Baltimore_1944 PASC020_Des_Moines_1948 PASB001 PASC006_Atlanta_1942 PASC044_Marblehead_1924 PASC045_Marblehead_1924_Asus PASC019_Burlington_1944 PASC003_Albany_1898</targetShip>
+        <tiled>true</tiled>
+        <UV>
+			<Tile>2.9 2.9</Tile>
+			<Bow_DeckHouse>1.45 1.45</Bow_DeckHouse>
+			<MidFront_DeckHouse>1.45 1.45</MidFront_DeckHouse>
+			<MidBack_DeckHouse>1.45 1.45</MidBack_DeckHouse>
+			<Stern_DeckHouse>1.45 1.45</Stern_DeckHouse>
+			<Gun>0.5 0.5</Gun>
+			<Bulge>1.45 1.45</Bulge>
+        </UV>
+        <Textures>
+            <Tile>content/gameplay/common/camouflage/textures/transparent.dds</Tile>
+        </Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+	</camouflage>
+	<camouflage>
+		<annotation>Блок тайленых американских камуфляжей для низкоуровневых крейсеров WhiteFleet</annotation>
+        <name>camo_1_tile</name>
+        <targetShip>PASC002_Chester_1908 PASC004_St_Louis_1906</targetShip>
+        <tiled>true</tiled>
+        <UV>
+			<Tile>2.5 2.5</Tile>
+			<Bow_DeckHouse>1.25 1.25</Bow_DeckHouse>
+			<MidFront_DeckHouse>1.25 1.25</MidFront_DeckHouse>
+			<MidBack_DeckHouse>1.25 1.25</MidBack_DeckHouse>
+			<Stern_DeckHouse>1.25 1.25</Stern_DeckHouse>
+			<Gun>0.5 0.5</Gun>
+			<Bulge>1 1</Bulge>
+        </UV>
+        <Textures>
+            <Tile>content/gameplay/common/camouflage/textures/transparent.dds</Tile>
+        </Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+	</camouflage>
+	<camouflage>
+		<annotation>Блок тайленых американских камуфляжей для большинства кораблей с квадратной текстурой</annotation>
+        <name>camo_1_tile</name>
+        <targetShip>PASA004_Langley_1929 PASA002_Bogue_1942 PASA006_Independence_1945 PASA010_Ranger_1944 PASA012_Lexington_1944 PASA013_Essex_1945 PASA008_Saipan_1943 PASB001_Michigan_1916 PASB004_Arkansas_1912 PASB006_New_York_1934 PASB034_New_Mexico_1941 PASB008_Colorado_1945 PASB012_North_Carolina_1945 PASB018_Iowa_1944 PASB017_Montana_1945 PASB013_Arkansas_1912 PASD002_Sampson_1917 PASD027_Wickes_1918 PASD019_Clemson_1920 PASD014_Leader_1919 PASD005_Farragut_1944 PASD006_Mahan_1936 PASD008_Benson_1945 PASD021_Fletcher_1943 PASD013_Gearing_1945 PASD029_Sims_1941 PASD502_Smith PASA507_Saipan_1946</targetShip>
+        <tiled>true</tiled>
+        <UV>
+			<Tile>3.5 3.5</Tile>
+			<Bow_DeckHouse>1.75 1.75</Bow_DeckHouse>
+			<MidFront_DeckHouse>1.75 1.75</MidFront_DeckHouse>
+			<MidBack_DeckHouse>1.75 1.75</MidBack_DeckHouse>
+			<Stern_DeckHouse>1.75 1.75</Stern_DeckHouse>
+			<Gun>0.6 0.6</Gun>
+			<Bulge>1.7 1.7</Bulge>
+        </UV>
+        <Textures>
+            <Tile>content/gameplay/common/camouflage/textures/transparent.dds</Tile>
+        </Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+	</camouflage>
+	<camouflage>
+		<annotation>Блок тайленых американских камуфляжей для кораблей с двумя текстурами 4096_4096px для корпуса и для надстройки</annotation>
+        <name>camo_1_tile</name>
+        <targetShip>PASA015_Midway_1945</targetShip>
+        <tiled>true</tiled>
+        <UV>
+			<Tile>3.5 3.5</Tile>
+			<Bow_DeckHouse>3.5 3.5</Bow_DeckHouse>
+			<MidFront_DeckHouse>3.5 3.5</MidFront_DeckHouse>
+			<MidBack_DeckHouse>3.5 3.5</MidBack_DeckHouse>
+			<Stern_DeckHouse>3.5 3.5</Stern_DeckHouse>
+			<Gun>0.6 0.6</Gun>
+			<Bulge>1.7 1.7</Bulge>
+        </UV>
+        <Textures>
+            <Tile>content/gameplay/common/camouflage/textures/transparent.dds</Tile>
+        </Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+	</camouflage>
+	<camouflage>
+		<annotation>Блок тайленых американских камуфляжей для кораблей с двумя текстурами 4096_4096px для корпуса и 4096_2048px для надстройки</annotation>
+        <name>camo_1_tile</name>
+        <targetShip>PASB506_Arizona_1941</targetShip>
+        <tiled>true</tiled>
+        <UV>
+			<Tile>3.0 3.0</Tile>
+			<Bow_DeckHouse>3.0 1.5</Bow_DeckHouse>
+			<MidFront_DeckHouse>3.0 1.5</MidFront_DeckHouse>
+			<MidBack_DeckHouse>3.0 1.5</MidBack_DeckHouse>
+			<Stern_DeckHouse>3.0 1.5</Stern_DeckHouse>
+			<Gun>0.6 0.6</Gun>
+			<Bulge>1.5 1.5</Bulge>
+        </UV>
+        <Textures>
+            <Tile>content/gameplay/common/camouflage/textures/transparent.dds</Tile>
+        </Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+	</camouflage>
+	<!--//tier 2-->
+	<camouflage>
+		<annotation>Блок тайленых американских камуфляжей для крейсеров с квадратной текстурой</annotation>
+        <name>camo_2_tile</name>
+        <targetShip>PASC001_Erie_1936 PASC024_Phoenix_1917 PASC005_Omaha_1923 PASC007_Cleveland_1945 PASC012_Pensacola_1944 PASC014_New_Orlean_1944 PASC017_Baltimore_1944 PASC020_Des_Moines_1948 PASB001 PASC006_Atlanta_1942 PASC044_Marblehead_1924 PASC045_Marblehead_1924_Asus PASC019_Burlington_1944 PASC003_Albany_1898</targetShip>
+        <tiled>true</tiled>
+        <UV>
+			<Tile>2.5 2.5</Tile>
+			<Bow_DeckHouse>1.25 1.25</Bow_DeckHouse>
+			<MidFront_DeckHouse>1.25 1.25</MidFront_DeckHouse>
+			<MidBack_DeckHouse>1.25 1.25</MidBack_DeckHouse>
+			<Stern_DeckHouse>1.25 1.25</Stern_DeckHouse>
+			<Gun>0.5 0.5</Gun>
+			<Bulge>1.45 1.45</Bulge>
+        </UV>
+        <Textures>
+            <Tile>content/gameplay/common/camouflage/textures/transparent.dds</Tile>
+        </Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+	</camouflage>
+	<camouflage>
+		<annotation>Блок тайленых американских камуфляжей для низкоуровневых крейсеров WhiteFleet</annotation>
+        <name>camo_2_tile</name>
+        <targetShip>PASC002_Chester_1908 PASC004_St_Louis_1906</targetShip>
+        <tiled>true</tiled>
+        <UV>
+			<Tile>2 2</Tile>
+			<Bow_DeckHouse>1 1</Bow_DeckHouse>
+			<MidFront_DeckHouse>1 1</MidFront_DeckHouse>
+			<MidBack_DeckHouse>1 1</MidBack_DeckHouse>
+			<Stern_DeckHouse>1 1</Stern_DeckHouse>
+			<Gun>0.5 0.5</Gun>
+			<Bulge>1 1</Bulge>
+        </UV>
+        <Textures>
+            <Tile>content/gameplay/common/camouflage/textures/transparent.dds</Tile>
+        </Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+	</camouflage>
+	<camouflage>
+		<annotation>Блок тайленых американских камуфляжей для большинства кораблей с квадратной текстурой</annotation>
+        <name>camo_2_tile</name>
+        <targetShip>PASA004_Langley_1929 PASA002_Bogue_1942 PASA006_Independence_1945 PASA010_Ranger_1944 PASA012_Lexington_1944 PASA013_Essex_1945 PASA008_Saipan_1943 PASB001_Michigan_1916 PASB004_Arkansas_1912 PASB006_New_York_1934 PASB034_New_Mexico_1941 PASB008_Colorado_1945 PASB012_North_Carolina_1945 PASB018_Iowa_1944 PASB017_Montana_1945 PASB013_Arkansas_1912 PASD002_Sampson_1917 PASD027_Wickes_1918 PASD019_Clemson_1920 PASD014_Leader_1919 PASD005_Farragut_1944 PASD006_Mahan_1936 PASD008_Benson_1945 PASD021_Fletcher_1943 PASD013_Gearing_1945 PASD029_Sims_1941 PASD502_Smith PASA507_Saipan_1946</targetShip>
+        <tiled>true</tiled>
+        <UV>
+			<Tile>3 3</Tile>
+			<Bow_DeckHouse>1.5 1.5</Bow_DeckHouse>
+			<MidFront_DeckHouse>1.5 1.5</MidFront_DeckHouse>
+			<MidBack_DeckHouse>1.5 1.5</MidBack_DeckHouse>
+			<Stern_DeckHouse>1.5 1.5</Stern_DeckHouse>
+			<Gun>0.5 0.5</Gun>
+			<Bulge>1.5 1.5</Bulge>
+        </UV>
+        <Textures>
+            <Tile>content/gameplay/common/camouflage/textures/transparent.dds</Tile>
+        </Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+	</camouflage>
+	<camouflage>
+		<annotation>Блок тайленых американских камуфляжей для кораблей с двумя текстурами 4096_4096px для корпуса и для надстройки</annotation>
+        <name>camo_2_tile</name>
+        <targetShip>PASA015_Midway_1945</targetShip>
+        <tiled>true</tiled>
+        <UV>
+			<Tile>3 3</Tile>
+			<Bow_DeckHouse>3 3</Bow_DeckHouse>
+			<MidFront_DeckHouse>3 3</MidFront_DeckHouse>
+			<MidBack_DeckHouse>3 3</MidBack_DeckHouse>
+			<Stern_DeckHouse>3 3</Stern_DeckHouse>
+			<Gun>0.5 0.5</Gun>
+			<Bulge>1.5 1.5</Bulge>
+        </UV>
+        <Textures>
+            <Tile>content/gameplay/common/camouflage/textures/transparent.dds</Tile>
+        </Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+	</camouflage>
+	<camouflage>
+		<annotation>Блок тайленых американских камуфляжей для кораблей с двумя текстурами 4096_4096px для корпуса и 4096_2048px для надстройки</annotation>
+        <name>camo_2_tile</name>
+        <targetShip>PASB506_Arizona_1941</targetShip>
+        <tiled>true</tiled>
+        <UV>
+			<Tile>3.0 3.0</Tile>
+			<Bow_DeckHouse>3.0 1.5</Bow_DeckHouse>
+			<MidFront_DeckHouse>3.0 1.5</MidFront_DeckHouse>
+			<MidBack_DeckHouse>3.0 1.5</MidBack_DeckHouse>
+			<Stern_DeckHouse>3.0 1.5</Stern_DeckHouse>
+			<Gun>0.5 0.5</Gun>
+			<Bulge>1.5 1.5</Bulge>
+        </UV>
+        <Textures>
+            <Tile>content/gameplay/common/camouflage/textures/transparent.dds</Tile>
+        </Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+	</camouflage>
+	<!--//tier 3-->
+	<camouflage>
+		<annotation>Блок тайленых американских камуфляжей для крейсеров с квадратной текстурой</annotation>
+        <name>camo_3_tile</name>
+        <targetShip>PASC001_Erie_1936 PASC024_Phoenix_1917 PASC005_Omaha_1923 PASC007_Cleveland_1945 PASC012_Pensacola_1944 PASC014_New_Orlean_1944 PASC017_Baltimore_1944 PASC020_Des_Moines_1948 PASB001 PASC006_Atlanta_1942 PASC044_Marblehead_1924 PASC045_Marblehead_1924_Asus PASC019_Burlington_1944 PASC003_Albany_1898</targetShip>
+        <tiled>true</tiled>
+        <UV>
+			<Tile>2.9 2.9</Tile>
+			<Bow_DeckHouse>1.45 1.45</Bow_DeckHouse>
+			<MidFront_DeckHouse>1.45 1.45</MidFront_DeckHouse>
+			<MidBack_DeckHouse>1.45 1.45</MidBack_DeckHouse>
+			<Stern_DeckHouse>1.45 1.45</Stern_DeckHouse>
+			<Gun>0.5 0.5</Gun>
+			<Bulge>1.45 1.45</Bulge>
+        </UV>
+        <Textures>
+            <Tile>content/gameplay/common/camouflage/textures/transparent.dds</Tile>
+        </Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+	</camouflage>
+	<camouflage>
+		<annotation>Блок тайленых американских камуфляжей для низкоуровневых крейсеров WhiteFleet</annotation>
+        <name>camo_3_tile</name>
+        <targetShip>PASC002_Chester_1908 PASC004_St_Louis_1906</targetShip>
+        <tiled>true</tiled>
+        <UV>
+			<Tile>3.2 3.2</Tile>
+			<Bow_DeckHouse>1.6 1.6</Bow_DeckHouse>
+			<MidFront_DeckHouse>1.6 1.6</MidFront_DeckHouse>
+			<MidBack_DeckHouse>1.6 1.6</MidBack_DeckHouse>
+			<Stern_DeckHouse>1.6 1.6</Stern_DeckHouse>
+			<Gun>0.5 0.5</Gun>
+			<Bulge>1.6 1.6</Bulge>
+        </UV>
+        <Textures>
+            <Tile>content/gameplay/common/camouflage/textures/transparent.dds</Tile>
+        </Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+	</camouflage>
+	<camouflage>
+		<annotation>Блок тайленых американских камуфляжей для большинства кораблей с квадратной текстурой</annotation>
+        <name>camo_3_tile</name>
+        <targetShip>PASA004_Langley_1929 PASA002_Bogue_1942 PASA006_Independence_1945 PASA010_Ranger_1944 PASA012_Lexington_1944 PASA013_Essex_1945 PASA008_Saipan_1943 PASB001_Michigan_1916 PASB004_Arkansas_1912 PASB006_New_York_1934 PASB034_New_Mexico_1941 PASB008_Colorado_1945 PASB012_North_Carolina_1945 PASB018_Iowa_1944 PASB017_Montana_1945 PASB013_Arkansas_1912 PASD002_Sampson_1917 PASD027_Wickes_1918 PASD019_Clemson_1920 PASD014_Leader_1919 PASD005_Farragut_1944 PASD006_Mahan_1936 PASD008_Benson_1945 PASD021_Fletcher_1943 PASD013_Gearing_1945 PASD029_Sims_1941 PASD502_Smith PASA507_Saipan_1946</targetShip>
+        <tiled>true</tiled>
+        <UV>
+			<Tile>3.5 3.5</Tile>
+			<Bow_DeckHouse>1.75 1.75</Bow_DeckHouse>
+			<MidFront_DeckHouse>1.75 1.75</MidFront_DeckHouse>
+			<MidBack_DeckHouse>1.75 1.75</MidBack_DeckHouse>
+			<Stern_DeckHouse>1.75 1.75</Stern_DeckHouse>
+			<Gun>0.6 0.6</Gun>
+			<Bulge>1.7 1.7</Bulge>
+        </UV>
+        <Textures>
+            <Tile>content/gameplay/common/camouflage/textures/transparent.dds</Tile>
+        </Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+	</camouflage>
+	<camouflage>
+		<annotation>Блок тайленых американских камуфляжей для кораблей с двумя текстурами 4096_4096px для корпуса и для надстройки</annotation>
+        <name>camo_3_tile</name>
+        <targetShip>PASA015_Midway_1945</targetShip>
+        <tiled>true</tiled>
+        <UV>
+			<Tile>3.8 3.8</Tile>
+			<Bow_DeckHouse>3.8 3.8</Bow_DeckHouse>
+			<MidFront_DeckHouse>3.8 3.8</MidFront_DeckHouse>
+			<MidBack_DeckHouse>3.8 3.8</MidBack_DeckHouse>
+			<Stern_DeckHouse>3.8 3.8</Stern_DeckHouse>
+			<Gun>0.6 0.6</Gun>
+			<Bulge>1.9 1.9</Bulge>
+        </UV>
+        <Textures>
+            <Tile>content/gameplay/common/camouflage/textures/transparent.dds</Tile>
+        </Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+	</camouflage>
+	<camouflage>
+		<annotation>Блок тайленых американских камуфляжей для кораблей с двумя текстурами 4096_4096px для корпуса и 4096_2048px для надстройки</annotation>
+        <name>camo_3_tile</name>
+        <targetShip>PASB506_Arizona_1941</targetShip>
+        <tiled>true</tiled>
+        <UV>
+			<Tile>3.2 3.2</Tile>
+			<Bow_DeckHouse>3.0 1.5</Bow_DeckHouse>
+			<MidFront_DeckHouse>3.0 1.5</MidFront_DeckHouse>
+			<MidBack_DeckHouse>3.0 1.5</MidBack_DeckHouse>
+			<Stern_DeckHouse>3.0 1.5</Stern_DeckHouse>
+			<Gun>0.6 0.6</Gun>
+			<Bulge>1.5 1.5</Bulge>
+        </UV>
+        <Textures>
+            <Tile>content/gameplay/common/camouflage/textures/transparent.dds</Tile>
+        </Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+	</camouflage>
+	<!--//Economic camouflage-->
+	<camouflage>
+		<annotation>Блок тайленых американских экномических камуфляжей для крейсеров с квадратной текстурой</annotation>
+        <name>camo_economic_tile</name>
+        <targetShip>PASC001_Erie_1936 PASC024_Phoenix_1917 PASC005_Omaha_1923 PASC007_Cleveland_1945 PASC012_Pensacola_1944 PASC014_New_Orlean_1944 PASC017_Baltimore_1944 PASC020_Des_Moines_1948 PASB001 PASC006_Atlanta_1942 PASC044_Marblehead_1924 PASC045_Marblehead_1924_Asus PASC019_Burlington_1944 PASC003_Albany_1898</targetShip>
+        <tiled>true</tiled>
+        <UV>
+			<Tile>2.9 2.9</Tile>
+			<Bow_DeckHouse>1.45 1.45</Bow_DeckHouse>
+			<MidFront_DeckHouse>1.45 1.45</MidFront_DeckHouse>
+			<MidBack_DeckHouse>1.45 1.45</MidBack_DeckHouse>
+			<Stern_DeckHouse>1.45 1.45</Stern_DeckHouse>
+			<Gun>0.5 0.5</Gun>
+			<Bulge>1.45 1.45</Bulge>
+        </UV>
+        <Textures>
+            <Tile>content/gameplay/common/camouflage/textures/transparent.dds</Tile>
+        </Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+	</camouflage>
+	<camouflage>
+		<annotation>Блок тайленых американских экномических камуфляжей для низкоуровневых крейсеров WhiteFleet</annotation>
+        <name>camo_economic_tile</name>
+        <targetShip>PASC002_Chester_1908 PASC004_St_Louis_1906</targetShip>
+        <tiled>true</tiled>
+        <UV>
+			<Tile>3.2 3.2</Tile>
+			<Bow_DeckHouse>1.6 1.6</Bow_DeckHouse>
+			<MidFront_DeckHouse>1.6 1.6</MidFront_DeckHouse>
+			<MidBack_DeckHouse>1.6 1.6</MidBack_DeckHouse>
+			<Stern_DeckHouse>1.6 1.6</Stern_DeckHouse>
+			<Gun>0.5 0.5</Gun>
+			<Bulge>1.6 1.6</Bulge>
+        </UV>
+        <Textures>
+            <Tile>content/gameplay/common/camouflage/textures/transparent.dds</Tile>
+        </Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+	</camouflage>
+	<camouflage>
+		<annotation>Блок тайленых американских экномических камуфляжей для большинства кораблей с квадратной текстурой</annotation>
+        <name>camo_economic_tile</name>
+        <targetShip>PASA004_Langley_1929 PASA002_Bogue_1942 PASA006_Independence_1945 PASA010_Ranger_1944 PASA012_Lexington_1944 PASA013_Essex_1945 PASA008_Saipan_1943 PASB001_Michigan_1916 PASB004_Arkansas_1912 PASB006_New_York_1934 PASB034_New_Mexico_1941 PASB008_Colorado_1945 PASB012_North_Carolina_1945 PASB018_Iowa_1944 PASB017_Montana_1945 PASB013_Arkansas_1912 PASD002_Sampson_1917 PASD027_Wickes_1918 PASD019_Clemson_1920 PASD014_Leader_1919 PASD005_Farragut_1944 PASD006_Mahan_1936 PASD008_Benson_1945 PASD021_Fletcher_1943 PASD013_Gearing_1945 PASD029_Sims_1941 PASD502_Smith PASA507_Saipan_1946</targetShip>
+        <tiled>true</tiled>
+        <UV>
+			<Tile>3.5 3.5</Tile>
+			<Bow_DeckHouse>1.75 1.75</Bow_DeckHouse>
+			<MidFront_DeckHouse>1.75 1.75</MidFront_DeckHouse>
+			<MidBack_DeckHouse>1.75 1.75</MidBack_DeckHouse>
+			<Stern_DeckHouse>1.75 1.75</Stern_DeckHouse>
+			<Gun>0.6 0.6</Gun>
+			<Bulge>1.7 1.7</Bulge>
+        </UV>
+        <Textures>
+            <Tile>content/gameplay/common/camouflage/textures/transparent.dds</Tile>
+        </Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+	</camouflage>
+	<camouflage>
+		<annotation>Блок тайленых американских экномических камуфляжей для кораблей с двумя текстурами 4096_4096px для корпуса и для надстройки</annotation>
+        <name>camo_economic_tile</name>
+        <targetShip>PASA015_Midway_1945</targetShip>
+        <tiled>true</tiled>
+        <UV>
+			<Tile>3.8 3.8</Tile>
+			<Bow_DeckHouse>3.8 3.8</Bow_DeckHouse>
+			<MidFront_DeckHouse>3.8 3.8</MidFront_DeckHouse>
+			<MidBack_DeckHouse>3.8 3.8</MidBack_DeckHouse>
+			<Stern_DeckHouse>3.8 3.8</Stern_DeckHouse>
+			<Gun>0.6 0.6</Gun>
+			<Bulge>1.9 1.9</Bulge>
+        </UV>
+        <Textures>
+            <Tile>content/gameplay/common/camouflage/textures/transparent.dds</Tile>
+        </Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+	</camouflage>
+	<camouflage>
+		<annotation>Блок тайленых американских экномических камуфляжей для кораблей с двумя текстурами 4096_4096px для корпуса и 4096_2048px для надстройки</annotation>
+        <name>camo_economic_tile</name>
+        <targetShip>PASB506_Arizona_1941</targetShip>
+        <tiled>true</tiled>
+        <UV>
+			<Tile>3.2 3.2</Tile>
+			<Bow_DeckHouse>3.0 1.5</Bow_DeckHouse>
+			<MidFront_DeckHouse>3.0 1.5</MidFront_DeckHouse>
+			<MidBack_DeckHouse>3.0 1.5</MidBack_DeckHouse>
+			<Stern_DeckHouse>3.0 1.5</Stern_DeckHouse>
+			<Gun>0.6 0.6</Gun>
+			<Bulge>1.5 1.5</Bulge>
+        </UV>
+        <Textures>
+            <Tile>content/gameplay/common/camouflage/textures/transparent.dds</Tile>
+        </Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+	</camouflage>
+<!--//Russian ships tile camouflage-->
+	<!--//tier 1-->
+	<camouflage>
+		<annotation>Блок тайленых русских камуфляжей для больших кораблей с квадратной текстурой 4k</annotation>
+        <name>camo_1_tile</name>
+        <targetShip>PRSB001_Nikolay_I PRSC001_Avrora_1917 PRSC002_Diana_1905 PRSC003_Murmansk_1944 PRSC010_Diana_1905_Asus PRSC508_Kutuzov_1952 PRSC105_Kirov PRSC106_Pr_94_Budeny PRSC107_Schors PRSC108_Pr_68_Chapaev PRSC109_Dmitry_Donskoy PRSC110_Pr_66_Moskva</targetShip>
+        <tiled>true</tiled>
+        <UV>
+			<Tile>3.7 3.7</Tile>
+			<Bow_DeckHouse>1.85 1.85</Bow_DeckHouse>
+			<MidFront_DeckHouse>1.85 1.85</MidFront_DeckHouse>
+			<MidBack_DeckHouse>1.85 1.85</MidBack_DeckHouse>
+			<Stern_DeckHouse>1.85 1.85</Stern_DeckHouse>
+			<Gun>0.6 0.6</Gun>
+			<Bulge>2 2</Bulge>
+        </UV>
+        <Textures>
+            <Tile>content/gameplay/common/camouflage/textures/transparent.dds</Tile>
+        </Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+    </camouflage>
+	<camouflage>
+		<annotation>Блок тайленых русских камуфляжей для эсминцев с квадратной текстурой 2k</annotation>
+        <name>camo_1_tile</name>
+        <targetShip>PRSC101_Orlan PRSD103_Derzky PRSD104_Izyaslav</targetShip>
+        <tiled>true</tiled>
+        <UV>
+			<Tile>2.6 2.6</Tile>
+			<Bow_DeckHouse>1.3 1.3</Bow_DeckHouse>
+			<MidFront_DeckHouse>1.3 1.3</MidFront_DeckHouse>
+			<MidBack_DeckHouse>1.3 1.3</MidBack_DeckHouse>
+			<Stern_DeckHouse>1.3 1.3</Stern_DeckHouse>
+			<Gun>0.6 0.6</Gun>
+			<Bulge>2 2</Bulge>
+        </UV>
+        <Textures>
+            <Tile>content/gameplay/common/camouflage/textures/transparent.dds</Tile>
+        </Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+    </camouflage>
+	<camouflage>
+		<annotation>Блок тайленых русских камуфляжей для кораблей с прямоугольной текстурой</annotation>
+        <name>camo_1_tile</name>
+        <targetShip>PRSD001_Gremyashchy_1942 PRSD105_Pr_7_Gnevny PRSD106_Pr_30_Ognevoy PRSD107_Pr_35_Udaloy PRSD108_Pr_20i_Tashkent PRSD109_Pr_48_Kiev PRSD110_Pr_24_Khabarovsk PRSC102_Novik PRSC103_Bogatyr PRSC104_Svetlana</targetShip>
+        <tiled>true</tiled>
+        <UV>
+			<Tile>3.7 1.85</Tile>
+			<Bow_DeckHouse>0.9 0.45</Bow_DeckHouse>
+			<MidFront_DeckHouse>0.9 0.45</MidFront_DeckHouse>
+			<MidBack_DeckHouse>0.9 0.45</MidBack_DeckHouse>
+			<Stern_DeckHouse>0.9 0.45</Stern_DeckHouse>
+			<Gun>0.6 0.6</Gun>
+			<Bulge>2 2</Bulge>
+        </UV>
+        <Textures>
+            <Tile>content/gameplay/common/camouflage/textures/transparent.dds</Tile>
+        </Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+	</camouflage>
+	<camouflage>
+		<annotation>Блок тайленых русских камуфляжей для кораблей с сильно вытянутой прямоугольной текстурой</annotation>
+        <name>camo_1_tile</name>
+        <targetShip>PRSD102_SM_Storojevoy</targetShip>
+        <tiled>true</tiled>
+        <UV>
+			<Tile>4 1</Tile>
+			<Bow_DeckHouse>2 2</Bow_DeckHouse>
+			<MidFront_DeckHouse>2 2</MidFront_DeckHouse>
+			<MidBack_DeckHouse>2 2</MidBack_DeckHouse>
+			<Stern_DeckHouse>2 2</Stern_DeckHouse>
+			<Gun>0.6 0.6</Gun>
+			<Bulge>2 2</Bulge>
+        </UV>
+        <Textures>
+            <Tile>content/gameplay/common/camouflage/textures/transparent.dds</Tile>
+        </Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+	</camouflage>
+	<!--//tier 2-->
+	<camouflage>
+		<annotation>Блок тайленых русских камуфляжей для больших кораблей с квадратной текстурой 4k</annotation>
+        <name>camo_2_tile</name>
+        <targetShip>PRSB001_Nikolay_I PRSC001_Avrora_1917 PRSC002_Diana_1905 PRSC003_Murmansk_1944 PRSC010_Diana_1905_Asus PRSC508_Kutuzov_1952 PRSC105_Kirov PRSC106_Pr_94_Budeny PRSC107_Schors PRSC108_Pr_68_Chapaev PRSC109_Dmitry_Donskoy PRSC110_Pr_66_Moskva</targetShip>
+        <tiled>true</tiled>
+        <UV>
+			<Tile>3 3</Tile>
+			<Bow_DeckHouse>1.5 1.5</Bow_DeckHouse>
+			<MidFront_DeckHouse>1.5 1.5</MidFront_DeckHouse>
+			<MidBack_DeckHouse>1.5 1.5</MidBack_DeckHouse>
+			<Stern_DeckHouse>1.5 1.5</Stern_DeckHouse>
+			<Gun>0.5 0.5</Gun>
+			<Bulge>1.5 1.5</Bulge>
+        </UV>
+        <Textures>
+            <Tile>content/gameplay/common/camouflage/textures/transparent.dds</Tile>
+        </Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+    </camouflage>
+	<camouflage>
+		<annotation>Блок тайленых русских камуфляжей для эсминцев с квадратной текстурой 2k</annotation>
+        <name>camo_2_tile</name>
+        <targetShip>PRSC101_Orlan PRSD103_Derzky PRSD104_Izyaslav</targetShip>
+        <tiled>true</tiled>
+        <UV>
+			<Tile>2.8 2.8</Tile>
+			<Bow_DeckHouse>1.4 1.4</Bow_DeckHouse>
+			<MidFront_DeckHouse>1.4 1.4</MidFront_DeckHouse>
+			<MidBack_DeckHouse>1.4 1.4</MidBack_DeckHouse>
+			<Stern_DeckHouse>1.4 1.4</Stern_DeckHouse>
+			<Gun>0.5 0.5</Gun>
+			<Bulge>1.5 1.5</Bulge>
+        </UV>
+        <Textures>
+            <Tile>content/gameplay/common/camouflage/textures/transparent.dds</Tile>
+        </Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+    </camouflage>
+	<camouflage>
+		<annotation>Блок тайленых русских камуфляжей для кораблей с прямоугольной текстурой</annotation>
+        <name>camo_2_tile</name>
+        <targetShip>PRSD001_Gremyashchy_1942 PRSD105_Pr_7_Gnevny PRSD106_Pr_30_Ognevoy PRSD107_Pr_35_Udaloy PRSD108_Pr_20i_Tashkent PRSD109_Pr_48_Kiev PRSD110_Pr_24_Khabarovsk PRSC102_Novik PRSC103_Bogatyr PRSC104_Svetlana</targetShip>
+        <tiled>true</tiled>
+        <UV>
+			<Tile>3 1.5</Tile>
+			<Bow_DeckHouse>0.75 0.38</Bow_DeckHouse>
+			<MidFront_DeckHouse>0.75 0.38</MidFront_DeckHouse>
+			<MidBack_DeckHouse>0.75 0.38</MidBack_DeckHouse>
+			<Stern_DeckHouse>0.75 0.38</Stern_DeckHouse>
+			<Gun>0.5 0.5</Gun>
+			<Bulge>1.5 1.5</Bulge>
+        </UV>
+        <Textures>
+            <Tile>content/gameplay/common/camouflage/textures/transparent.dds</Tile>
+        </Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+	</camouflage>
+	<camouflage>
+		<annotation>Блок тайленых русских камуфляжей для кораблей с сильно вытянутой прямоугольной текстурой</annotation>
+        <name>camo_2_tile</name>
+        <targetShip>PRSD102_SM_Storojevoy</targetShip>
+        <tiled>true</tiled>
+        <UV>
+			<Tile>3 0.75</Tile>
+			<Bow_DeckHouse>2 2</Bow_DeckHouse>
+			<MidFront_DeckHouse>2 2</MidFront_DeckHouse>
+			<MidBack_DeckHouse>2 2</MidBack_DeckHouse>
+			<Stern_DeckHouse>2 2</Stern_DeckHouse>
+			<Gun>0.5 0.5</Gun>
+			<Bulge>1.5 1.5</Bulge>
+        </UV>
+        <Textures>
+            <Tile>content/gameplay/common/camouflage/textures/transparent.dds</Tile>
+        </Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+	</camouflage>
+	<!--//tier 3-->
+	<camouflage>
+		<annotation>Блок тайленых русских камуфляжей для больших кораблей с квадратной текстурой 4k</annotation>
+        <name>camo_3_tile</name>
+        <targetShip>PRSB001_Nikolay_I PRSC001_Avrora_1917 PRSC002_Diana_1905 PRSC003_Murmansk_1944 PRSC010_Diana_1905_Asus PRSC508_Kutuzov_1952 PRSC105_Kirov PRSC106_Pr_94_Budeny PRSC107_Schors PRSC108_Pr_68_Chapaev PRSC109_Dmitry_Donskoy PRSC110_Pr_66_Moskva</targetShip>
+        <tiled>true</tiled>
+        <UV>
+			<Tile>3.7 3.7</Tile>
+			<Bow_DeckHouse>1.85 1.85</Bow_DeckHouse>
+			<MidFront_DeckHouse>1.85 1.85</MidFront_DeckHouse>
+			<MidBack_DeckHouse>1.85 1.85</MidBack_DeckHouse>
+			<Stern_DeckHouse>1.85 1.85</Stern_DeckHouse>
+			<Gun>0.6 0.6</Gun>
+			<Bulge>2 2</Bulge>
+        </UV>
+        <Textures>
+            <Tile>content/gameplay/common/camouflage/textures/transparent.dds</Tile>
+        </Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+    </camouflage>
+	<camouflage>
+		<annotation>Блок тайленых русских камуфляжей для эсминцев с квадратной текстурой 2k</annotation>
+        <name>camo_3_tile</name>
+        <targetShip>PRSC101_Orlan PRSD103_Derzky PRSD104_Izyaslav</targetShip>
+        <tiled>true</tiled>
+        <UV>
+			<Tile>2.4 2.4</Tile>
+			<Bow_DeckHouse>1.2 1.2</Bow_DeckHouse>
+			<MidFront_DeckHouse>1.2 1.2</MidFront_DeckHouse>
+			<MidBack_DeckHouse>1.2 1.2</MidBack_DeckHouse>
+			<Stern_DeckHouse>1.2 1.2</Stern_DeckHouse>
+			<Gun>0.6 0.6</Gun>
+			<Bulge>2 2</Bulge>
+        </UV>
+        <Textures>
+            <Tile>content/gameplay/common/camouflage/textures/transparent.dds</Tile>
+        </Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+    </camouflage>
+	<camouflage>
+		<annotation>Блок тайленых русских камуфляжей для кораблей с прямоугольной текстурой</annotation>
+        <name>camo_3_tile</name>
+        <targetShip>PRSD001_Gremyashchy_1942 PRSD105_Pr_7_Gnevny PRSD106_Pr_30_Ognevoy PRSD107_Pr_35_Udaloy PRSD108_Pr_20i_Tashkent PRSD109_Pr_48_Kiev PRSD110_Pr_24_Khabarovsk PRSC102_Novik PRSC103_Bogatyr PRSC104_Svetlana</targetShip>
+        <tiled>true</tiled>
+        <UV>
+			<Tile>3.7 1.85</Tile>
+			<Bow_DeckHouse>0.9 0.45</Bow_DeckHouse>
+			<MidFront_DeckHouse>0.9 0.45</MidFront_DeckHouse>
+			<MidBack_DeckHouse>0.9 0.45</MidBack_DeckHouse>
+			<Stern_DeckHouse>0.9 0.45</Stern_DeckHouse>
+			<Gun>0.6 0.6</Gun>
+			<Bulge>2 2</Bulge>
+        </UV>
+        <Textures>
+            <Tile>content/gameplay/common/camouflage/textures/transparent.dds</Tile>
+        </Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+	</camouflage>
+	<camouflage>
+		<annotation>Блок тайленых русских камуфляжей для кораблей с сильно вытянутой прямоугольной текстурой</annotation>
+        <name>camo_3_tile</name>
+        <targetShip>PRSD102_SM_Storojevoy</targetShip>
+        <tiled>true</tiled>
+        <UV>
+			<Tile>4 1</Tile>
+			<Bow_DeckHouse>2 2</Bow_DeckHouse>
+			<MidFront_DeckHouse>2 2</MidFront_DeckHouse>
+			<MidBack_DeckHouse>2 2</MidBack_DeckHouse>
+			<Stern_DeckHouse>2 2</Stern_DeckHouse>
+			<Gun>0.6 0.6</Gun>
+			<Bulge>2 2</Bulge>
+        </UV>
+        <Textures>
+            <Tile>content/gameplay/common/camouflage/textures/transparent.dds</Tile>
+        </Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+	</camouflage>
+	<!--//Economic camouflage-->
+	<camouflage>
+		<annotation>Блок тайленых русских экономических камуфляжей для больших кораблей с квадратной текстурой 4k</annotation>
+        <name>camo_economic_tile</name>
+        <targetShip>PRSB001_Nikolay_I PRSC001_Avrora_1917 PRSC002_Diana_1905 PRSC003_Murmansk_1944 PRSC010_Diana_1905_Asus PRSC508_Kutuzov_1952 PRSC105_Kirov PRSC106_Pr_94_Budeny PRSC107_Schors PRSC108_Pr_68_Chapaev PRSC109_Dmitry_Donskoy PRSC110_Pr_66_Moskva</targetShip>
+        <tiled>true</tiled>
+        <UV>
+			<Tile>3.7 3.7</Tile>
+			<Bow_DeckHouse>1.85 1.85</Bow_DeckHouse>
+			<MidFront_DeckHouse>1.85 1.85</MidFront_DeckHouse>
+			<MidBack_DeckHouse>1.85 1.85</MidBack_DeckHouse>
+			<Stern_DeckHouse>1.85 1.85</Stern_DeckHouse>
+			<Gun>0.6 0.6</Gun>
+			<Bulge>2 2</Bulge>
+        </UV>
+        <Textures>
+            <Tile>content/gameplay/common/camouflage/textures/transparent.dds</Tile>
+        </Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+    </camouflage>
+	<camouflage>
+		<annotation>Блок тайленых русских экономических камуфляжей для эсминцев с квадратной текстурой 2k</annotation>
+        <name>camo_economic_tile</name>
+        <targetShip>PRSC101_Orlan PRSD103_Derzky PRSD104_Izyaslav</targetShip>
+        <tiled>true</tiled>
+        <UV>
+			<Tile>2.0 2.0</Tile>
+			<Bow_DeckHouse>1.2 1.2</Bow_DeckHouse>
+			<MidFront_DeckHouse>1.2 1.2</MidFront_DeckHouse>
+			<MidBack_DeckHouse>1.2 1.2</MidBack_DeckHouse>
+			<Stern_DeckHouse>1.2 1.2</Stern_DeckHouse>
+			<Gun>0.6 0.6</Gun>
+			<Bulge>2 2</Bulge>
+        </UV>
+        <Textures>
+            <Tile>content/gameplay/common/camouflage/textures/transparent.dds</Tile>
+        </Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+    </camouflage>
+	<camouflage>
+		<annotation>Блок тайленых русских экономических камуфляжей для кораблей с прямоугольной текстурой</annotation>
+        <name>camo_economic_tile</name>
+        <targetShip>PRSD001_Gremyashchy_1942 PRSD105_Pr_7_Gnevny PRSD106_Pr_30_Ognevoy PRSD107_Pr_35_Udaloy PRSD108_Pr_20i_Tashkent PRSD109_Pr_48_Kiev PRSD110_Pr_24_Khabarovsk PRSC102_Novik PRSC103_Bogatyr PRSC104_Svetlana</targetShip>
+        <tiled>true</tiled>
+        <UV>
+			<Tile>3.7 1.85</Tile>
+			<Bow_DeckHouse>0.9 0.45</Bow_DeckHouse>
+			<MidFront_DeckHouse>0.9 0.45</MidFront_DeckHouse>
+			<MidBack_DeckHouse>0.9 0.45</MidBack_DeckHouse>
+			<Stern_DeckHouse>0.9 0.45</Stern_DeckHouse>
+			<Gun>0.6 0.6</Gun>
+			<Bulge>2 2</Bulge>
+        </UV>
+        <Textures>
+            <Tile>content/gameplay/common/camouflage/textures/transparent.dds</Tile>
+        </Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+	</camouflage>
+	<camouflage>
+		<annotation>Блок тайленых русских экономических камуфляжей для кораблей с сильно вытянутой прямоугольной текстурой</annotation>
+        <name>camo_economic_tile</name>
+        <targetShip>PRSD102_SM_Storojevoy</targetShip>
+        <tiled>true</tiled>
+        <UV>
+			<Tile>4 1</Tile>
+			<Bow_DeckHouse>2 2</Bow_DeckHouse>
+			<MidFront_DeckHouse>2 2</MidFront_DeckHouse>
+			<MidBack_DeckHouse>2 2</MidBack_DeckHouse>
+			<Stern_DeckHouse>2 2</Stern_DeckHouse>
+			<Gun>0.6 0.6</Gun>
+			<Bulge>2 2</Bulge>
+        </UV>
+        <Textures>
+            <Tile>content/gameplay/common/camouflage/textures/transparent.dds</Tile>
+        </Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+	</camouflage>
+<!--//British ships tile camouflage-->
+	<!--//tier 1-->
+	<camouflage>
+		<annotation>Блок тайленых британских камуфляжей для большинства кораблей с квадратной текстурой</annotation>
+        <name>camo_1_tile</name>
+        <targetShip>PBSB002_Warspite_1941 PBSD503_Campbeltown_1941</targetShip>
+        <tiled>true</tiled>
+        <UV>
+			<Tile>3.6 3.6</Tile>
+			<Bow_DeckHouse>2 2</Bow_DeckHouse>
+			<MidFront_DeckHouse>2 2</MidFront_DeckHouse>
+			<MidBack_DeckHouse>2 2</MidBack_DeckHouse>
+			<Stern_DeckHouse>2 2</Stern_DeckHouse>
+			<Gun>0.6 0.6</Gun>
+			<Bulge>1.7 1.7</Bulge>
+        </UV>
+        <Textures>
+            <Tile>content/gameplay/common/camouflage/textures/transparent.dds</Tile>
+        </Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+	</camouflage>
+	<!--//tier 2-->
+	<camouflage>
+		<annotation>Блок тайленых британских камуфляжей для большинства кораблей с квадратной текстурой</annotation>
+        <name>camo_2_tile</name>
+        <targetShip>PBSB002_Warspite_1941 PBSD503_Campbeltown_1941</targetShip>
+        <tiled>true</tiled>
+        <UV>
+			<Tile>3 3</Tile>
+			<Bow_DeckHouse>1.5 1.5</Bow_DeckHouse>
+			<MidFront_DeckHouse>1.5 1.5</MidFront_DeckHouse>
+			<MidBack_DeckHouse>1.5 1.5</MidBack_DeckHouse>
+			<Stern_DeckHouse>1.5 1.5</Stern_DeckHouse>
+			<Gun>0.5 0.5</Gun>
+			<Bulge>1.5 1.5</Bulge>
+        </UV>
+        <Textures>
+            <Tile>content/gameplay/common/camouflage/textures/transparent.dds</Tile>
+        </Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+	</camouflage>
+	<!--//tier 3-->
+	<camouflage>
+		<annotation>Блок тайленых британских камуфляжей для большинства кораблей с квадратной текстурой</annotation>
+        <name>camo_3_tile</name>
+        <targetShip>PBSB002_Warspite_1941 PBSD503_Campbeltown_1941</targetShip>
+        <tiled>true</tiled>
+        <UV>
+			<Tile>3.6 3.6</Tile>
+			<Bow_DeckHouse>2 2</Bow_DeckHouse>
+			<MidFront_DeckHouse>2 2</MidFront_DeckHouse>
+			<MidBack_DeckHouse>2 2</MidBack_DeckHouse>
+			<Stern_DeckHouse>2 2</Stern_DeckHouse>
+			<Gun>0.6 0.6</Gun>
+			<Bulge>1.7 1.7</Bulge>
+        </UV>
+        <Textures>
+            <Tile>content/gameplay/common/camouflage/textures/transparent.dds</Tile>
+        </Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+	</camouflage>
+	<!--//Economic camouflage-->
+	<camouflage>
+		<annotation>Блок тайленых британских экономических камуфляжей для большинства кораблей с квадратной текстурой</annotation>
+        <name>camo_economic_tile</name>
+        <targetShip>PBSB002_Warspite_1941 PBSD503_Campbeltown_1941</targetShip>
+        <tiled>true</tiled>
+        <UV>
+			<Tile>2.1 2.1</Tile>
+			<Bow_DeckHouse>1.2 1.2</Bow_DeckHouse>
+			<MidFront_DeckHouse>1.2 1.2</MidFront_DeckHouse>
+			<MidBack_DeckHouse>1.2 1.2</MidBack_DeckHouse>
+			<Stern_DeckHouse>1.2 1.2</Stern_DeckHouse>
+			<Gun>0.5 0.5</Gun>
+			<Bulge>1.7 1.7</Bulge>
+        </UV>
+        <Textures>
+            <Tile>content/gameplay/common/camouflage/textures/transparent.dds</Tile>
+        </Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+	</camouflage>
+<!--//German ships tile camouflage-->
+	<!--//tier 1-->
+	<camouflage>
+		<annotation>Блок тайленых немецких камуфляжей для большинства кораблей с квадратной текстурой</annotation>
+        <name>camo_1_tile</name>
+        <targetShip>PGSB001_Bismarck_1941 PGSB002_Tirpiz_1942 PGSC105_Konigsberg PGSC106_Nurnberg PGSC107_Yorck PGSC108_Hipper</targetShip>
+        <tiled>true</tiled>
+        <UV>
+			<Tile>3.8 3.8</Tile>
+			<Bow_DeckHouse>2 2</Bow_DeckHouse>
+			<MidFront_DeckHouse>2 2</MidFront_DeckHouse>
+			<MidBack_DeckHouse>2 2</MidBack_DeckHouse>
+			<Stern_DeckHouse>2 2</Stern_DeckHouse>
+			<Gun>0.6 0.6</Gun>
+			<Bulge>1.7 1.7</Bulge>
+        </UV>
+        <Textures>
+            <Tile>content/gameplay/common/camouflage/textures/transparent.dds</Tile>
+        </Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+	</camouflage>
+	<camouflage>
+		<annotation>Блок тайленых немецких камуфляжей для кораблей с квадратной текстурой и разными текстурами орудий</annotation>
+        <name>camo_1_tile</name>
+        <targetShip>PGSC109_Roon PGSC110_Hindenburg</targetShip>
+        <tiled>true</tiled>
+        <UV>
+			<Tile>3.8 3.8</Tile>
+			<Bow_DeckHouse>2 2</Bow_DeckHouse>
+			<MidFront_DeckHouse>2 2</MidFront_DeckHouse>
+			<MidBack_DeckHouse>2 2</MidBack_DeckHouse>
+			<Stern_DeckHouse>2 2</Stern_DeckHouse>
+			<Gun>1 0.75</Gun>
+			<Bulge>1.7 1.7</Bulge>
+        </UV>
+        <Textures>
+            <Tile>content/gameplay/common/camouflage/textures/transparent.dds</Tile>
+        </Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+	</camouflage>
+	<camouflage>
+		<annotation>Блок тайленых немецких камуфляжей для кораблей с прямоугольной текстурой</annotation>
+        <name>camo_1_tile</name>
+        <targetShip>PGSC001_Hermelin_1940 PGSC002_Drezden_1908 PGSC103_Kolberg PGSC104_Karlsruhe PGSC502_Emden_1908</targetShip>
+        <tiled>true</tiled>
+        <UV>
+			<Tile>3.8 1.9</Tile>
+			<Bow_DeckHouse>2 2</Bow_DeckHouse>
+			<MidFront_DeckHouse>2 2</MidFront_DeckHouse>
+			<MidBack_DeckHouse>2 2</MidBack_DeckHouse>
+			<Stern_DeckHouse>2 2</Stern_DeckHouse>
+			<Gun>0.6 0.6</Gun>
+			<Bulge>1.7 1.7</Bulge>
+        </UV>
+        <Textures>
+            <Tile>content/gameplay/common/camouflage/textures/transparent.dds</Tile>
+        </Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+	</camouflage>
+	<!--//tier 2-->
+	<camouflage>
+		<annotation>Блок тайленых немецких камуфляжей для большинства кораблей с квадратной текстурой</annotation>
+        <name>camo_2_tile</name>
+        <targetShip>PGSB001_Bismarck_1941 PGSB002_Tirpiz_1942 PGSC105_Konigsberg PGSC106_Nurnberg PGSC107_Yorck PGSC108_Hipper</targetShip>
+        <tiled>true</tiled>
+        <UV>
+			<Tile>3 3</Tile>
+			<Bow_DeckHouse>1.5 1.5</Bow_DeckHouse>
+			<MidFront_DeckHouse>1.5 1.5</MidFront_DeckHouse>
+			<MidBack_DeckHouse>1.5 1.5</MidBack_DeckHouse>
+			<Stern_DeckHouse>1.5 1.5</Stern_DeckHouse>
+			<Gun>0.5 0.5</Gun>
+			<Bulge>1.5 1.5</Bulge>
+        </UV>
+        <Textures>
+            <Tile>content/gameplay/common/camouflage/textures/transparent.dds</Tile>
+        </Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+	</camouflage>
+	<camouflage>
+		<annotation>Блок тайленых немецких камуфляжей для кораблей с квадратной текстурой и разными текстурами орудий</annotation>
+        <name>camo_2_tile</name>
+        <targetShip>PGSC109_Roon PGSC110_Hindenburg</targetShip>
+        <tiled>true</tiled>
+        <UV>
+			<Tile>3 3</Tile>
+			<Bow_DeckHouse>1.5 1.5</Bow_DeckHouse>
+			<MidFront_DeckHouse>1.5 1.5</MidFront_DeckHouse>
+			<MidBack_DeckHouse>1.5 1.5</MidBack_DeckHouse>
+			<Stern_DeckHouse>1.5 1.5</Stern_DeckHouse>
+			<Gun>0.8 0.6</Gun>
+			<Bulge>1.5 1.5</Bulge>
+        </UV>
+        <Textures>
+            <Tile>content/gameplay/common/camouflage/textures/transparent.dds</Tile>
+        </Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+	</camouflage>
+	<camouflage>
+		<annotation>Блок тайленых немецких камуфляжей для кораблей с прямоугольной текстурой</annotation>
+        <name>camo_2_tile</name>
+        <targetShip>PGSC001_Hermelin_1940 PGSC002_Drezden_1908 PGSC103_Kolberg PGSC104_Karlsruhe PGSC502_Emden_1908</targetShip>
+        <tiled>true</tiled>
+        <UV>
+			<Tile>3 1.5</Tile>
+			<Bow_DeckHouse>1.5 1.5</Bow_DeckHouse>
+			<MidFront_DeckHouse>1.5 1.5</MidFront_DeckHouse>
+			<MidBack_DeckHouse>1.5 1.5</MidBack_DeckHouse>
+			<Stern_DeckHouse>1.5 1.5</Stern_DeckHouse>
+			<Gun>0.5 0.5</Gun>
+			<Bulge>1.5 1.5</Bulge>
+        </UV>
+        <Textures>
+            <Tile>content/gameplay/common/camouflage/textures/transparent.dds</Tile>
+        </Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+	</camouflage>
+	<!--//tier 3-->
+	<camouflage>
+		<annotation>Блок тайленых немецких камуфляжей для большинства кораблей с квадратной текстурой</annotation>
+        <name>camo_3_tile</name>
+        <targetShip>PGSC105_Konigsberg PGSC106_Nurnberg PGSC107_Yorck PGSC108_Hipper</targetShip>
+        <tiled>true</tiled>
+        <UV>
+			<Tile>3.4 3.4</Tile>
+			<Bow_DeckHouse>1.7 1.7</Bow_DeckHouse>
+			<MidFront_DeckHouse>1.7 1.7</MidFront_DeckHouse>
+			<MidBack_DeckHouse>1.7 1.7</MidBack_DeckHouse>
+			<Stern_DeckHouse>1.7 1.7</Stern_DeckHouse>
+			<Gun>0.6 0.6</Gun>
+			<Bulge>1.2 1.2</Bulge>
+        </UV>
+        <Textures>
+            <Tile>content/gameplay/common/camouflage/textures/transparent.dds</Tile>
+        </Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+	</camouflage>
+	<camouflage>
+		<annotation>Блок тайленых немецких камуфляжей для большинства кораблей с квадратной текстурой</annotation>
+        <name>camo_3_tile</name>
+        <targetShip>PGSB001_Bismarck_1941 PGSB002_Tirpiz_1942</targetShip>
+        <tiled>true</tiled>
+        <UV>
+			<Tile>2.1 2.1</Tile>
+			<Bow_DeckHouse>1.2 1.2</Bow_DeckHouse>
+			<MidFront_DeckHouse>1.2 1.2</MidFront_DeckHouse>
+			<MidBack_DeckHouse>1.2 1.2</MidBack_DeckHouse>
+			<Stern_DeckHouse>1.2 1.2</Stern_DeckHouse>
+			<Gun>1 1</Gun>
+			<Bulge>1.2 1.2</Bulge>
+        </UV>
+        <Textures>
+            <Tile>content/gameplay/common/camouflage/textures/transparent.dds</Tile>
+        </Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+	</camouflage>
+	<camouflage>
+		<annotation>Блок тайленых немецких камуфляжей для кораблей с квадратной текстурой и разными текстурами орудий</annotation>
+        <name>camo_3_tile</name>
+        <targetShip>PGSC109_Roon PGSC110_Hindenburg</targetShip>
+        <tiled>true</tiled>
+        <UV>
+			<Tile>3.5 3.5</Tile>
+			<Bow_DeckHouse>2 2</Bow_DeckHouse>
+			<MidFront_DeckHouse>2 2</MidFront_DeckHouse>
+			<MidBack_DeckHouse>2 2</MidBack_DeckHouse>
+			<Stern_DeckHouse>2 2</Stern_DeckHouse>
+			<Gun>1 0.75</Gun>
+			<Bulge>1.7 1.7</Bulge>
+        </UV>
+        <Textures>
+            <Tile>content/gameplay/common/camouflage/textures/transparent.dds</Tile>
+        </Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+	</camouflage>
+	<camouflage>
+		<annotation>Блок тайленых немецких камуфляжей для кораблей с прямоугольной текстурой</annotation>
+        <name>camo_3_tile</name>
+        <targetShip>PGSC001_Hermelin_1940 PGSC002_Drezden_1908 PGSC103_Kolberg PGSC104_Karlsruhe PGSC502_Emden_1908</targetShip>
+        <tiled>true</tiled>
+        <UV>
+			<Tile>3.8 1.9</Tile>
+			<Bow_DeckHouse>2 2</Bow_DeckHouse>
+			<MidFront_DeckHouse>2 2</MidFront_DeckHouse>
+			<MidBack_DeckHouse>2 2</MidBack_DeckHouse>
+			<Stern_DeckHouse>2 2</Stern_DeckHouse>
+			<Gun>0.6 0.6</Gun>
+			<Bulge>1.7 1.7</Bulge>
+        </UV>
+        <Textures>
+            <Tile>content/gameplay/common/camouflage/textures/transparent.dds</Tile>
+        </Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+	</camouflage>
+	<!--//Economic camouflage-->
+	<camouflage>
+		<annotation>Блок тайленых немецких экономических камуфляжей для большинства кораблей с квадратной текстурой</annotation>
+        <name>camo_economic_tile</name>
+        <targetShip>PGSC105_Konigsberg PGSC106_Nurnberg PGSC107_Yorck PGSC108_Hipper</targetShip>
+        <tiled>true</tiled>
+        <UV>
+			<Tile>3.4 3.4</Tile>
+			<Bow_DeckHouse>1.7 1.7</Bow_DeckHouse>
+			<MidFront_DeckHouse>1.7 1.7</MidFront_DeckHouse>
+			<MidBack_DeckHouse>1.7 1.7</MidBack_DeckHouse>
+			<Stern_DeckHouse>1.7 1.7</Stern_DeckHouse>
+			<Gun>0.6 0.6</Gun>
+			<Bulge>1.2 1.2</Bulge>
+        </UV>
+        <Textures>
+            <Tile>content/gameplay/common/camouflage/textures/transparent.dds</Tile>
+        </Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+	</camouflage>
+	<camouflage>
+		<annotation>Блок тайленых немецких экономических камуфляжей для большинства кораблей с квадратной текстурой</annotation>
+        <name>camo_economic_tile</name>
+        <targetShip>PGSB001_Bismarck_1941 PGSB002_Tirpiz_1942</targetShip>
+        <tiled>true</tiled>
+        <UV>
+			<Tile>2.1 2.1</Tile>
+			<Bow_DeckHouse>1.2 1.2</Bow_DeckHouse>
+			<MidFront_DeckHouse>1.2 1.2</MidFront_DeckHouse>
+			<MidBack_DeckHouse>1.2 1.2</MidBack_DeckHouse>
+			<Stern_DeckHouse>1.2 1.2</Stern_DeckHouse>
+			<Gun>0.5 0.5</Gun>
+			<Bulge>1.2 1.2</Bulge>
+        </UV>
+        <Textures>
+            <Tile>content/gameplay/common/camouflage/textures/transparent.dds</Tile>
+        </Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+	</camouflage>
+	<camouflage>
+		<annotation>Блок тайленых немецких экономических камуфляжей для кораблей с квадратной текстурой и разными текстурами орудий</annotation>
+        <name>camo_economic_tile</name>
+        <targetShip>PGSC109_Roon PGSC110_Hindenburg</targetShip>
+        <tiled>true</tiled>
+        <UV>
+			<Tile>2.2 2.2</Tile>
+			<Bow_DeckHouse>1.6 1.6</Bow_DeckHouse>
+			<MidFront_DeckHouse>1.6 1.6</MidFront_DeckHouse>
+			<MidBack_DeckHouse>1.6 1.6</MidBack_DeckHouse>
+			<Stern_DeckHouse>1.6 1.6</Stern_DeckHouse>
+			<Gun>0.6 0.45</Gun>
+			<Bulge>1.5 1.5</Bulge>
+        </UV>
+        <Textures>
+            <Tile>content/gameplay/common/camouflage/textures/transparent.dds</Tile>
+        </Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+	</camouflage>
+	<camouflage>
+		<annotation>Блок тайленых немецких экономических камуфляжей для кораблей с прямоугольной текстурой</annotation>
+        <name>camo_economic_tile</name>
+        <targetShip>PGSC001_Hermelin_1940 PGSC002_Drezden_1908 PGSC103_Kolberg PGSC104_Karlsruhe PGSC502_Emden_1908</targetShip>
+        <tiled>true</tiled>
+        <UV>
+			<Tile>3.8 1.9</Tile>
+			<Bow_DeckHouse>2 2</Bow_DeckHouse>
+			<MidFront_DeckHouse>2 2</MidFront_DeckHouse>
+			<MidBack_DeckHouse>2 2</MidBack_DeckHouse>
+			<Stern_DeckHouse>2 2</Stern_DeckHouse>
+			<Gun>0.6 0.6</Gun>
+			<Bulge>1.7 1.7</Bulge>
+        </UV>
+        <Textures>
+            <Tile>content/gameplay/common/camouflage/textures/transparent.dds</Tile>
+        </Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+	</camouflage>
+<!--//Polish ships tile camouflage-->
+	<!--//tier 1-->
+	<camouflage>
+		<annotation>Блок тайленых польских камуфляжей для кораблей с прямоугольной текстурой</annotation>
+        <name>camo_1_tile</name>
+        <targetShip>PWSD501_Blyskawica</targetShip>
+        <tiled>true</tiled>
+        <UV>
+			<Tile>3.7 1.85</Tile>
+			<Bow_DeckHouse>0.9 0.45</Bow_DeckHouse>
+			<MidFront_DeckHouse>0.9 0.45</MidFront_DeckHouse>
+			<MidBack_DeckHouse>0.9 0.45</MidBack_DeckHouse>
+			<Stern_DeckHouse>0.9 0.45</Stern_DeckHouse>
+			<Gun>0.6 0.6</Gun>
+			<Bulge>2 2</Bulge>
+        </UV>
+        <Textures>
+            <Tile>content/gameplay/common/camouflage/textures/transparent.dds</Tile>
+        </Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+	</camouflage>
+	<!--//tier 2-->
+	<camouflage>
+		<annotation>Блок тайленых польских камуфляжей для кораблей с прямоугольной текстурой</annotation>
+        <name>camo_2_tile</name>
+        <targetShip>PWSD501_Blyskawica</targetShip>
+        <tiled>true</tiled>
+        <UV>
+			<Tile>3 1.5</Tile>
+			<Bow_DeckHouse>0.75 0.38</Bow_DeckHouse>
+			<MidFront_DeckHouse>0.75 0.38</MidFront_DeckHouse>
+			<MidBack_DeckHouse>0.75 0.38</MidBack_DeckHouse>
+			<Stern_DeckHouse>0.75 0.38</Stern_DeckHouse>
+			<Gun>0.5 0.5</Gun>
+			<Bulge>1.5 1.5</Bulge>
+        </UV>
+        <Textures>
+            <Tile>content/gameplay/common/camouflage/textures/transparent.dds</Tile>
+        </Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+	</camouflage>
+	<!--//tier 3-->
+	<camouflage>
+		<annotation>Блок тайленых польских камуфляжей для кораблей с прямоугольной текстурой</annotation>
+        <name>camo_3_tile</name>
+        <targetShip>PWSD501_Blyskawica</targetShip>
+        <tiled>true</tiled>
+        <UV>
+			<Tile>2.8 1.5</Tile>
+			<Bow_DeckHouse>0.9 0.45</Bow_DeckHouse>
+			<MidFront_DeckHouse>0.9 0.45</MidFront_DeckHouse>
+			<MidBack_DeckHouse>0.9 0.45</MidBack_DeckHouse>
+			<Stern_DeckHouse>0.9 0.45</Stern_DeckHouse>
+			<Gun>0.6 0.6</Gun>
+			<Bulge>2 2</Bulge>
+        </UV>
+        <Textures>
+            <Tile>content/gameplay/common/camouflage/textures/transparent.dds</Tile>
+        </Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+	</camouflage>
+	<!--//Economic camouflage-->
+	<camouflage>
+		<annotation>Блок тайленых польских экономических камуфляжей для кораблей с прямоугольной текстурой</annotation>
+        <name>camo_economic_tile</name>
+        <targetShip>PWSD501_Blyskawica</targetShip>
+        <tiled>true</tiled>
+        <UV>
+			<Tile>4 2</Tile>
+			<Bow_DeckHouse>0.9 0.45</Bow_DeckHouse>
+			<MidFront_DeckHouse>0.9 0.45</MidFront_DeckHouse>
+			<MidBack_DeckHouse>0.9 0.45</MidBack_DeckHouse>
+			<Stern_DeckHouse>0.9 0.45</Stern_DeckHouse>
+			<Gun>0.6 0.6</Gun>
+			<Bulge>2 2</Bulge>
+        </UV>
+        <Textures>
+            <Tile>content/gameplay/common/camouflage/textures/transparent.dds</Tile>
+        </Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+	</camouflage>
+<!--//Pan-Asian ships tile camouflage-->
+	<!--//tier 1-->
+	<camouflage>
+		<annotation>Блок тайленых паназиатских камуфляжей для кораблей с прямоугольной текстурой</annotation>
+        <name>camo_1_tile</name>
+        <targetShip>PZSD506_Anshan</targetShip>
+        <tiled>true</tiled>
+        <UV>
+			<Tile>3.7 1.85</Tile>
+			<Bow_DeckHouse>0.9 0.45</Bow_DeckHouse>
+			<MidFront_DeckHouse>0.9 0.45</MidFront_DeckHouse>
+			<MidBack_DeckHouse>0.9 0.45</MidBack_DeckHouse>
+			<Stern_DeckHouse>0.9 0.45</Stern_DeckHouse>
+			<Gun>0.6 0.6</Gun>
+			<Bulge>2 2</Bulge>
+        </UV>
+        <Textures>
+            <Tile>content/gameplay/common/camouflage/textures/transparent.dds</Tile>
+        </Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+	</camouflage>
+	<camouflage>
+		<annotation>Блок тайленых паназиатских камуфляжей для кораблей с квадратной текстурой</annotation>
+        <name>camo_1_tile</name>
+        <targetShip>PZSD508_LoYang</targetShip>
+        <tiled>true</tiled>
+        <UV>
+			<Tile>1.9 1.9</Tile>
+			<Bow_DeckHouse>0.9 0.45</Bow_DeckHouse>
+			<MidFront_DeckHouse>0.9 0.45</MidFront_DeckHouse>
+			<MidBack_DeckHouse>0.9 0.45</MidBack_DeckHouse>
+			<Stern_DeckHouse>0.9 0.45</Stern_DeckHouse>
+			<Gun>0.6 0.6</Gun>
+			<Bulge>2 2</Bulge>
+        </UV>
+        <Textures>
+            <Tile>content/gameplay/common/camouflage/textures/transparent.dds</Tile>
+        </Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+	</camouflage>
+	<!--//tier 2-->
+	<camouflage>
+		<annotation>Блок тайленых паназиатских камуфляжей для кораблей с прямоугольной текстурой</annotation>
+        <name>camo_2_tile</name>
+        <targetShip>PZSD506_Anshan</targetShip>
+        <tiled>true</tiled>
+        <UV>
+			<Tile>3 1.5</Tile>
+			<Bow_DeckHouse>0.75 0.38</Bow_DeckHouse>
+			<MidFront_DeckHouse>0.75 0.38</MidFront_DeckHouse>
+			<MidBack_DeckHouse>0.75 0.38</MidBack_DeckHouse>
+			<Stern_DeckHouse>0.75 0.38</Stern_DeckHouse>
+			<Gun>0.5 0.5</Gun>
+			<Bulge>1.5 1.5</Bulge>
+        </UV>
+        <Textures>
+            <Tile>content/gameplay/common/camouflage/textures/transparent.dds</Tile>
+        </Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+	</camouflage>
+	<camouflage>
+		<annotation>Блок тайленых паназиатских камуфляжей для кораблей с квадратной текстурой</annotation>
+        <name>camo_2_tile</name>
+        <targetShip>PZSD508_LoYang</targetShip>
+        <tiled>true</tiled>
+        <UV>
+			<Tile>1.85 1.85</Tile>
+			<Bow_DeckHouse>0.75 0.38</Bow_DeckHouse>
+			<MidFront_DeckHouse>0.75 0.38</MidFront_DeckHouse>
+			<MidBack_DeckHouse>0.75 0.38</MidBack_DeckHouse>
+			<Stern_DeckHouse>0.75 0.38</Stern_DeckHouse>
+			<Gun>0.5 0.5</Gun>
+			<Bulge>1.5 1.5</Bulge>
+        </UV>
+        <Textures>
+            <Tile>content/gameplay/common/camouflage/textures/transparent.dds</Tile>
+        </Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+	</camouflage>
+	<!--//tier 3-->
+	<camouflage>
+		<annotation>Блок тайленых паназиатских камуфляжей для кораблей с прямоугольной текстурой</annotation>
+        <name>camo_3_tile</name>
+        <targetShip>PZSD506_Anshan</targetShip>
+        <tiled>true</tiled>
+        <UV>
+			<Tile>3.7 1.85</Tile>
+			<Bow_DeckHouse>0.9 0.45</Bow_DeckHouse>
+			<MidFront_DeckHouse>0.9 0.45</MidFront_DeckHouse>
+			<MidBack_DeckHouse>0.9 0.45</MidBack_DeckHouse>
+			<Stern_DeckHouse>0.9 0.45</Stern_DeckHouse>
+			<Gun>0.6 0.6</Gun>
+			<Bulge>2 2</Bulge>
+        </UV>
+        <Textures>
+            <Tile>content/gameplay/common/camouflage/textures/transparent.dds</Tile>
+        </Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+	</camouflage>
+	<camouflage>
+		<annotation>Блок тайленых паназиатских камуфляжей для кораблей с квадратной текстурой</annotation>
+        <name>camo_3_tile</name>
+        <targetShip>PZSD508_LoYang</targetShip>
+        <tiled>true</tiled>
+        <UV>
+			<Tile>2 2</Tile>
+			<Bow_DeckHouse>1 0.5</Bow_DeckHouse>
+			<MidFront_DeckHouse>1 0.5</MidFront_DeckHouse>
+			<MidBack_DeckHouse>1 0.5</MidBack_DeckHouse>
+			<Stern_DeckHouse>1 0.5</Stern_DeckHouse>
+			<Gun>0.8 0.8</Gun>
+			<Bulge>2 2</Bulge>
+        </UV>
+        <Textures>
+            <Tile>content/gameplay/common/camouflage/textures/transparent.dds</Tile>
+        </Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+	</camouflage>
+	<!--//Economic camouflage-->
+	<camouflage>
+		<annotation>Блок тайленых паназиатских камуфляжей для кораблей с прямоугольной текстурой</annotation>
+        <name>camo_economic_tile</name>
+        <targetShip>PZSD506_Anshan</targetShip>
+        <tiled>true</tiled>
+        <UV>
+			<Tile>3 1.5</Tile>
+			<Bow_DeckHouse>0.9 0.45</Bow_DeckHouse>
+			<MidFront_DeckHouse>0.9 0.45</MidFront_DeckHouse>
+			<MidBack_DeckHouse>0.9 0.45</MidBack_DeckHouse>
+			<Stern_DeckHouse>0.9 0.45</Stern_DeckHouse>
+			<Gun>0.6 0.6</Gun>
+			<Bulge>2 2</Bulge>
+        </UV>
+        <Textures>
+            <Tile>content/gameplay/common/camouflage/textures/transparent.dds</Tile>
+        </Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+	</camouflage>
+	<camouflage>
+		<annotation>Блок тайленых паназиатских камуфляжей для кораблей с квадратной текстурой</annotation>
+        <name>camo_economic_tile</name>
+        <targetShip>PZSD508_LoYang</targetShip>
+        <tiled>true</tiled>
+        <UV>
+			<Tile>2 2</Tile>
+			<Bow_DeckHouse>1 0.5</Bow_DeckHouse>
+			<MidFront_DeckHouse>1 0.5</MidFront_DeckHouse>
+			<MidBack_DeckHouse>1 0.5</MidBack_DeckHouse>
+			<Stern_DeckHouse>1 0.5</Stern_DeckHouse>
+			<Gun>0.59 0.59</Gun>
+			<Bulge>2 2</Bulge>
+        </UV>
+        <Textures>
+            <Tile>content/gameplay/common/camouflage/textures/transparent.dds</Tile>
+        </Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+	</camouflage>
+<!--//Special tile camouflage-->
+	<!--//Ranked battles camouflage-->
+	<camouflage>
+		<annotation>Блок тайленого камуфляжа для ранговых боев на корабли с квадратной текстурой</annotation>
+        <name>camo_ranked_tile</name>
+        <tiled>true</tiled>
+        <UV>
+            <Tile>3.8 3.8</Tile>
+			<Bow_DeckHouse>1.9 1.9</Bow_DeckHouse>
+			<MidFront_DeckHouse>1.9 1.9</MidFront_DeckHouse>
+			<MidBack_DeckHouse>1.9 1.9</MidBack_DeckHouse>
+			<Stern_DeckHouse>1.9 1.9</Stern_DeckHouse>
+			<Gun>0.6 0.6</Gun>
+			<Bulge>1.9 1.9</Bulge>
+        </UV>
+        <Textures>
+                <Tile>content/gameplay/common/camouflage/textures/transparent.dds</Tile>
+        </Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+    </camouflage>
+	<camouflage>
+		<annotation>Блок тайленого камуфляжа для ранговых боев на корабли с прямоугольной текстурой</annotation>
+        <name>camo_ranked_tile</name>
+		<targetShip>PJSC035_Chikuma_1912 PJSC015_Tatsuta_1919 PJSC026_Iwaki_1944 PRSD001_Gremyashchy_1942 PRSD105_Pr_7_Gnevny PRSD106_Pr_30_Ognevoy PRSD107_Pr_35_Udaloy PRSD108_Pr_20i_Tashkent PRSD109_Pr_48_Kiev PRSD110_Pr_24_Khabarovsk PGSC001_Hermelin_1940 PGSC103_Kolberg PGSC104_Karlsruhe PWSD501_Blyskawica PZSD506_Anshan PRSC102_Novik PRSC103_Bogatyr PRSC104_Svetlana</targetShip>
+        <tiled>true</tiled>
+        <UV>
+            <Tile>3.8 3</Tile>
+			<Bow_DeckHouse>1.9 1.4</Bow_DeckHouse>
+			<MidFront_DeckHouse>1.9 1.4</MidFront_DeckHouse>
+			<MidBack_DeckHouse>1.9 1.4</MidBack_DeckHouse>
+			<Stern_DeckHouse>1.9 1.4</Stern_DeckHouse>
+			<Gun>0.6 0.6</Gun>
+			<Bulge>1.9 1.9</Bulge>
+        </UV>
+        <Textures>
+                <Tile>content/gameplay/common/camouflage/textures/transparent.dds</Tile>
+        </Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+    </camouflage>
+	<camouflage>
+		<annotation>Блок тайленого камуфляжа для ранговых боев эсминца Сторожевой</annotation>
+        <name>camo_ranked_tile</name>
+		<targetShip>PRSD102_SM_Storojevoy</targetShip>
+        <tiled>true</tiled>
+        <UV>
+            <Tile>3.8 1.9</Tile>
+			<Bow_DeckHouse>1.9 1.9</Bow_DeckHouse>
+			<MidFront_DeckHouse>1.9 1.9</MidFront_DeckHouse>
+			<MidBack_DeckHouse>1.9 1.9</MidBack_DeckHouse>
+			<Stern_DeckHouse>1.9 1.9</Stern_DeckHouse>
+			<Gun>0.6 0.6</Gun>
+			<Bulge>1.9 1.9</Bulge>
+        </UV>
+        <Textures>
+                <Tile>content/gameplay/common/camouflage/textures/transparent.dds</Tile>
+        </Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+    </camouflage>
+	<camouflage>
+		<annotation>Блок тайленого камуфляжа для ранговых боев авианосца Мидвэй</annotation>
+        <name>camo_ranked_tile</name>
+		<targetShip>PASA015_Midway_1945</targetShip>
+        <tiled>true</tiled>
+        <UV>
+            <Tile>3.8 3.8</Tile>
+			<Bow_DeckHouse>3.8 3.8</Bow_DeckHouse>
+			<MidFront_DeckHouse>3.8 3.8</MidFront_DeckHouse>
+			<MidBack_DeckHouse>3.8 3.8</MidBack_DeckHouse>
+			<Stern_DeckHouse>3.8 3.8</Stern_DeckHouse>
+			<Gun>0.6 0.6</Gun>
+			<Bulge>3.8 3.8</Bulge>
+        </UV>
+        <Textures>
+                <Tile>content/gameplay/common/camouflage/textures/transparent.dds</Tile>
+        </Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+    </camouflage>
+	<camouflage>
+		<annotation>Блок тайленого камуфляжа для ранговых боев фикс проблем с камуфляжем на орудиях Дрездена</annotation>
+        <name>camo_ranked_tile</name>
+		<targetShip>PGSC002_Drezden_1908</targetShip>
+        <tiled>true</tiled>
+        <UV>
+            <Tile>3.8 3</Tile>
+			<Gun>0.45 0.45</Gun>
+        </UV>
+        <Textures>
+                <Tile>content/gameplay/common/camouflage/textures/transparent.dds</Tile>
+        </Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+    </camouflage>
+	<camouflage>
+		<annotation>Блок тайленого камуфляжа для ранговых боев на корабли с квадратной текстурой Йорк</annotation>
+        <name>camo_ranked_tile</name>
+		<targetShip>PGSC107_Yorck</targetShip>
+        <tiled>true</tiled>
+        <UV>
+            <Tile>3.8 3.8</Tile>
+			<Bow_DeckHouse>1.9 1.9</Bow_DeckHouse>
+			<MidFront_DeckHouse>1.9 1.9</MidFront_DeckHouse>
+			<MidBack_DeckHouse>1.9 1.9</MidBack_DeckHouse>
+			<Stern_DeckHouse>1.9 1.9</Stern_DeckHouse>
+			<Gun>0.47 0.47</Gun>
+			<Bulge>1.9 1.9</Bulge>
+        </UV>
+        <Textures>
+                <Tile>content/gameplay/common/camouflage/textures/transparent.dds</Tile>
+        </Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+    </camouflage>
+	<camouflage>
+		<annotation>Блок тайленого камуфляжа для ранговых боев на корабли с квадратной текстурой Кавачи</annotation>
+        <name>camo_ranked_tile</name>
+		<targetShip>PJSB001_Kawachi_1912</targetShip>
+        <tiled>true</tiled>
+        <UV>
+            <Tile>3.8 3.8</Tile>
+			<Bow_DeckHouse>1.9 1.9</Bow_DeckHouse>
+			<MidFront_DeckHouse>1.9 1.9</MidFront_DeckHouse>
+			<MidBack_DeckHouse>1.9 1.9</MidBack_DeckHouse>
+			<Stern_DeckHouse>1.9 1.9</Stern_DeckHouse>
+			<Gun>0.4 0.4</Gun>
+			<Bulge>1.9 1.9</Bulge>
+        </UV>
+        <Textures>
+                <Tile>content/gameplay/common/camouflage/textures/transparent.dds</Tile>
+        </Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+    </camouflage>
+	<camouflage>
+		<annotation>Блок тайленого камуфляжа для ранговых боев на корабли с квадратной текстурой Могами, Нью-Йорк</annotation>
+        <name>camo_ranked_tile</name>
+		<targetShip>PJSC009_Mogami_1935 PASB006_New_York_1934</targetShip>
+        <tiled>true</tiled>
+        <UV>
+            <Tile>3.8 3.8</Tile>
+			<Bow_DeckHouse>1.9 1.9</Bow_DeckHouse>
+			<MidFront_DeckHouse>1.9 1.9</MidFront_DeckHouse>
+			<MidBack_DeckHouse>1.9 1.9</MidBack_DeckHouse>
+			<Stern_DeckHouse>1.9 1.9</Stern_DeckHouse>
+			<Gun>0.44 0.44</Gun>
+			<Bulge>1.9 1.9</Bulge>
+        </UV>
+        <Textures>
+                <Tile>content/gameplay/common/camouflage/textures/transparent.dds</Tile>
+        </Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+    </camouflage>
+	<camouflage>
+		<annotation>Блок тайленого камуфляжа для ранговых боев на корабли с квадратной текстурой Нью-Мехико</annotation>
+        <name>camo_ranked_tile</name>
+		<targetShip>PASB034_New_Mexico_1941</targetShip>
+        <tiled>true</tiled>
+        <UV>
+            <Tile>3.8 3.8</Tile>
+			<Bow_DeckHouse>1.9 1.9</Bow_DeckHouse>
+			<MidFront_DeckHouse>1.9 1.9</MidFront_DeckHouse>
+			<MidBack_DeckHouse>1.9 1.9</MidBack_DeckHouse>
+			<Stern_DeckHouse>1.9 1.9</Stern_DeckHouse>
+			<Gun>0.4 0.4</Gun>
+			<Bulge>1.9 1.9</Bulge>
+        </UV>
+        <Textures>
+                <Tile>content/gameplay/common/camouflage/textures/transparent.dds</Tile>
+        </Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+    </camouflage>
+	<camouflage>
+		<annotation>Блок тайленого камуфляжа для ранговых боев на корабли с квадратной текстурой Изяслав</annotation>
+        <name>camo_ranked_tile</name>
+		<targetShip>PRSD104_Izyaslav</targetShip>
+        <tiled>true</tiled>
+        <UV>
+            <Tile>2.7 2.7</Tile>
+			<Gun>0.6 0.6</Gun>
+        </UV>
+        <Textures>
+                <Tile>content/gameplay/common/camouflage/textures/transparent.dds</Tile>
+        </Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+    </camouflage>
+	<camouflage>
+		<annotation>Блок тайленого камуфляжа для ранговых боев на корабли с двумя текстурами 4096_4096px для корпуса и 4096_2048px для надстройки Аризона</annotation>
+        <name>camo_ranked_tile</name>
+        <targetShip>PASB506_Arizona_1941</targetShip>
+        <tiled>true</tiled>
+        <UV>
+			<Tile>3.5 3.5</Tile>
+			<Bow_DeckHouse>3.4 1.7</Bow_DeckHouse>
+			<MidFront_DeckHouse>3.4 1.7</MidFront_DeckHouse>
+			<MidBack_DeckHouse>3.4 1.7</MidBack_DeckHouse>
+			<Stern_DeckHouse>3.4 1.7</Stern_DeckHouse>
+			<Gun>0.65 0.65</Gun>
+			<Bulge>1.5 1.5</Bulge>
+        </UV>
+        <Textures>
+            <Tile>content/gameplay/common/camouflage/textures/transparent.dds</Tile>
+        </Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+	</camouflage>
+	<!--//World of Warships Super Test camouflage-->
+	<camouflage>
+		<annotation>Блок тайленого камуфляжа для супер тестеров на корабли с квадратной текстурой</annotation>
+        <name>camo_supertest_tile</name>
+        <tiled>true</tiled>
+        <UV>
+            <Tile>3.8 3.8</Tile>
+			<Bow_DeckHouse>1.9 1.9</Bow_DeckHouse>
+			<MidFront_DeckHouse>1.9 1.9</MidFront_DeckHouse>
+			<MidBack_DeckHouse>1.9 1.9</MidBack_DeckHouse>
+			<Stern_DeckHouse>1.9 1.9</Stern_DeckHouse>
+			<Gun>0.6 0.6</Gun>
+			<Bulge>1.9 1.9</Bulge>
+        </UV>
+        <Textures>
+                <Tile>content/gameplay/common/camouflage/textures/transparent.dds</Tile>
+        </Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+    </camouflage>
+	<camouflage>
+		<annotation>Блок тайленого камуфляжа для супер тестеров на корабли с прямоугольной текстурой</annotation>
+        <name>camo_supertest_tile</name>
+		<targetShip>PJSC035_Chikuma_1912 PJSC015_Tatsuta_1919 PJSC026_Iwaki_1944 PRSD001_Gremyashchy_1942 PRSD105_Pr_7_Gnevny PRSD106_Pr_30_Ognevoy PRSD107_Pr_35_Udaloy PRSD108_Pr_20i_Tashkent PRSD109_Pr_48_Kiev PRSD110_Pr_24_Khabarovsk PGSC001_Hermelin_1940 PGSC103_Kolberg PGSC104_Karlsruhe PWSD501_Blyskawica PGSC502_Emden_1908 PZSD506_Anshan PRSC102_Novik PRSC103_Bogatyr PRSC104_Svetlana</targetShip>
+        <tiled>true</tiled>
+        <UV>
+            <Tile>3.8 1.8</Tile>
+			<Bow_DeckHouse>1.6 0.8</Bow_DeckHouse>
+			<MidFront_DeckHouse>1.6 0.8</MidFront_DeckHouse>
+			<MidBack_DeckHouse>1.6 0.8</MidBack_DeckHouse>
+			<Stern_DeckHouse>1.6 0.8</Stern_DeckHouse>
+			<Gun>0.6 0.6</Gun>
+			<Bulge>1.9 1.9</Bulge>
+        </UV>
+        <Textures>
+                <Tile>content/gameplay/common/camouflage/textures/transparent.dds</Tile>
+        </Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+    </camouflage>
+	<camouflage>
+		<annotation>Блок тайленого камуфляжа для супер тестеров эсминца Сторожевой</annotation>
+        <name>camo_supertest_tile</name>
+		<targetShip>PRSD102_SM_Storojevoy</targetShip>
+        <tiled>true</tiled>
+        <UV>
+            <Tile>3.8 1.9</Tile>
+			<Bow_DeckHouse>1.9 1.9</Bow_DeckHouse>
+			<MidFront_DeckHouse>1.9 1.9</MidFront_DeckHouse>
+			<MidBack_DeckHouse>1.9 1.9</MidBack_DeckHouse>
+			<Stern_DeckHouse>1.9 1.9</Stern_DeckHouse>
+			<Gun>0.6 0.6</Gun>
+			<Bulge>1.9 1.9</Bulge>
+        </UV>
+        <Textures>
+                <Tile>content/gameplay/common/camouflage/textures/transparent.dds</Tile>
+        </Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+    </camouflage>
+	<camouflage>
+		<annotation>Блок тайленого камуфляжа для супер тестеров авианосца Мидвэй</annotation>
+        <name>camo_supertest_tile</name>
+		<targetShip>PASA015_Midway_1945</targetShip>
+        <tiled>true</tiled>
+        <UV>
+            <Tile>3.8 3.8</Tile>
+			<Bow_DeckHouse>3.8 3.8</Bow_DeckHouse>
+			<MidFront_DeckHouse>3.8 3.8</MidFront_DeckHouse>
+			<MidBack_DeckHouse>3.8 3.8</MidBack_DeckHouse>
+			<Stern_DeckHouse>3.8 3.8</Stern_DeckHouse>
+			<Gun>0.6 0.6</Gun>
+			<Bulge>3.8 3.8</Bulge>
+        </UV>
+        <Textures>
+                <Tile>content/gameplay/common/camouflage/textures/transparent.dds</Tile>
+        </Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+    </camouflage>
+	<camouflage>
+		<annotation>Блок тайленого камуфляжа для супер тестеров крейсера Дрезден</annotation>
+        <name>camo_supertest_tile</name>
+		<targetShip>PGSC002_Drezden_1908</targetShip>
+        <tiled>true</tiled>
+        <UV>
+            <Tile>3.8 3</Tile>
+			<Gun>0.45 0.45</Gun>
+        </UV>
+        <Textures>
+                <Tile>content/gameplay/common/camouflage/textures/transparent.dds</Tile>
+        </Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+    </camouflage>
+	<camouflage>
+		<annotation>Блок тайленого камуфляжа для супер тестеров крейсера Йорк</annotation>
+        <name>camo_supertest_tile</name>
+		<targetShip>PGSC107_Yorck</targetShip>
+        <tiled>true</tiled>
+        <UV>
+            <Tile>3.8 3.8</Tile>
+			<Bow_DeckHouse>1.9 1.9</Bow_DeckHouse>
+			<MidFront_DeckHouse>1.9 1.9</MidFront_DeckHouse>
+			<MidBack_DeckHouse>1.9 1.9</MidBack_DeckHouse>
+			<Stern_DeckHouse>1.9 1.9</Stern_DeckHouse>
+			<Gun>0.47 0.47</Gun>
+			<Bulge>1.9 1.9</Bulge>
+        </UV>
+        <Textures>
+                <Tile>content/gameplay/common/camouflage/textures/transparent.dds</Tile>
+        </Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+    </camouflage>
+	<camouflage>
+		<annotation>Блок тайленого камуфляжа для супер тестеров эсминца Изяслав</annotation>
+        <name>camo_supertest_tile</name>
+		<targetShip>PRSD104_Izyaslav</targetShip>
+        <tiled>true</tiled>
+        <UV>
+            <Tile>2.7 2.7</Tile>
+			<Gun>0.6 0.6</Gun>
+        </UV>
+        <Textures>
+                <Tile>content/gameplay/common/camouflage/textures/transparent.dds</Tile>
+        </Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+    </camouflage>
+	<camouflage>
+		<annotation>Блок тайленого камуфляжа для супер тестеров линкора Аризона</annotation>
+        <name>camo_supertest_tile</name>
+        <targetShip>PASB506_Arizona_1941</targetShip>
+        <tiled>true</tiled>
+        <UV>
+			<Tile>3.8 3.8</Tile>
+			<Bow_DeckHouse>3.8 1.9</Bow_DeckHouse>
+			<MidFront_DeckHouse>3.8 1.9</MidFront_DeckHouse>
+			<MidBack_DeckHouse>3.8 1.9</MidBack_DeckHouse>
+			<Stern_DeckHouse>3.8 1.9</Stern_DeckHouse>
+			<Gun>0.6 0.6</Gun>
+			<Bulge>1.5 1.5</Bulge>
+        </UV>
+        <Textures>
+            <Tile>content/gameplay/common/camouflage/textures/transparent.dds</Tile>
+        </Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+	</camouflage>
+<!--//Event camouflage-->
+	<!--//Halloween tile camouflage-->
+	<camouflage>
+		<annotation>Блок тайленого камуфляжа для хэлоуина на корабли с квадратной текстурой</annotation>
+        <name>camo_halloween_tile</name>
+        <tiled>true</tiled>
+        <UV>
+            <Tile>3.8 3.8</Tile>
+			<Bow_DeckHouse>1.9 1.9</Bow_DeckHouse>
+			<MidFront_DeckHouse>1.9 1.9</MidFront_DeckHouse>
+			<MidBack_DeckHouse>1.9 1.9</MidBack_DeckHouse>
+			<Stern_DeckHouse>1.9 1.9</Stern_DeckHouse>
+			<Gun>0.6 0.6</Gun>
+			<Bulge>1.9 1.9</Bulge>
+        </UV>
+        <Textures>
+                <Tile>content/gameplay/common/camouflage/textures/transparent.dds</Tile>
+        </Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+    </camouflage>
+	<camouflage>
+		<annotation>Блок тайленого камуфляжа для хэлоуина на корабли с прямоугольной текстурой</annotation>
+        <name>camo_halloween_tile</name>
+		<targetShip>PJSC035_Chikuma_1912 PJSC015_Tatsuta_1919 PJSC026_Iwaki_1944 PRSD001_Gremyashchy_1942 PRSD105_Pr_7_Gnevny PRSD106_Pr_30_Ognevoy PRSD107_Pr_35_Udaloy PRSD108_Pr_20i_Tashkent PRSD109_Pr_48_Kiev PRSD110_Pr_24_Khabarovsk PGSC001_Hermelin_1940 PGSC103_Kolberg PGSC104_Karlsruhe PWSD501_Blyskawica PZSD506_Anshan</targetShip>
+        <tiled>true</tiled>
+        <UV>
+            <Tile>3.8 3</Tile>
+			<Bow_DeckHouse>1.9 1.4</Bow_DeckHouse>
+			<MidFront_DeckHouse>1.9 1.4</MidFront_DeckHouse>
+			<MidBack_DeckHouse>1.9 1.4</MidBack_DeckHouse>
+			<Stern_DeckHouse>1.9 1.4</Stern_DeckHouse>
+			<Gun>0.6 0.6</Gun>
+			<Bulge>1.9 1.9</Bulge>
+        </UV>
+        <Textures>
+                <Tile>content/gameplay/common/camouflage/textures/transparent.dds</Tile>
+        </Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+    </camouflage>
+	<camouflage>
+		<annotation>Блок тайленого камуфляжа для хэлоуина эсминца Сторожевой</annotation>
+        <name>camo_halloween_tile</name>
+		<targetShip>PRSD102_SM_Storojevoy</targetShip>
+        <tiled>true</tiled>
+        <UV>
+            <Tile>3.8 1.9</Tile>
+			<Bow_DeckHouse>1.9 1.9</Bow_DeckHouse>
+			<MidFront_DeckHouse>1.9 1.9</MidFront_DeckHouse>
+			<MidBack_DeckHouse>1.9 1.9</MidBack_DeckHouse>
+			<Stern_DeckHouse>1.9 1.9</Stern_DeckHouse>
+			<Gun>0.6 0.6</Gun>
+			<Bulge>1.9 1.9</Bulge>
+        </UV>
+        <Textures>
+                <Tile>content/gameplay/common/camouflage/textures/transparent.dds</Tile>
+        </Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+    </camouflage>
+	<camouflage>
+		<annotation>Блок тайленого камуфляжа для хэлоуина авианосца Мидвэй</annotation>
+        <name>camo_halloween_tile</name>
+		<targetShip>PASA015_Midway_1945</targetShip>
+        <tiled>true</tiled>
+        <UV>
+            <Tile>3.8 3.8</Tile>
+			<Bow_DeckHouse>3.8 3.8</Bow_DeckHouse>
+			<MidFront_DeckHouse>3.8 3.8</MidFront_DeckHouse>
+			<MidBack_DeckHouse>3.8 3.8</MidBack_DeckHouse>
+			<Stern_DeckHouse>3.8 3.8</Stern_DeckHouse>
+			<Gun>0.6 0.6</Gun>
+			<Bulge>3.8 3.8</Bulge>
+        </UV>
+        <Textures>
+                <Tile>content/gameplay/common/camouflage/textures/transparent.dds</Tile>
+        </Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+    </camouflage>
+	<camouflage>
+		<annotation>Блок тайленого камуфляжа для хэлоуина фикс проблем с камуфляжем на орудиях Дрездена</annotation>
+        <name>camo_halloween_tile</name>
+		<targetShip>PGSC002_Drezden_1908</targetShip>
+        <tiled>true</tiled>
+        <UV>
+            <Tile>3.8 3</Tile>
+			<Gun>0.45 0.45</Gun>
+        </UV>
+        <Textures>
+                <Tile>content/gameplay/common/camouflage/textures/transparent.dds</Tile>
+        </Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+    </camouflage>
+	<camouflage>
+		<annotation>Блок тайленого камуфляжа для хэлоуина на корабли с квадратной текстурой Йорк</annotation>
+        <name>camo_halloween_tile</name>
+		<targetShip>PGSC107_Yorck</targetShip>
+        <tiled>true</tiled>
+        <UV>
+            <Tile>3.8 3.8</Tile>
+			<Bow_DeckHouse>1.9 1.9</Bow_DeckHouse>
+			<MidFront_DeckHouse>1.9 1.9</MidFront_DeckHouse>
+			<MidBack_DeckHouse>1.9 1.9</MidBack_DeckHouse>
+			<Stern_DeckHouse>1.9 1.9</Stern_DeckHouse>
+			<Gun>0.47 0.47</Gun>
+			<Bulge>1.9 1.9</Bulge>
+        </UV>
+        <Textures>
+                <Tile>content/gameplay/common/camouflage/textures/transparent.dds</Tile>
+        </Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+    </camouflage>
+	<camouflage>
+		<annotation>Блок тайленого камуфляжа для хэлоуина на корабли с квадратной текстурой Кавачи</annotation>
+        <name>camo_halloween_tile</name>
+		<targetShip>PJSB001_Kawachi_1912</targetShip>
+        <tiled>true</tiled>
+        <UV>
+            <Tile>3.8 3.8</Tile>
+			<Bow_DeckHouse>1.9 1.9</Bow_DeckHouse>
+			<MidFront_DeckHouse>1.9 1.9</MidFront_DeckHouse>
+			<MidBack_DeckHouse>1.9 1.9</MidBack_DeckHouse>
+			<Stern_DeckHouse>1.9 1.9</Stern_DeckHouse>
+			<Gun>0.4 0.4</Gun>
+			<Bulge>1.9 1.9</Bulge>
+        </UV>
+        <Textures>
+                <Tile>content/gameplay/common/camouflage/textures/transparent.dds</Tile>
+        </Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+    </camouflage>
+	<camouflage>
+		<annotation>Блок тайленого камуфляжа для хэлоуина на корабли с квадратной текстурой Могами, Нью-Йорк</annotation>
+        <name>camo_halloween_tile</name>
+		<targetShip>PJSC009_Mogami_1935 PASB006_New_York_1934</targetShip>
+        <tiled>true</tiled>
+        <UV>
+            <Tile>3.8 3.8</Tile>
+			<Bow_DeckHouse>1.9 1.9</Bow_DeckHouse>
+			<MidFront_DeckHouse>1.9 1.9</MidFront_DeckHouse>
+			<MidBack_DeckHouse>1.9 1.9</MidBack_DeckHouse>
+			<Stern_DeckHouse>1.9 1.9</Stern_DeckHouse>
+			<Gun>0.44 0.44</Gun>
+			<Bulge>1.9 1.9</Bulge>
+        </UV>
+        <Textures>
+                <Tile>content/gameplay/common/camouflage/textures/transparent.dds</Tile>
+        </Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+    </camouflage>
+	<camouflage>
+		<annotation>Блок тайленого камуфляжа для хэлоуина на корабли с квадратной текстурой Нью-Мехико</annotation>
+        <name>camo_halloween_tile</name>
+		<targetShip>PASB034_New_Mexico_1941</targetShip>
+        <tiled>true</tiled>
+        <UV>
+            <Tile>3.8 3.8</Tile>
+			<Bow_DeckHouse>1.9 1.9</Bow_DeckHouse>
+			<MidFront_DeckHouse>1.9 1.9</MidFront_DeckHouse>
+			<MidBack_DeckHouse>1.9 1.9</MidBack_DeckHouse>
+			<Stern_DeckHouse>1.9 1.9</Stern_DeckHouse>
+			<Gun>0.4 0.4</Gun>
+			<Bulge>1.9 1.9</Bulge>
+        </UV>
+        <Textures>
+                <Tile>content/gameplay/common/camouflage/textures/transparent.dds</Tile>
+        </Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+    </camouflage>
+	<camouflage>
+		<annotation>Блок тайленого камуфляжа для хэлоуина на корабли с квадратной текстурой Изяслав</annotation>
+        <name>camo_halloween_tile</name>
+		<targetShip>PRSD104_Izyaslav</targetShip>
+        <tiled>true</tiled>
+        <UV>
+            <Tile>2.7 2.7</Tile>
+			<Gun>0.6 0.6</Gun>
+        </UV>
+        <Textures>
+                <Tile>content/gameplay/common/camouflage/textures/transparent.dds</Tile>
+        </Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+    </camouflage>
+	<!--//NewYear tile camouflage-->
+	<camouflage>
+		<annotation>Блок тайленого камуфляжа для Нового года на корабли с квадратной текстурой</annotation>
+        <name>camo_newyear_tile</name>
+        <tiled>true</tiled>
+        <UV>
+            <Tile>3.8 3.8</Tile>
+			<Bow_DeckHouse>1.9 1.9</Bow_DeckHouse>
+			<MidFront_DeckHouse>1.9 1.9</MidFront_DeckHouse>
+			<MidBack_DeckHouse>1.9 1.9</MidBack_DeckHouse>
+			<Stern_DeckHouse>1.9 1.9</Stern_DeckHouse>
+			<Gun>0.6 0.6</Gun>
+			<Bulge>1.9 1.9</Bulge>
+        </UV>
+        <Textures>
+                <Tile>content/gameplay/common/camouflage/textures/transparent.dds</Tile>
+        </Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+    </camouflage>
+	<camouflage>
+		<annotation>Блок тайленого камуфляжа для Нового года на корабли с прямоугольной текстурой</annotation>
+        <name>camo_newyear_tile</name>
+		<targetShip>PJSC035_Chikuma_1912 PJSC015_Tatsuta_1919 PJSC026_Iwaki_1944 PRSD001_Gremyashchy_1942 PRSD105_Pr_7_Gnevny PRSD106_Pr_30_Ognevoy PRSD107_Pr_35_Udaloy PRSD108_Pr_20i_Tashkent PRSD109_Pr_48_Kiev PRSD110_Pr_24_Khabarovsk PGSC001_Hermelin_1940 PGSC103_Kolberg PGSC104_Karlsruhe PWSD501_Blyskawica PGSC502_Emden_1908 PZSD506_Anshan</targetShip>
+        <tiled>true</tiled>
+        <UV>
+            <Tile>3.8 1.8</Tile>
+			<Bow_DeckHouse>1.6 0.8</Bow_DeckHouse>
+			<MidFront_DeckHouse>1.6 0.8</MidFront_DeckHouse>
+			<MidBack_DeckHouse>1.6 0.8</MidBack_DeckHouse>
+			<Stern_DeckHouse>1.6 0.8</Stern_DeckHouse>
+			<Gun>0.6 0.6</Gun>
+			<Bulge>1.9 1.9</Bulge>
+        </UV>
+        <Textures>
+                <Tile>content/gameplay/common/camouflage/textures/transparent.dds</Tile>
+        </Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+    </camouflage>
+	<camouflage>
+		<annotation>Блок тайленого камуфляжа для Нового года эсминца Сторожевой</annotation>
+        <name>camo_newyear_tile</name>
+		<targetShip>PRSD102_SM_Storojevoy</targetShip>
+        <tiled>true</tiled>
+        <UV>
+            <Tile>3.8 1.9</Tile>
+			<Bow_DeckHouse>1.9 1.9</Bow_DeckHouse>
+			<MidFront_DeckHouse>1.9 1.9</MidFront_DeckHouse>
+			<MidBack_DeckHouse>1.9 1.9</MidBack_DeckHouse>
+			<Stern_DeckHouse>1.9 1.9</Stern_DeckHouse>
+			<Gun>0.6 0.6</Gun>
+			<Bulge>1.9 1.9</Bulge>
+        </UV>
+        <Textures>
+                <Tile>content/gameplay/common/camouflage/textures/transparent.dds</Tile>
+        </Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+    </camouflage>
+	<camouflage>
+		<annotation>Блок тайленого камуфляжа для Нового года авианосца Мидвэй</annotation>
+        <name>camo_newyear_tile</name>
+		<targetShip>PASA015_Midway_1945</targetShip>
+        <tiled>true</tiled>
+        <UV>
+            <Tile>3.8 3.8</Tile>
+			<Bow_DeckHouse>3.8 3.8</Bow_DeckHouse>
+			<MidFront_DeckHouse>3.8 3.8</MidFront_DeckHouse>
+			<MidBack_DeckHouse>3.8 3.8</MidBack_DeckHouse>
+			<Stern_DeckHouse>3.8 3.8</Stern_DeckHouse>
+			<Gun>0.6 0.6</Gun>
+			<Bulge>3.8 3.8</Bulge>
+        </UV>
+        <Textures>
+                <Tile>content/gameplay/common/camouflage/textures/transparent.dds</Tile>
+        </Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+    </camouflage>
+	<camouflage>
+		<annotation>Блок тайленого камуфляжа для Нового года фикс проблем с камуфляжем на орудиях Дрездена</annotation>
+        <name>camo_newyear_tile</name>
+		<targetShip>PGSC002_Drezden_1908</targetShip>
+        <tiled>true</tiled>
+        <UV>
+            <Tile>3.8 3</Tile>
+			<Gun>0.45 0.45</Gun>
+        </UV>
+        <Textures>
+                <Tile>content/gameplay/common/camouflage/textures/transparent.dds</Tile>
+        </Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+    </camouflage>
+	<camouflage>
+		<annotation>Блок тайленого камуфляжа для Нового года на корабли с квадратной текстурой Йорк</annotation>
+        <name>camo_newyear_tile</name>
+		<targetShip>PGSC107_Yorck</targetShip>
+        <tiled>true</tiled>
+        <UV>
+            <Tile>3.8 3.8</Tile>
+			<Bow_DeckHouse>1.9 1.9</Bow_DeckHouse>
+			<MidFront_DeckHouse>1.9 1.9</MidFront_DeckHouse>
+			<MidBack_DeckHouse>1.9 1.9</MidBack_DeckHouse>
+			<Stern_DeckHouse>1.9 1.9</Stern_DeckHouse>
+			<Gun>0.47 0.47</Gun>
+			<Bulge>1.9 1.9</Bulge>
+        </UV>
+        <Textures>
+                <Tile>content/gameplay/common/camouflage/textures/transparent.dds</Tile>
+        </Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+    </camouflage>
+	<camouflage>
+		<annotation>Блок тайленого камуфляжа для Нового года на корабли с квадратной текстурой Изяслав</annotation>
+        <name>camo_newyear_tile</name>
+		<targetShip>PRSD104_Izyaslav</targetShip>
+        <tiled>true</tiled>
+        <UV>
+            <Tile>2.7 2.7</Tile>
+			<Gun>0.6 0.6</Gun>
+        </UV>
+        <Textures>
+                <Tile>content/gameplay/common/camouflage/textures/transparent.dds</Tile>
+        </Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+    </camouflage>
+	<camouflage>
+		<annotation>Блок тайленого камуфляжа для Нового года для крейсера Кутузов</annotation>
+        <name>camo_newyear_tile</name>
+		<targetShip>PRSC508_Kutuzov_1952</targetShip>
+        <tiled>true</tiled>
+        <UV>
+            <Tile>3.52 3.8</Tile>
+			<Gun>0.6 0.6</Gun>
+        </UV>
+        <Textures>
+                <Tile>content/gameplay/common/camouflage/textures/transparent.dds</Tile>
+        </Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+    </camouflage>
+	<!--//1st April camouflage-->
+	<camouflage>
+		<annotation>Блок специального камуфляжного окраса для первоапрельского корабля ЯПОНИЯ</annotation>
+		<name>camo_1_april</name>
+		<targetShip>PJSC692_Seal</targetShip>
+		<tiled>false</tiled>
+		<UV>
+			<Tile>1 1</Tile>
+			<Gun>1 1</Gun>
+		</UV>
+		<Textures>
+			<Bow_Hull>content/gameplay/common/camouflage/textures/RSC501_April_camo_01.dds</Bow_Hull>
+			<MidFront_Hull>content/gameplay/common/camouflage/textures/RSC501_April_camo_01.dds</MidFront_Hull>
+			<MidBack_Hull>content/gameplay/common/camouflage/textures/RSC501_April_camo_01.dds</MidBack_Hull>
+			<Stern_Hull>content/gameplay/common/camouflage/textures/RSC501_April_camo_01.dds</Stern_Hull>
+			<Gun>content/gameplay/common/camouflage/textures/B_gun_camo_01.dds</Gun>
+		</Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+	</camouflage>
+	<camouflage>
+		<annotation>Блок специального камуфляжного окраса для первоапрельского корабля США</annotation>
+		<name>camo_1_april</name>
+		<targetShip>PASC692_Seal</targetShip>
+		<tiled>false</tiled>
+		<UV>
+			<Tile>1 1</Tile>
+			<Gun>1 1</Gun>
+		</UV>
+		<Textures>
+			<Bow_Hull>content/gameplay/common/camouflage/textures/RSC501_April_camo_01.dds</Bow_Hull>
+			<MidFront_Hull>content/gameplay/common/camouflage/textures/RSC501_April_camo_01.dds</MidFront_Hull>
+			<MidBack_Hull>content/gameplay/common/camouflage/textures/RSC501_April_camo_01.dds</MidBack_Hull>
+			<Stern_Hull>content/gameplay/common/camouflage/textures/RSC501_April_camo_01.dds</Stern_Hull>
+			<Gun>content/gameplay/common/camouflage/textures/B_gun_camo_01.dds</Gun>
+		</Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+	</camouflage>
+	<camouflage>
+		<annotation>Блок специального камуфляжного окраса для первоапрельского корабля РОССИЯ</annotation>
+		<name>camo_1_april</name>
+		<targetShip>PRSC692_Seal</targetShip>
+		<tiled>false</tiled>
+		<UV>
+			<Tile>1 1</Tile>
+			<Gun>1 1</Gun>
+		</UV>
+		<Textures>
+			<Bow_Hull>content/gameplay/common/camouflage/textures/RSC501_April_camo_01.dds</Bow_Hull>
+			<MidFront_Hull>content/gameplay/common/camouflage/textures/RSC501_April_camo_01.dds</MidFront_Hull>
+			<MidBack_Hull>content/gameplay/common/camouflage/textures/RSC501_April_camo_01.dds</MidBack_Hull>
+			<Stern_Hull>content/gameplay/common/camouflage/textures/RSC501_April_camo_01.dds</Stern_Hull>
+			<Gun>content/gameplay/common/camouflage/textures/B_gun_camo_01.dds</Gun>
+		</Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+	</camouflage>
+	<camouflage>
+		<annotation>Блок специального камуфляжного окраса для первоапрельского корабля ГЕРМАНИЯ</annotation>
+		<name>camo_1_april</name>
+		<targetShip>PGSC692_Seal</targetShip>
+		<tiled>false</tiled>
+		<UV>
+			<Tile>1 1</Tile>
+			<Gun>1 1</Gun>
+		</UV>
+		<Textures>
+			<Bow_Hull>content/gameplay/common/camouflage/textures/RSC501_April_camo_01.dds</Bow_Hull>
+			<MidFront_Hull>content/gameplay/common/camouflage/textures/RSC501_April_camo_01.dds</MidFront_Hull>
+			<MidBack_Hull>content/gameplay/common/camouflage/textures/RSC501_April_camo_01.dds</MidBack_Hull>
+			<Stern_Hull>content/gameplay/common/camouflage/textures/RSC501_April_camo_01.dds</Stern_Hull>
+			<Gun>content/gameplay/common/camouflage/textures/B_gun_camo_01.dds</Gun>
+		</Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+	</camouflage>
+<!--//Unique camouflage and colors block-->
+	<!--//Japanese premium ships camouflage-->
+	<camouflage>
+		<annotation>Блок уникального дефолтного камуфляжа для эсминца Тачибана</annotation>
+		<name>camo_permanent_1</name>
+		<targetShip>PJSD001_Tachibana_1912</targetShip>
+		<tiled>false</tiled>
+		<UV>
+			<Tile>1 1</Tile>
+		</UV>
+		<Textures>
+			<Bow_Hull>content/gameplay/common/camouflage/textures/JSD001_Tachibana_1912_camo_01.dds</Bow_Hull>
+			<MidFront_Hull>content/gameplay/common/camouflage/textures/JSD001_Tachibana_1912_camo_01.dds</MidFront_Hull>
+			<MidBack_Hull>content/gameplay/common/camouflage/textures/JSD001_Tachibana_1912_camo_01.dds</MidBack_Hull>
+			<Stern_Hull>content/gameplay/common/camouflage/textures/JSD001_Tachibana_1912_camo_01.dds</Stern_Hull>
+		</Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+	</camouflage>
+	<camouflage>
+		<annotation>Блок уникального дефолтного камуфляжа для подарочного японского эсминца Тачибана ASUS</annotation>
+		<name>camo_permanent_1</name>
+		<targetShip>PJSD014_Tachibana_1912_Asus</targetShip>
+		<tiled>false</tiled>
+		<UV>
+			<Tile>1 1</Tile>
+		</UV>
+		<Textures>
+			<Bow_Hull>content/gameplay/common/camouflage/textures/JSD014_Tachibana_1912_Asus_camo_01.dds</Bow_Hull>
+			<MidFront_Hull>content/gameplay/common/camouflage/textures/JSD014_Tachibana_1912_Asus_camo_01.dds</MidFront_Hull>
+			<MidBack_Hull>content/gameplay/common/camouflage/textures/JSD014_Tachibana_1912_Asus_camo_01.dds</MidBack_Hull>
+			<Stern_Hull>content/gameplay/common/camouflage/textures/JSD014_Tachibana_1912_Asus_camo_01.dds</Stern_Hull>
+		</Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+	</camouflage>
+	<camouflage>
+		<annotation>Блок уникального дефолтного камуфляжа для крейсера Иваки Альфа</annotation>
+		<name>camo_permanent_1</name>
+		<targetShip>PJSC026_Iwaki_1944</targetShip>
+		<tiled>false</tiled>
+		<UV>
+			<Tile>1 1</Tile>
+			<Gun>0.4 0.4</Gun>
+		</UV>
+		<Textures>
+			<Bow_Hull>content/gameplay/common/camouflage/textures/JSC026_Iwaki_1944_camo_01.dds</Bow_Hull>
+			<MidFront_Hull>content/gameplay/common/camouflage/textures/JSC026_Iwaki_1944_camo_01.dds</MidFront_Hull>
+			<MidBack_Hull>content/gameplay/common/camouflage/textures/JSC026_Iwaki_1944_camo_01.dds</MidBack_Hull>
+			<Stern_Hull>content/gameplay/common/camouflage/textures/JSC026_Iwaki_1944_camo_01.dds</Stern_Hull>
+			<Gun>content/gameplay/common/camouflage/textures/IJN_tile_camo_01.dds</Gun>
+		</Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+	</camouflage>
+	<camouflage>
+		<annotation>Блок уникального дефолтного камуфляжа для японского крейсера Атаго</annotation>
+		<name>camo_permanent_1</name>
+		<targetShip>PJSC038_Atago_1944</targetShip>
+		<tiled>false</tiled>
+		<UV>
+			<Tile>1 1</Tile>
+			<Gun>0.3 0.7</Gun>
+		</UV>
+		<Textures>
+			<Bow_Hull>content/gameplay/common/camouflage/textures/JSC038_Atago_1944_Hull_camo_01.dds</Bow_Hull>
+			<Bow_DeckHouse>content/gameplay/common/camouflage/textures/JSC038_Atago_1944_Deck_house_camo_01.dds</Bow_DeckHouse>
+			<MidFront_Hull>content/gameplay/common/camouflage/textures/JSC038_Atago_1944_Hull_camo_01.dds</MidFront_Hull>
+			<MidFront_DeckHouse>content/gameplay/common/camouflage/textures/JSC038_Atago_1944_Deck_house_camo_01.dds</MidFront_DeckHouse>
+			<MidBack_Hull>content/gameplay/common/camouflage/textures/JSC038_Atago_1944_Hull_camo_01.dds</MidBack_Hull>
+			<MidBack_DeckHouse>content/gameplay/common/camouflage/textures/JSC038_Atago_1944_Deck_house_camo_01.dds</MidBack_DeckHouse>
+			<Stern_Hull>content/gameplay/common/camouflage/textures/JSC038_Atago_1944_Hull_camo_01.dds</Stern_Hull>
+			<Stern_DeckHouse>content/gameplay/common/camouflage/textures/JSC038_Atago_1944_Deck_house_camo_01.dds</Stern_DeckHouse>
+			<Gun>content/gameplay/common/camouflage/textures/IJN_tile_camo_02.dds</Gun>
+		</Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+	</camouflage>
+	<camouflage>
+		<annotation>Блок уникального дефолтного камуфляжа для японского крейсера Юбари</annotation>
+		<name>camo_permanent_1</name>
+		<targetShip>PJSC004_Yubari_1944</targetShip>
+		<tiled>false</tiled>
+		<UV>
+			<Tile>1 1</Tile>
+			<Gun>0.5 0.5</Gun>
+		</UV>
+		<Textures>
+			<Bow_Hull>content/gameplay/common/camouflage/textures/JSC004_Yubari_1944_camo_01.dds</Bow_Hull>
+			<MidFront_Hull>content/gameplay/common/camouflage/textures/JSC004_Yubari_1944_camo_01.dds</MidFront_Hull>
+			<MidBack_Hull>content/gameplay/common/camouflage/textures/JSC004_Yubari_1944_camo_01.dds</MidBack_Hull>
+			<Stern_Hull>content/gameplay/common/camouflage/textures/JSC004_Yubari_1944_camo_01.dds</Stern_Hull>
+			<Gun>content/gameplay/common/camouflage/textures/IJN_tile_camo_02.dds</Gun>
+		</Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+	</camouflage>
+	<camouflage>
+		<annotation>Блок уникального дефолтного камуфляжа для японского линкора Исидзуси</annotation>
+		<name>camo_permanent_1</name>
+		<targetShip>PJSB008_Ishizuchi_1921</targetShip>
+		<tiled>false</tiled>
+		<UV>
+			<Tile>1 1</Tile>
+			<Gun>1 1</Gun>
+		</UV>
+		<Textures>
+			<Bow_Hull>content/gameplay/common/camouflage/textures/JSB008_Ishizuchi_1921_camo_01.dds</Bow_Hull>
+			<MidFront_Hull>content/gameplay/common/camouflage/textures/JSB008_Ishizuchi_1921_camo_01.dds</MidFront_Hull>
+			<MidBack_Hull>content/gameplay/common/camouflage/textures/JSB008_Ishizuchi_1921_camo_01.dds</MidBack_Hull>
+			<Stern_Hull>content/gameplay/common/camouflage/textures/JSB008_Ishizuchi_1921_camo_01.dds</Stern_Hull>
+			<Gun>content/gameplay/common/camouflage/textures/Black_gun_camo_01.dds</Gun>
+		</Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+	</camouflage>
+	<camouflage>
+		<annotation>Блок уникального дефолтного камуфляжа для японского крейсера Тоне</annotation>
+		<name>camo_permanent_1</name>
+		<targetShip>PJSC018_Tone</targetShip>
+		<tiled>false</tiled>
+		<UV>
+			<Tile>1 1</Tile>
+			<Gun>0.78 0.35</Gun>
+		</UV>
+		<Textures>
+			<Bow_Hull>content/gameplay/common/camouflage/textures/JSC018_Tone_1944_camo_01.dds</Bow_Hull>
+			<MidFront_Hull>content/gameplay/common/camouflage/textures/JSC018_Tone_1944_camo_01.dds</MidFront_Hull>
+			<MidBack_Hull>content/gameplay/common/camouflage/textures/JSC018_Tone_1944_camo_01.dds</MidBack_Hull>
+			<Stern_Hull>content/gameplay/common/camouflage/textures/JSC018_Tone_1944_camo_01.dds</Stern_Hull>
+			<Gun>content/gameplay/common/camouflage/textures/IJN_tile_camo_02.dds</Gun>
+		</Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+	</camouflage>
+	<camouflage>
+		<annotation>Блок уникального дефолтного камуфляжа для линкора Микаса</annotation>
+		<name>camo_permanent_1</name>
+		<targetShip>PJSB011_Mikasa_1905</targetShip>
+		<tiled>false</tiled>
+		<UV>
+			<Tile>1 1</Tile>
+			<Gun>1 1</Gun>
+		</UV>
+		<Textures>
+			<Bow_Hull>content/gameplay/common/camouflage/textures/JSB011_Mikasa_1905_camo_01.dds</Bow_Hull>
+			<MidFront_Hull>content/gameplay/common/camouflage/textures/JSB011_Mikasa_1905_camo_01.dds</MidFront_Hull>
+			<MidBack_Hull>content/gameplay/common/camouflage/textures/JSB011_Mikasa_1905_camo_01.dds</MidBack_Hull>
+			<Stern_Hull>content/gameplay/common/camouflage/textures/JSB011_Mikasa_1905_camo_01.dds</Stern_Hull>
+			<Gun>content/gameplay/common/camouflage/textures/G_gun_camo_01.dds</Gun>
+		</Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+	</camouflage>
+	<camouflage>
+		<annotation>Блок уникального дефолтного камуфляжа для японского крейсера Китаками</annotation>
+		<name>camo_permanent_1</name>
+		<targetShip>PJSC014_Kitakami_1945</targetShip>
+		<tiled>false</tiled>
+		<UV>
+			<Tile>1 1</Tile>
+			<Gun>0.6 0.6</Gun>
+		</UV>
+		<Textures>
+			<Bow_Hull>content/gameplay/common/camouflage/textures/JSC014_Kitakami_1945_camo_01.dds</Bow_Hull>
+			<MidFront_Hull>content/gameplay/common/camouflage/textures/JSC014_Kitakami_1945_camo_01.dds</MidFront_Hull>
+			<MidBack_Hull>content/gameplay/common/camouflage/textures/JSC014_Kitakami_1945_camo_01.dds</MidBack_Hull>
+			<Stern_Hull>content/gameplay/common/camouflage/textures/JSC014_Kitakami_1945_camo_01.dds</Stern_Hull>
+			<Gun>content/gameplay/common/camouflage/textures/G_gun_camo_01.dds</Gun>
+		</Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+	</camouflage>
+	<camouflage>
+		<annotation>Блок уникального дефолтного камуфляжа для акционного хэлоуинского эсминца Камикадзе</annotation>
+        <name>camo_permanent_1</name>
+        <targetShip>PJSD017_Kamikaze_1930</targetShip>
+        <tiled>false</tiled>
+        <UV>
+			<Tile>1 1</Tile>
+			<Gun>0.5 0.5</Gun>
+        </UV>
+        <Textures>
+		    <Bow_Hull>content/gameplay/common/camouflage/textures/JSD017_Kamikaze_1930_camo_01.dds</Bow_Hull>
+            <MidFront_Hull>content/gameplay/common/camouflage/textures/JSD017_Kamikaze_1930_camo_01.dds</MidFront_Hull>
+            <MidBack_Hull>content/gameplay/common/camouflage/textures/JSD017_Kamikaze_1930_camo_01.dds</MidBack_Hull>
+            <Stern_Hull>content/gameplay/common/camouflage/textures/JSD017_Kamikaze_1930_camo_01.dds</Stern_Hull>
+			<Gun>content/gameplay/common/camouflage/textures/IJN_tile_camo_02.dds</Gun>
+        </Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+    </camouflage>
+	<camouflage>
+		<annotation>Блок уникального дефолтного камуфляжа для японского эсминца Камикадзе</annotation>
+		<name>camo_permanent_1</name>
+		<targetShip>PJSD025_True_Kamikaze</targetShip>
+		<tiled>false</tiled>
+		<UV>
+			<Tile>1 1</Tile>
+			<Gun>0.5 0.5</Gun>
+		</UV>
+		<Textures>
+			<Bow_Hull>content/gameplay/common/camouflage/textures/JSD017_Kamikaze_1930_camo_02.dds</Bow_Hull>
+			<MidFront_Hull>content/gameplay/common/camouflage/textures/JSD017_Kamikaze_1930_camo_02.dds</MidFront_Hull>
+			<MidBack_Hull>content/gameplay/common/camouflage/textures/JSD017_Kamikaze_1930_camo_02.dds</MidBack_Hull>
+			<Stern_Hull>content/gameplay/common/camouflage/textures/JSD017_Kamikaze_1930_camo_02.dds</Stern_Hull>
+			<Gun>content/gameplay/common/camouflage/textures/IJN_tile_camo_02.dds</Gun>
+		</Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+	</camouflage>
+	<camouflage>
+		<annotation>Блок уникального акционного камуфляжа азиатского ивента для эсминца Камикадзе</annotation>
+        <name>camo_permanent_1</name>
+        <targetShip>PJSD026_Camo_Kamikaze</targetShip>
+        <tiled>false</tiled>
+        <UV>
+			<Tile>1 1</Tile>
+			<Gun>0.5 0.5</Gun>
+        </UV>
+        <Textures>
+		    <Bow_Hull>content/gameplay/common/camouflage/textures/JSD017_Kamikaze_1930_camo_03.dds</Bow_Hull>
+            <MidFront_Hull>content/gameplay/common/camouflage/textures/JSD017_Kamikaze_1930_camo_03.dds</MidFront_Hull>
+            <MidBack_Hull>content/gameplay/common/camouflage/textures/JSD017_Kamikaze_1930_camo_03.dds</MidBack_Hull>
+            <Stern_Hull>content/gameplay/common/camouflage/textures/JSD017_Kamikaze_1930_camo_03.dds</Stern_Hull>
+			<Gun>content/gameplay/common/camouflage/textures/IJN_tile_camo_02.dds</Gun>
+        </Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+    </camouflage>
+	<camouflage>
+		<annotation>Блок уникального дефолтного камуфляжа для японского крейсера Катори</annotation>
+		<name>camo_permanent_1</name>
+		<targetShip>PJSC503_Katori</targetShip>
+		<tiled>false</tiled>
+		<UV>
+			<Tile>1 1</Tile>
+			<Gun>0.50 0.50	</Gun>
+		</UV>
+		<Textures>
+			<Bow_Hull>content/gameplay/common/camouflage/textures/JSC001_Katori_1940_camo_01.dds</Bow_Hull>
+			<MidFront_Hull>content/gameplay/common/camouflage/textures/JSC001_Katori_1940_camo_01.dds</MidFront_Hull>
+			<MidBack_Hull>content/gameplay/common/camouflage/textures/JSC001_Katori_1940_camo_01.dds</MidBack_Hull>
+			<Stern_Hull>content/gameplay/common/camouflage/textures/JSC001_Katori_1940_camo_01.dds</Stern_Hull>
+			<Gun>content/gameplay/common/camouflage/textures/IJN_tile_camo_02.dds</Gun>
+		</Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+	</camouflage>
+	<!--//Japanese tech tree ships camouflage-->
+	<camouflage>
+		<annotation>Блок новогоднего пермофляжа для японского эсминца Минеказе</annotation>
+		<name>camo_new_year_1</name>
+		<targetShip>PJSD004_Minekadze_1920</targetShip>
+		<tiled>false</tiled>
+		<UV>
+			<Tile>1 1</Tile>
+			<Gun>0.7 0.4</Gun>
+		</UV>
+		<Textures>
+			<Bow_Hull>content/gameplay/common/camouflage/textures/JSD004_Minekadze_1920_camo_01.dds</Bow_Hull>
+			<MidFront_Hull>content/gameplay/common/camouflage/textures/JSD004_Minekadze_1920_camo_01.dds</MidFront_Hull>
+			<MidBack_Hull>content/gameplay/common/camouflage/textures/JSD004_Minekadze_1920_camo_01.dds</MidBack_Hull>
+			<Stern_Hull>content/gameplay/common/camouflage/textures/JSD004_Minekadze_1920_camo_01.dds</Stern_Hull>
+			<Gun>content/gameplay/common/camouflage/textures/IJN_tile_camo_02.dds</Gun>
+		</Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+	</camouflage>
+	<camouflage>
+		<annotation>Блок пермофляжа для японского эсминца 8 уровня тип Фубуки</annotation>
+		<name>camo_permanent_1</name>
+		<targetShip>PJSD007_Fubuki_1944</targetShip>
+		<tiled>false</tiled>
+		<UV>
+			<Tile>1 1</Tile>
+			<Gun>0.55 0.55</Gun>
+		</UV>
+		<Textures>
+			<Bow_Hull>content/gameplay/common/camouflage/textures/JSD007_Fubuki_1944_camo_01.dds</Bow_Hull>
+			<MidFront_Hull>content/gameplay/common/camouflage/textures/JSD007_Fubuki_1944_camo_01.dds</MidFront_Hull>
+			<MidBack_Hull>content/gameplay/common/camouflage/textures/JSD007_Fubuki_1944_camo_01.dds</MidBack_Hull>
+			<Stern_Hull>content/gameplay/common/camouflage/textures/JSD007_Fubuki_1944_camo_01.dds</Stern_Hull>
+			<Gun>content/gameplay/common/camouflage/textures/IJN_tile_camo_02.dds</Gun>
+		</Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+	</camouflage>
+	<camouflage>
+		<annotation>Блок пермофляжа для японского авианосца 8 уровня тип Сёкаку</annotation>
+		<name>camo_permanent_1</name>
+		<targetShip>PJSA012_Zuikaku_1944</targetShip>
+		<tiled>false</tiled>
+		<UV>
+			<Tile>1 1</Tile>
+			<Gun>1 1</Gun>
+		</UV>
+		<Textures>
+			<Bow_Hull>content/gameplay/common/camouflage/textures/JSA012_Zuikaku_1944_Hull_camo_01.dds</Bow_Hull>
+			<MidFront_Hull>content/gameplay/common/camouflage/textures/JSA012_Zuikaku_1944_Hull_camo_01.dds</MidFront_Hull>
+			<MidFront_DeckHouse>content/gameplay/common/camouflage/textures/Black_gun_camo_01.dds</MidFront_DeckHouse>
+			<MidBack_Hull>content/gameplay/common/camouflage/textures/JSA012_Zuikaku_1944_Hull_camo_01.dds</MidBack_Hull>
+			<Stern_Hull>content/gameplay/common/camouflage/textures/JSA012_Zuikaku_1944_Hull_camo_01.dds</Stern_Hull>
+			<Gun>content/gameplay/common/camouflage/textures/R_gun_camo_01.dds</Gun>
+		</Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+	</camouflage>
+	<camouflage>
+		<annotation>Блок пермофляжа для японского линкора 9 уровня Идзумо</annotation>
+		<name>camo_permanent_1</name>
+		<targetShip>PJSB021_Izumo_1938</targetShip>
+		<tiled>false</tiled>
+		<UV>
+			<Tile>1 1</Tile>
+			<Gun>1 1</Gun>
+		</UV>
+		<Textures>
+			<Bow_Hull>content/gameplay/common/camouflage/textures/JSB021_Izumo_1938_camo_01.dds</Bow_Hull>
+			<MidFront_Hull>content/gameplay/common/camouflage/textures/JSB021_Izumo_1938_camo_01.dds</MidFront_Hull>
+			<MidBack_Hull>content/gameplay/common/camouflage/textures/JSB021_Izumo_1938_camo_01.dds</MidBack_Hull>
+			<Stern_Hull>content/gameplay/common/camouflage/textures/JSB021_Izumo_1938_camo_01.dds</Stern_Hull>
+			<Gun>content/gameplay/common/camouflage/textures/Black_gun_camo_01.dds</Gun>
+		</Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+	</camouflage>
+	<camouflage>
+		<annotation>Блок пермофляжа для японского крейсера 8 уровня Могами</annotation>
+		<name>camo_permanent_1</name>
+		<targetShip>PJSC009_Mogami_1935</targetShip>
+		<tiled>false</tiled>
+		<UV>
+			<Tile>1 1</Tile>
+			<Gun>0.55 0.55</Gun>
+		</UV>
+		<Textures>
+			<Bow_Hull>content/gameplay/common/camouflage/textures/JSC010_Mogami_1944_Hull_camo_01.dds</Bow_Hull>
+			<MidFront_Hull>content/gameplay/common/camouflage/textures/JSC010_Mogami_1944_Hull_camo_01.dds</MidFront_Hull>
+			<MidFront_DeckHouse>content/gameplay/common/camouflage/textures/JSC010_Mogami_1944_Deck_House_camo_01.dds</MidFront_DeckHouse>
+			<MidBack_Hull>content/gameplay/common/camouflage/textures/JSC010_Mogami_1944_Hull_camo_01.dds</MidBack_Hull>
+			<MidBack_DeckHouse>content/gameplay/common/camouflage/textures/JSC010_Mogami_1944_Deck_House_camo_01.dds</MidBack_DeckHouse>
+			<Stern_Hull>content/gameplay/common/camouflage/textures/JSC010_Mogami_1944_Hull_camo_01.dds</Stern_Hull>
+			<Bulge>content/gameplay/common/camouflage/textures/JSC010_Mogami_1944_Bulge_camo_01.dds</Bulge>
+			<Gun>content/gameplay/common/camouflage/textures/IJN_tile_camo_02.dds</Gun>
+		</Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+	</camouflage>
+	<!--//American premium ships camouflage-->
+	<camouflage>
+		<annotation>Блок уникального дефолтного камуфляжа для американского крейсера Марблхед</annotation>
+		<name>camo_permanent_1</name>
+		<targetShip>PASC044_Marblehead_1924</targetShip>
+		<tiled>false</tiled>
+		<UV>
+			<Tile>1 1</Tile>
+			<Gun>0.3 0.3</Gun>
+		</UV>
+		<Textures>
+			<Bow_Hull>content/gameplay/common/camouflage/textures/ASC044_Marblehead_1924_camo_01.dds</Bow_Hull>
+			<MidFront_Hull>content/gameplay/common/camouflage/textures/ASC044_Marblehead_1924_camo_01.dds</MidFront_Hull>
+			<MidBack_Hull>content/gameplay/common/camouflage/textures/ASC044_Marblehead_1924_camo_01.dds</MidBack_Hull>
+			<Stern_Hull>content/gameplay/common/camouflage/textures/ASC044_Marblehead_1924_camo_01.dds</Stern_Hull>
+			<Gun>content/gameplay/common/camouflage/textures/IJN_tile_camo_02.dds</Gun>
+		</Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+	</camouflage>
+	<camouflage>
+		<annotation>Блок уникального дефолтного камуфляжа для подарочного американского крейсера Марблхед ASUS</annotation>
+		<name>camo_permanent_1</name>
+		<targetShip>PASC045_Marblehead_1924_Asus</targetShip>
+		<tiled>false</tiled>
+		<UV>
+			<Tile>1 1</Tile>
+			<Gun>0.3 0.3</Gun>
+		</UV>
+		<Textures>
+			<Bow_Hull>content/gameplay/common/camouflage/textures/ASC045_Marblehead_1924_Asus_camo_01.dds</Bow_Hull>
+			<MidFront_Hull>content/gameplay/common/camouflage/textures/ASC045_Marblehead_1924_Asus_camo_01.dds</MidFront_Hull>
+			<MidBack_Hull>content/gameplay/common/camouflage/textures/ASC045_Marblehead_1924_Asus_camo_01.dds</MidBack_Hull>
+			<Stern_Hull>content/gameplay/common/camouflage/textures/ASC045_Marblehead_1924_Asus_camo_01.dds</Stern_Hull>
+			<Gun>content/gameplay/common/camouflage/textures/IJN_tile_camo_02.dds</Gun>
+		</Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+	</camouflage>
+	<camouflage>
+		<annotation>Блок уникального дефолтного камуфляжа для линкора Арканзас</annotation>
+		<name>camo_permanent_1</name>
+		<targetShip>PASB013_Arkansas_1912</targetShip>
+		<tiled>false</tiled>
+		<UV>
+			<Tile>1 1</Tile>
+			<Gun>0.4 0.4</Gun>
+		</UV>
+		<Textures>
+			<Bow_Hull>content/gameplay/common/camouflage/textures/ASB013_Arkansas_1912_camo_01.dds</Bow_Hull>
+			<MidFront_Hull>content/gameplay/common/camouflage/textures/ASB013_Arkansas_1912_camo_01.dds</MidFront_Hull>
+			<MidBack_Hull>content/gameplay/common/camouflage/textures/ASB013_Arkansas_1912_camo_01.dds</MidBack_Hull>
+			<Stern_Hull>content/gameplay/common/camouflage/textures/ASB013_Arkansas_1912_camo_01.dds</Stern_Hull>
+			<Gun>content/gameplay/common/camouflage/textures/IJN_tile_camo_02.dds</Gun>
+		</Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+	</camouflage>
+	<camouflage>
+		<annotation>Блок уникального дефолтного камуфляжа для американского крейсера Албания</annotation>
+		<name>camo_permanent_1</name>
+		<targetShip>PASC003_Albany_1898</targetShip>
+		<tiled>false</tiled>
+		<UV>
+			<Tile>1 1</Tile>
+			<Gun>1 1</Gun>
+		</UV>
+		<Textures>
+			<Bow_Hull>content/gameplay/common/camouflage/textures/Black_gun_camo_01.dds</Bow_Hull>
+			<MidFront_Hull>content/gameplay/common/camouflage/textures/Black_gun_camo_01.dds</MidFront_Hull>
+			<MidBack_Hull>content/gameplay/common/camouflage/textures/Black_gun_camo_01.dds</MidBack_Hull>
+			<Stern_Hull>content/gameplay/common/camouflage/textures/Black_gun_camo_01.dds</Stern_Hull>
+			<Gun>content/gameplay/common/camouflage/textures/R_gun_camo_01.dds</Gun>
+		</Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+	</camouflage>
+	<camouflage>
+		<annotation>Блок уникального дефолтного камуфляжа для американского крейсера Атланта</annotation>
+		<name>camo_permanent_1</name>
+		<targetShip>PASC006_Atlanta_1942</targetShip>
+		<tiled>false</tiled>
+		<UV>
+			<Tile>1 1</Tile>
+			<Gun>0.57 0.57</Gun>
+		</UV>
+		<Textures>
+			<Bow_Hull>content/gameplay/common/camouflage/textures/ASC006_Atlanta_1942_a_camo_01.dds</Bow_Hull>
+			<MidFront_Hull>content/gameplay/common/camouflage/textures/ASC006_Atlanta_1942_a_camo_01.dds</MidFront_Hull>
+			<MidBack_Hull>content/gameplay/common/camouflage/textures/ASC006_Atlanta_1942_a_camo_01.dds</MidBack_Hull>
+			<Stern_Hull>content/gameplay/common/camouflage/textures/ASC006_Atlanta_1942_a_camo_01.dds</Stern_Hull>
+			<Gun>content/gameplay/common/camouflage/textures/Dazzle_tile_camo_01.dds</Gun>
+		</Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+	</camouflage>
+	<camouflage>
+		<annotation>Блок уникального дефолтного камуфляжа для американского эсминца Симс</annotation>
+		<name>camo_permanent_1</name>
+		<targetShip>PASD029_Sims_1941</targetShip>
+		<tiled>false</tiled>
+		<UV>
+			<Tile>1 1</Tile>
+			<Gun>1 1</Gun>
+		</UV>
+		<Textures>
+			<Bow_Hull>content/gameplay/common/camouflage/textures/ASD029_Sims_1941_camo_01.dds</Bow_Hull>
+			<MidFront_Hull>content/gameplay/common/camouflage/textures/ASD029_Sims_1941_camo_01.dds</MidFront_Hull>
+			<MidBack_Hull>content/gameplay/common/camouflage/textures/ASD029_Sims_1941_camo_01.dds</MidBack_Hull>
+			<Stern_Hull>content/gameplay/common/camouflage/textures/ASD029_Sims_1941_camo_01.dds</Stern_Hull>
+			<Gun>content/gameplay/common/camouflage/textures/R_gun_camo_01.dds</Gun>
+		</Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+	</camouflage>
+	<camouflage>
+		<annotation>Блок уникального дефолтного камуфляжа для американского эсминца Смит</annotation>
+		<name>camo_permanent_1</name>
+		<targetShip>PASD502_Smith</targetShip>
+		<tiled>false</tiled>
+		<UV>
+			<Tile>1 1</Tile>
+			<Gun>1 1</Gun>
+		</UV>
+		<Textures>
+			<Bow_Hull>content/gameplay/common/camouflage/textures/ASD022_Smith_1917_camo_01.dds</Bow_Hull>
+			<MidFront_Hull>content/gameplay/common/camouflage/textures/ASD022_Smith_1917_camo_01.dds</MidFront_Hull>
+			<MidBack_Hull>content/gameplay/common/camouflage/textures/ASD022_Smith_1917_camo_01.dds</MidBack_Hull>
+			<Stern_Hull>content/gameplay/common/camouflage/textures/ASD022_Smith_1917_camo_01.dds</Stern_Hull>
+			<Gun>content/gameplay/common/camouflage/textures/Black_gun_camo_01.dds</Gun>
+		</Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+	</camouflage>
+	<camouflage>
+		<annotation>Блок уникального дефолтного камуфляжа для американского линкора Аризона</annotation>
+		<name>camo_permanent_1</name>
+		<targetShip>PASB506_Arizona_1941</targetShip>
+		<tiled>false</tiled>
+		<UV>
+			<Tile>1 1</Tile>
+			<Gun>1 1</Gun>
+		</UV>
+		<Textures>
+			<Bow_Hull>content/gameplay/common/camouflage/textures/Black_gun_camo_01.dds</Bow_Hull>
+			<Bow_DeckHouse>content/gameplay/common/camouflage/textures/ASB035_Arizona_1941_DeckHouse_camo_01.dds</Bow_DeckHouse>
+			<MidFront_Hull>content/gameplay/common/camouflage/textures/Black_gun_camo_01.dds</MidFront_Hull>
+			<MidFront_DeckHouse>content/gameplay/common/camouflage/textures/ASB035_Arizona_1941_DeckHouse_camo_01.dds</MidFront_DeckHouse>
+			<MidBack_Hull>content/gameplay/common/camouflage/textures/Black_gun_camo_01.dds</MidBack_Hull>
+			<MidBack_DeckHouse>content/gameplay/common/camouflage/textures/ASB035_Arizona_1941_DeckHouse_camo_01.dds</MidBack_DeckHouse>
+			<Stern_Hull>content/gameplay/common/camouflage/textures/Black_gun_camo_01.dds</Stern_Hull>
+			<Stern_DeckHouse>content/gameplay/common/camouflage/textures/ASB035_Arizona_1941_DeckHouse_camo_01.dds</Stern_DeckHouse>
+			<Gun>content/gameplay/common/camouflage/textures/Black_gun_camo_01.dds</Gun>
+		</Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+	</camouflage>
+	<camouflage>
+		<annotation>Блок уникального дефолтного камуфляжа для американского авианосца Сайпан</annotation>
+		<name>camo_permanent_1</name>
+		<targetShip>PASA507_Saipan_1946</targetShip>
+		<tiled>false</tiled>
+		<UV>
+			<Tile>1 1</Tile>
+			<Gun>1 1</Gun>
+		</UV>
+		<Textures>
+			<Bow_Hull>content/gameplay/common/camouflage/textures/ASA023_Saipan_1946_Hull_camo_01.dds</Bow_Hull>
+			<Bow_DeckHouse>content/gameplay/common/camouflage/textures/ASA023_Saipan_1946_deckhouse_camo_01.dds</Bow_DeckHouse>
+			<MidFront_Hull>content/gameplay/common/camouflage/textures/ASA023_Saipan_1946_Hull_camo_01.dds</MidFront_Hull>
+			<MidFront_DeckHouse>content/gameplay/common/camouflage/textures/ASA023_Saipan_1946_deckhouse_camo_01.dds</MidFront_DeckHouse>
+			<MidBack_Hull>content/gameplay/common/camouflage/textures/ASA023_Saipan_1946_Hull_camo_01.dds</MidBack_Hull>
+			<MidBack_DeckHouse>content/gameplay/common/camouflage/textures/ASA023_Saipan_1946_deckhouse_camo_01.dds</MidBack_DeckHouse>
+			<Stern_Hull>content/gameplay/common/camouflage/textures/ASA023_Saipan_1946_Hull_camo_01.dds</Stern_Hull>
+			<Stern_DeckHouse>content/gameplay/common/camouflage/textures/ASA023_Saipan_1946_deckhouse_camo_01.dds</Stern_DeckHouse>
+			<Gun>content/gameplay/common/camouflage/textures/Black_gun_camo_01.dds</Gun>
+		</Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+	</camouflage>
+	<!--//American tech tree ships camouflage-->
+	<camouflage>
+		<annotation>Блок новогоднего камуфляжа для американского крейсера Кливленд</annotation>
+		<name>camo_new_year_1</name>
+		<targetShip>PASC007_Cleveland_1945</targetShip>
+		<tiled>false</tiled>
+		<UV>
+			<Tile>1 1</Tile>
+			<Gun>0.78 0.35</Gun>
+		</UV>
+		<Textures>
+			<Bow_Hull>content/gameplay/common/camouflage/textures/ASC007_Cleveland_1945_camo_01.dds</Bow_Hull>
+			<MidFront_Hull>content/gameplay/common/camouflage/textures/ASC007_Cleveland_1945_camo_01.dds</MidFront_Hull>
+			<MidBack_Hull>content/gameplay/common/camouflage/textures/ASC007_Cleveland_1945_camo_01.dds</MidBack_Hull>
+			<Stern_Hull>content/gameplay/common/camouflage/textures/ASC007_Cleveland_1945_camo_01.dds</Stern_Hull>
+			<Gun>content/gameplay/common/camouflage/textures/IJN_tile_camo_02.dds</Gun>
+		</Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+	</camouflage>
+	<camouflage>
+		<annotation>Блок пермофляжа для американского авианосца 8 уровня Лексингтон</annotation>
+		<name>camo_permanent_1</name>
+		<targetShip>PASA012_Lexington_1944</targetShip>
+		<tiled>false</tiled>
+		<UV>
+			<Tile>1 1</Tile>
+			<Gun>0.55 0.55</Gun>
+		</UV>
+		<Textures>
+			<Bow_Hull>content/gameplay/common/camouflage/textures/ASA012_Lexington_1944_hull_camo_01.dds</Bow_Hull>
+			<MidFront_Hull>content/gameplay/common/camouflage/textures/ASA012_Lexington_1944_hull_camo_01.dds</MidFront_Hull>
+			<MidFront_DeckHouse>content/gameplay/common/camouflage/textures/ASA012_Lexington_1944_Deck_House_camo_01.dds</MidFront_DeckHouse>
+			<MidBack_Hull>content/gameplay/common/camouflage/textures/ASA012_Lexington_1944_hull_camo_01.dds</MidBack_Hull>
+			<MidBack_DeckHouse>content/gameplay/common/camouflage/textures/ASA012_Lexington_1944_Deck_House_camo_01.dds</MidBack_DeckHouse>
+			<Stern_Hull>content/gameplay/common/camouflage/textures/ASA012_Lexington_1944_hull_camo_01.dds</Stern_Hull>
+			<Bulge>content/gameplay/common/camouflage/textures/ASA012_Lexington_1944_Bulbous_camo_01.dds</Bulge>
+			<Gun>content/gameplay/common/camouflage/textures/IJN_tile_camo_02.dds</Gun>
+		</Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+	</camouflage>
+	<camouflage>
+		<annotation>Блок пермофляжа для американского эсминца 9 уровня Флетчер</annotation>
+		<name>camo_permanent_1</name>
+		<targetShip>PASD021_Fletcher_1943</targetShip>
+		<tiled>false</tiled>
+		<UV>
+			<Tile>1 1</Tile>
+			<Gun>0.4 0.4</Gun>
+		</UV>
+		<Textures>
+			<Bow_Hull>content/gameplay/common/camouflage/textures/ASD025_LaVallette_1942_camo_01.dds</Bow_Hull>
+			<MidFront_Hull>content/gameplay/common/camouflage/textures/ASD025_LaVallette_1942_camo_01.dds</MidFront_Hull>
+			<MidFront_DeckHouse>content/gameplay/common/camouflage/textures/ASD021_Fletcher_DeckHouse_1943_camo_01.dds</MidFront_DeckHouse>
+			<MidBack_Hull>content/gameplay/common/camouflage/textures/ASD025_LaVallette_1942_camo_01.dds</MidBack_Hull>
+			<MidBack_DeckHouse>content/gameplay/common/camouflage/textures/ASD021_Fletcher_DeckHouse_1943_camo_01.dds</MidBack_DeckHouse>
+			<Stern_Hull>content/gameplay/common/camouflage/textures/ASD025_LaVallette_1942_camo_01.dds</Stern_Hull>
+			<Stern_DeckHouse>content/gameplay/common/camouflage/textures/ASD021_Fletcher_DeckHouse_1943_camo_01.dds</Stern_DeckHouse>
+			<Gun>content/gameplay/common/camouflage/textures/Black_gun_camo_01.dds</Gun>
+		</Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+	</camouflage>
+	<camouflage>
+		<annotation>Блок пермофляжа для американского линкора 9 уровня Айова</annotation>
+		<name>camo_permanent_1</name>
+		<targetShip>PASB018_Iowa_1944</targetShip>
+		<tiled>false</tiled>
+		<UV>
+			<Tile>1 1</Tile>
+			<Gun>0.65 0.45</Gun>
+		</UV>
+		<Textures>
+			<Bow_Hull>content/gameplay/common/camouflage/textures/ASB028_Iowa_1945_camo_01.dds</Bow_Hull>
+			<MidFront_Hull>content/gameplay/common/camouflage/textures/ASB028_Iowa_1945_camo_01.dds</MidFront_Hull>
+			<MidBack_Hull>content/gameplay/common/camouflage/textures/ASB028_Iowa_1945_camo_01.dds</MidBack_Hull>
+			<Stern_Hull>content/gameplay/common/camouflage/textures/ASB028_Iowa_1945_camo_01.dds</Stern_Hull>
+			<Gun>content/gameplay/common/camouflage/textures/Dazzle_tile_camo_03.dds</Gun>
+		</Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+	</camouflage>
+	<camouflage>
+		<annotation>Блок пермофляжа для американского крейсера 8 уровня Новый Орлеан</annotation>
+		<name>camo_permanent_1</name>
+		<targetShip>PASC014_New_Orlean_1944</targetShip>
+		<tiled>false</tiled>
+		<UV>
+			<Tile>1 1</Tile>
+			<Gun>0.55 0.55</Gun>
+		</UV>
+		<Textures>
+			<Bow_Hull>content/gameplay/common/camouflage/textures/ASC014_New_Orlean_1944_camo_01.dds</Bow_Hull>
+			<MidFront_Hull>content/gameplay/common/camouflage/textures/ASC014_New_Orlean_1944_camo_01.dds</MidFront_Hull>
+			<MidBack_Hull>content/gameplay/common/camouflage/textures/ASC014_New_Orlean_1944_camo_01.dds</MidBack_Hull>
+			<Stern_Hull>content/gameplay/common/camouflage/textures/ASC014_New_Orlean_1944_camo_01.dds</Stern_Hull>
+			<Gun>content/gameplay/common/camouflage/textures/Dazzle_tile_camo_03.dds</Gun>
+		</Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+	</camouflage>
+	<!--//German premium ships camouflage-->
+	<camouflage>
+		<annotation>Блок уникального дефолтного камуфляжа для немецкого линкора Тирпиц</annotation>
+		<name>camo_permanent_1</name>
+		<targetShip>PGSB002_Tirpiz_1942</targetShip>
+		<tiled>false</tiled>
+		<UV>
+			<Tile>1 1</Tile>
+			<Gun>1 1</Gun>
+		</UV>
+		<Textures>
+			<Bow_Hull>content/gameplay/common/camouflage/textures/GSB002_Tirpiz_1942_hull_camo_01.dds</Bow_Hull>
+			<Bow_DeckHouse>content/gameplay/common/camouflage/textures/GSB002_Tirpiz_1942_deckHouse_camo_01.dds</Bow_DeckHouse>
+			<MidFront_Hull>content/gameplay/common/camouflage/textures/GSB002_Tirpiz_1942_hull_camo_01.dds</MidFront_Hull>
+			<MidFront_DeckHouse>content/gameplay/common/camouflage/textures/GSB002_Tirpiz_1942_deckHouse_camo_01.dds</MidFront_DeckHouse>
+			<MidBack_Hull>content/gameplay/common/camouflage/textures/GSB002_Tirpiz_1942_hull_camo_01.dds</MidBack_Hull>
+			<MidBack_DeckHouse>content/gameplay/common/camouflage/textures/GSB002_Tirpiz_1942_deckHouse_camo_01.dds</MidBack_DeckHouse>
+			<Stern_Hull>content/gameplay/common/camouflage/textures/GSB002_Tirpiz_1942_hull_camo_01.dds</Stern_Hull>
+			<Stern_DeckHouse>content/gameplay/common/camouflage/textures/GSB002_Tirpiz_1942_deckHouse_camo_01.dds</Stern_DeckHouse>
+			<Gun>content/gameplay/common/camouflage/textures/Black_gun_camo_01.dds</Gun>
+		</Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+	</camouflage>
+	<camouflage>
+		<annotation>Блок уникального дефолтного камуфляжа для немецкого крейсера Эмден</annotation>
+		<name>camo_permanent_1</name>
+		<targetShip>PGSC502_Emden_1908</targetShip>
+		<tiled>false</tiled>
+		<UV>
+			<Tile>1 1</Tile>
+			<Gun>1 1</Gun>
+		</UV>
+		<Textures>
+			<Bow_Hull>content/gameplay/common/camouflage/textures/GSC020_Emden_1908_camo_01.dds</Bow_Hull>
+			<MidFront_Hull>content/gameplay/common/camouflage/textures/GSC020_Emden_1908_camo_01.dds</MidFront_Hull>
+			<MidBack_Hull>content/gameplay/common/camouflage/textures/GSC020_Emden_1908_camo_01.dds</MidBack_Hull>
+			<Stern_Hull>content/gameplay/common/camouflage/textures/GSC020_Emden_1908_camo_01.dds</Stern_Hull>
+			<Gun>content/gameplay/common/camouflage/textures/B_gun_camo_01.dds</Gun>
+		</Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+	</camouflage>
+	<camouflage>
+		<annotation>Блок новогоднего камуфляжа для немецкого крейсера Нюрнберг</annotation>
+		<name>camo_new_year_1</name>
+		<targetShip>PGSC106_Nurnberg</targetShip>
+		<tiled>false</tiled>
+		<UV>
+			<Tile>1 1</Tile>
+			<Gun>0.6 0.6</Gun>
+		</UV>
+		<Textures>
+			<Bow_Hull>content/gameplay/common/camouflage/textures/GSC009_Nurnberg_1935_camo_01.dds</Bow_Hull>
+			<MidFront_Hull>content/gameplay/common/camouflage/textures/GSC009_Nurnberg_1935_camo_01.dds</MidFront_Hull>
+			<MidBack_Hull>content/gameplay/common/camouflage/textures/GSC009_Nurnberg_1935_camo_01.dds</MidBack_Hull>
+			<Stern_Hull>content/gameplay/common/camouflage/textures/GSC009_Nurnberg_1935_camo_01.dds</Stern_Hull>
+			<Gun>content/gameplay/common/camouflage/textures/IJN_tile_camo_02.dds</Gun>
+		</Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+	</camouflage>
+	<!--//German tech tree ships camouflage-->
+	<camouflage>
+		<annotation>Блок новогоднего камуфляжа для немецкого крейсера Нюрнберг</annotation>
+		<name>camo_new_year_1</name>
+		<targetShip>PGSC106_Nurnberg</targetShip>
+		<tiled>false</tiled>
+		<UV>
+			<Tile>1 1</Tile>
+			<Gun>0.6 0.6</Gun>
+		</UV>
+		<Textures>
+			<Bow_Hull>content/gameplay/common/camouflage/textures/GSC009_Nurnberg_1935_camo_01.dds</Bow_Hull>
+			<MidFront_Hull>content/gameplay/common/camouflage/textures/GSC009_Nurnberg_1935_camo_01.dds</MidFront_Hull>
+			<MidBack_Hull>content/gameplay/common/camouflage/textures/GSC009_Nurnberg_1935_camo_01.dds</MidBack_Hull>
+			<Stern_Hull>content/gameplay/common/camouflage/textures/GSC009_Nurnberg_1935_camo_01.dds</Stern_Hull>
+			<Gun>content/gameplay/common/camouflage/textures/IJN_tile_camo_02.dds</Gun>
+		</Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+	</camouflage>
+	<camouflage>
+		<annotation>Блок пермофляжа для немецкого крейсера 8 уровня Адмирал Хиппер</annotation>
+		<name>camo_permanent_1</name>
+		<targetShip>PGSC108_Hipper</targetShip>
+		<tiled>false</tiled>
+		<UV>
+			<Tile>1 1</Tile>
+			<Gun>0.75 0.55</Gun>
+		</UV>
+		<Textures>
+			<Bow_Hull>content/gameplay/common/camouflage/textures/GSC012_Hipper_1939_Hull_camo_01.dds</Bow_Hull>
+			<MidFront_Hull>content/gameplay/common/camouflage/textures/GSC012_Hipper_1939_Hull_camo_01.dds</MidFront_Hull>
+			<MidFront_DeckHouse>content/gameplay/common/camouflage/textures/GSC012_Hipper_1939_DeckHouse_camo_01.dds</MidFront_DeckHouse>
+			<MidBack_Hull>content/gameplay/common/camouflage/textures/GSC012_Hipper_1939_Hull_camo_01.dds</MidBack_Hull>
+			<MidBack_DeckHouse>content/gameplay/common/camouflage/textures/GSC012_Hipper_1939_DeckHouse_camo_01.dds</MidBack_DeckHouse>
+			<Stern_Hull>content/gameplay/common/camouflage/textures/GSC012_Hipper_1939_Hull_camo_01.dds</Stern_Hull>
+			<Gun>content/gameplay/common/camouflage/textures/Dazzle_tile_camo_03.dds</Gun>
+		</Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+	</camouflage>
+	<!--//Russian premium ships camouflage-->
+	<camouflage>
+		<annotation>Блок уникального дефолтного камуфляжа для русского крейсера Аврора</annotation>
+		<name>camo_permanent_1</name>
+		<targetShip>PRSC001_Avrora_1917</targetShip>
+		<tiled>false</tiled>
+		<UV>
+			<Tile>1 1</Tile>
+			<Gun>1 1</Gun>
+		</UV>
+		<Textures>
+			<Bow_Hull>content/gameplay/common/camouflage/textures/RSC001_Avrora_1917_camo_01.dds</Bow_Hull>
+			<MidFront_Hull>content/gameplay/common/camouflage/textures/RSC001_Avrora_1917_camo_01.dds</MidFront_Hull>
+			<MidBack_Hull>content/gameplay/common/camouflage/textures/RSC001_Avrora_1917_camo_01.dds</MidBack_Hull>
+			<Stern_Hull>content/gameplay/common/camouflage/textures/RSC001_Avrora_1917_camo_01.dds</Stern_Hull>
+			<Gun>content/gameplay/common/camouflage/textures/G_gun_camo_01.dds</Gun>
+		</Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+	</camouflage>
+	<camouflage>
+		<annotation>Блок уникального дефолтного камуфляжа для подарочного русского крейсера Диана ASUS</annotation>
+		<name>camo_permanent_1</name>
+		<targetShip>PRSC010_Diana_1905_Asus</targetShip>
+		<tiled>false</tiled>
+		<UV>
+			<Tile>1 1</Tile>
+			<Gun>0.31 0.4</Gun>
+		</UV>
+		<Textures>
+			<Bow_Hull>content/gameplay/common/camouflage/textures/RSC010_Diana_1905_Asus_camo_01.dds</Bow_Hull>
+			<MidFront_Hull>content/gameplay/common/camouflage/textures/RSC010_Diana_1905_Asus_camo_01.dds</MidFront_Hull>
+			<MidBack_Hull>content/gameplay/common/camouflage/textures/RSC010_Diana_1905_Asus_camo_01.dds</MidBack_Hull>
+			<Stern_Hull>content/gameplay/common/camouflage/textures/RSC010_Diana_1905_Asus_camo_01.dds</Stern_Hull>
+			<Gun>content/gameplay/common/camouflage/textures/IJN_tile_camo_02.dds</Gun>
+		</Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+	</camouflage>
+	<camouflage>
+		<annotation>Блок уникального дефолтного камуфляжа для русского крейсера Диана</annotation>
+		<name>camo_permanent_1</name>
+		<targetShip>PRSC002_Diana_1905</targetShip>
+		<tiled>false</tiled>
+		<UV>
+			<Tile>1 1</Tile>
+			<Gun>1 1</Gun>
+		</UV>
+		<Textures>
+			<Bow_Hull>content/gameplay/common/camouflage/textures/G_gun_camo_01.dds</Bow_Hull>
+			<MidFront_Hull>content/gameplay/common/camouflage/textures/G_gun_camo_01.dds</MidFront_Hull>
+			<MidBack_Hull>content/gameplay/common/camouflage/textures/G_gun_camo_01.dds</MidBack_Hull>
+			<Stern_Hull>content/gameplay/common/camouflage/textures/G_gun_camo_01.dds</Stern_Hull>
+			<Gun>content/gameplay/common/camouflage/textures/G_gun_camo_01.dds</Gun>
+		</Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+	</camouflage>
+	<camouflage>
+		<annotation>Блок уникального дефолтного камуфляжа для крейсера Мурманск</annotation>
+		<name>camo_permanent_1</name>
+		<targetShip>PRSC003_Murmansk_1944</targetShip>
+		<tiled>false</tiled>
+		<UV>
+			<Tile>1 1</Tile>
+			<Gun>0.51 0.51</Gun>
+		</UV>
+		<Textures>
+			<Bow_Hull>content/gameplay/common/camouflage/textures/RSC003_Murmansk_1944_camo_01.dds</Bow_Hull>
+			<MidFront_Hull>content/gameplay/common/camouflage/textures/RSC003_Murmansk_1944_camo_01.dds</MidFront_Hull>
+			<MidBack_Hull>content/gameplay/common/camouflage/textures/RSC003_Murmansk_1944_camo_01.dds</MidBack_Hull>
+			<Stern_Hull>content/gameplay/common/camouflage/textures/RSC003_Murmansk_1944_camo_01.dds</Stern_Hull>
+			<Gun>content/gameplay/common/camouflage/textures/Dazzle_tile_camo_01.dds</Gun>
+		</Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+	</camouflage>
+	<camouflage>
+		<annotation>Блок уникального дефолтного камуфляжа для эсминца Гремящий</annotation>
+		<name>camo_permanent_1</name>
+		<targetShip>PRSD001_Gremyashchy_1942</targetShip>
+		<tiled>false</tiled>
+		<UV>
+			<Tile>1 1</Tile>
+			<Gun>0.5 0.5</Gun>
+		</UV>
+		<Textures>
+			<Bow_Hull>content/gameplay/common/camouflage/textures/RSD001_Gremyashchy_1942_camo_01.dds</Bow_Hull>
+			<MidFront_Hull>content/gameplay/common/camouflage/textures/RSD001_Gremyashchy_1942_camo_01.dds</MidFront_Hull>
+			<MidBack_Hull>content/gameplay/common/camouflage/textures/RSD001_Gremyashchy_1942_camo_01.dds</MidBack_Hull>
+			<Stern_Hull>content/gameplay/common/camouflage/textures/RSD001_Gremyashchy_1942_camo_01.dds</Stern_Hull>
+			<Gun>content/gameplay/common/camouflage/textures/Dazzle_tile_camo_01.dds</Gun>
+		</Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+	</camouflage>
+	<camouflage>
+		<annotation>Блок уникального дефолтного камуфляжа для линкора Николай I</annotation>
+		<name>camo_permanent_1</name>
+		<targetShip>PRSB001_Nikolay_I</targetShip>
+		<tiled>false</tiled>
+		<UV>
+			<Tile>1 1</Tile>
+			<Gun>1 1</Gun>
+		</UV>
+		<Textures>
+			<Bow_Hull>content/gameplay/common/camouflage/textures/RSB001_Nikolay_I_1917_camo_01.dds</Bow_Hull>
+			<MidFront_Hull>content/gameplay/common/camouflage/textures/RSB001_Nikolay_I_1917_camo_01.dds</MidFront_Hull>
+			<MidBack_Hull>content/gameplay/common/camouflage/textures/RSB001_Nikolay_I_1917_camo_01.dds</MidBack_Hull>
+			<Stern_Hull>content/gameplay/common/camouflage/textures/RSB001_Nikolay_I_1917_camo_01.dds</Stern_Hull>
+			<Gun>content/gameplay/common/camouflage/textures/R_gun_camo_01.dds</Gun>
+		</Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+	</camouflage>
+	<camouflage>
+		<annotation>Блок уникального дефолтного камуфляжа для крейсера Кутузов</annotation>
+		<name>camo_permanent_1</name>
+		<targetShip>PRSC508_Kutuzov_1952</targetShip>
+		<tiled>false</tiled>
+		<UV>
+			<Tile>1 1</Tile>
+			<Gun>0.75 0.75</Gun>
+		</UV>
+		<Textures>
+			<Bow_Hull>content/gameplay/common/camouflage/textures/RSC009_Kutuzov_1952_camo_01.dds</Bow_Hull>
+			<Bow_DeckHouse>content/gameplay/common/camouflage/textures/RSC009_Kutuzov_1952_deckhouse_camo_01.dds</Bow_DeckHouse>
+			<MidFront_Hull>content/gameplay/common/camouflage/textures/RSC009_Kutuzov_1952_camo_01.dds</MidFront_Hull>
+			<MidFront_DeckHouse>content/gameplay/common/camouflage/textures/RSC009_Kutuzov_1952_deckhouse_camo_01.dds</MidFront_DeckHouse>
+			<MidBack_Hull>content/gameplay/common/camouflage/textures/RSC009_Kutuzov_1952_camo_01.dds</MidBack_Hull>
+			<MidBack_DeckHouse>content/gameplay/common/camouflage/textures/RSC009_Kutuzov_1952_deckhouse_camo_01.dds</MidBack_DeckHouse>
+			<Stern_Hull>content/gameplay/common/camouflage/textures/RSC009_Kutuzov_1952_camo_01.dds</Stern_Hull>
+			<Stern_DeckHouse>content/gameplay/common/camouflage/textures/RSC009_Kutuzov_1952_deckhouse_camo_01.dds</Stern_DeckHouse>
+			<Gun>content/gameplay/common/camouflage/textures/Dazzle_tile_camo_01.dds</Gun>
+		</Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+	</camouflage>
+	<!--//Russian tech tree ships camouflage-->
+	<camouflage>
+		<annotation>Блок новогоднего камуфляжа для эсминца Гневный</annotation>
+		<name>camo_new_year_1</name>
+		<targetShip>PRSD105_Pr_7_Gnevny</targetShip>
+		<tiled>false</tiled>
+		<UV>
+			<Tile>1 1</Tile>
+			<Gun>0.7 0.4</Gun>
+		</UV>
+		<Textures>
+			<Bow_Hull>content/gameplay/common/camouflage/textures/RSD010_Pr_7_Gnevny_1938_camo_01.dds</Bow_Hull>
+			<MidFront_Hull>content/gameplay/common/camouflage/textures/RSD010_Pr_7_Gnevny_1938_camo_01.dds</MidFront_Hull>
+			<MidBack_Hull>content/gameplay/common/camouflage/textures/RSD010_Pr_7_Gnevny_1938_camo_01.dds</MidBack_Hull>
+			<MidBack_DeckHouse>content/gameplay/common/camouflage/textures/IJN_tile_camo_02.dds</MidBack_DeckHouse>
+			<Stern_Hull>content/gameplay/common/camouflage/textures/RSD010_Pr_7_Gnevny_1938_camo_01.dds</Stern_Hull>
+			<Gun>content/gameplay/common/camouflage/textures/IJN_tile_camo_02.dds</Gun>
+		</Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+	</camouflage>
+	<camouflage>
+		<annotation>Блок пермофляжа для эсминца 8 уровня Ташкент</annotation>
+		<name>camo_permanent_1</name>
+		<targetShip>PRSD108_Pr_20i_Tashkent</targetShip>
+		<tiled>false</tiled>
+		<UV>
+			<Tile>1 1</Tile>
+			<Gun>1 1</Gun>
+		</UV>
+		<Textures>
+			<Bow_Hull>content/gameplay/common/camouflage/textures/Black_gun_camo_01.dds</Bow_Hull>
+			<MidFront_Hull>content/gameplay/common/camouflage/textures/Black_gun_camo_01.dds</MidFront_Hull>
+			<MidBack_Hull>content/gameplay/common/camouflage/textures/Black_gun_camo_01.dds</MidBack_Hull>
+			<Stern_Hull>content/gameplay/common/camouflage/textures/Black_gun_camo_01.dds</Stern_Hull>
+			<Gun>content/gameplay/common/camouflage/textures/Black_gun_camo_01.dds</Gun>
+		</Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+	</camouflage>
+	<!--//Polish premium ships camouflage-->
+	<camouflage>
+		<annotation>Блок уникального дефолтного камуфляжа для польского эсминца Блыскавица</annotation>
+		<name>camo_permanent_1</name>
+		<targetShip>PWSD501_Blyskawica</targetShip>
+		<tiled>false</tiled>
+		<UV>
+			<Tile>1 1</Tile>
+			<Gun>1 1</Gun>
+		</UV>
+		<Textures>
+			<Bow_Hull>content/gameplay/common/camouflage/textures/WSD001_Blyskawica_1938_camo_01.dds</Bow_Hull>
+			<MidFront_Hull>content/gameplay/common/camouflage/textures/WSD001_Blyskawica_1938_camo_01.dds</MidFront_Hull>
+			<MidBack_Hull>content/gameplay/common/camouflage/textures/WSD001_Blyskawica_1938_camo_01.dds</MidBack_Hull>
+			<Stern_Hull>content/gameplay/common/camouflage/textures/WSD001_Blyskawica_1938_camo_01.dds</Stern_Hull>
+			<Gun>content/gameplay/common/camouflage/textures/R_gun_camo_01.dds</Gun>
+		</Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+	</camouflage>
+	<!--//British premium ships camouflage-->
+	<camouflage>
+		<annotation>Блок уникального дефолтного камуфляжа для британского линкора Ворспайт</annotation>
+		<name>camo_permanent_1</name>
+		<targetShip>PBSB002_Warspite_1941</targetShip>
+		<tiled>false</tiled>
+		<UV>
+			<Tile>1 1</Tile>
+			<Gun>1 1</Gun>
+		</UV>
+		<Textures>
+			<Bow_Hull>content/gameplay/common/camouflage/textures/BSB002_Warspite_1941_hull_camo_01.dds</Bow_Hull>
+			<Bow_DeckHouse>content/gameplay/common/camouflage/textures/BSB002_Warspite_1941_Deck_House_camo_01.dds</Bow_DeckHouse>
+			<MidFront_Hull>content/gameplay/common/camouflage/textures/BSB002_Warspite_1941_hull_camo_01.dds</MidFront_Hull>
+			<MidFront_DeckHouse>content/gameplay/common/camouflage/textures/BSB002_Warspite_1941_Deck_House_camo_01.dds</MidFront_DeckHouse>
+			<MidBack_Hull>content/gameplay/common/camouflage/textures/BSB002_Warspite_1941_hull_camo_01.dds</MidBack_Hull>
+			<MidBack_DeckHouse>content/gameplay/common/camouflage/textures/BSB002_Warspite_1941_Deck_House_camo_01.dds</MidBack_DeckHouse>
+			<Stern_Hull>content/gameplay/common/camouflage/textures/BSB002_Warspite_1941_hull_camo_01.dds</Stern_Hull>
+			<Stern_DeckHouse>content/gameplay/common/camouflage/textures/BSB002_Warspite_1941_Deck_House_camo_01.dds</Stern_DeckHouse>
+			<Gun>content/gameplay/common/camouflage/textures/R_gun_camo_01.dds</Gun>
+		</Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+	</camouflage>
+	<camouflage>
+		<annotation>Блок уникального дефолтного камуфляжа для британского эсминца Кэмблтаун</annotation>
+		<name>camo_permanent_1</name>
+		<targetShip>PBSD503_Campbeltown_1941</targetShip>
+		<tiled>false</tiled>
+		<UV>
+			<Tile>1 1</Tile>
+			<Gun>1 1</Gun>
+		</UV>
+		<Textures>
+			<Bow_Hull>content/gameplay/common/camouflage/textures/BSD002_Campbeltown_1941_camo_01.dds</Bow_Hull>
+			<MidFront_Hull>content/gameplay/common/camouflage/textures/BSD002_Campbeltown_1941_camo_01.dds</MidFront_Hull>
+			<MidBack_Hull>content/gameplay/common/camouflage/textures/BSD002_Campbeltown_1941_camo_01.dds</MidBack_Hull>
+			<Stern_Hull>content/gameplay/common/camouflage/textures/BSD002_Campbeltown_1941_camo_01.dds</Stern_Hull>
+			<Gun>content/gameplay/common/camouflage/textures/Black_gun_camo_01.dds</Gun>
+		</Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+	</camouflage>
+	<!--//Pan-Asian premium ships camouflage-->
+	<camouflage>
+		<annotation>Блок пермофляжа для китайского эсминца Аньшань</annotation>
+		<name>camo_permanent_1</name>
+		<targetShip>PZSD506_Anshan</targetShip>
+		<tiled>false</tiled>
+		<UV>
+			<Tile>1 1</Tile>
+			<Gun>1 1</Gun>
+		</UV>
+		<Textures>
+			<Bow_Hull>content/gameplay/common/camouflage/textures/ZSD001_Anshan_camo_01.dds</Bow_Hull>
+			<MidFront_Hull>content/gameplay/common/camouflage/textures/ZSD001_Anshan_camo_01.dds</MidFront_Hull>
+			<MidBack_Hull>content/gameplay/common/camouflage/textures/ZSD001_Anshan_camo_01.dds</MidBack_Hull>
+			<Stern_Hull>content/gameplay/common/camouflage/textures/ZSD001_Anshan_camo_01.dds</Stern_Hull>
+			<Gun>content/gameplay/common/camouflage/textures/Black_gun_camo_01.dds</Gun>
+		</Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+	</camouflage>
+	<camouflage>
+		<annotation>Блок пермофляжа для паназиатского эсминца Ло-Янг</annotation>
+		<name>camo_permanent_1</name>
+		<targetShip>PZSD508_LoYang</targetShip>
+		<tiled>false</tiled>
+		<UV>
+			<Tile>1 1</Tile>
+			<Gun>1 1</Gun>
+		</UV>
+		<Textures>
+			<Bow_Hull>content/gameplay/common/camouflage/textures/ZSD002_Lo_Yang_camo_01.dds</Bow_Hull>
+			<MidFront_Hull>content/gameplay/common/camouflage/textures/ZSD002_Lo_Yang_camo_01.dds</MidFront_Hull>
+			<MidBack_Hull>content/gameplay/common/camouflage/textures/ZSD002_Lo_Yang_camo_01.dds</MidBack_Hull>
+			<Stern_Hull>content/gameplay/common/camouflage/textures/ZSD002_Lo_Yang_camo_01.dds</Stern_Hull>
+			<Gun>content/gameplay/common/camouflage/textures/G_gun_camo_01.dds</Gun>
+		</Textures>
+		<color0>0.000 0.000 0.000 0.000</color0>
+		<color1>0.000 0.000 0.000 0.000</color1>
+		<color2>0.000 0.000 0.000 0.000</color2>
+		<color3>0.000 0.000 0.000 0.000</color3>
+	</camouflage>
+	<!--//Test camo-->
+</data>
