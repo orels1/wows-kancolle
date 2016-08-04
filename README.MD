@@ -10,7 +10,8 @@
 - [x] Isokaze
 - [x] Umikaze
 - [ ] Kuma
-- [ ] Kongo
+- [x] Kongo (корпус А)
+- [ ] Kongo (корпус B,C)
 
 ## Установка
 
