@@ -1,5 +1,6 @@
 echo "Pushing develop"
 git push
+sleep 5
 echo "Merging develop --> master"
 git checkout master
 sleep 1
