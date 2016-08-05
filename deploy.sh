@@ -2,8 +2,10 @@ echo "Pushing develop"
 git push
 echo "Merging develop --> master"
 git checkout master
+sleep 1
 git merge develop
 echo "Pushing master"
+sleep 1
 git push
 echo "Switching back to develop"
 git checkout develop
