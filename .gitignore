@@ -12,3 +12,5 @@
 misc/*
 src/*
 release/*
+_site/*
+assets/*
