@@ -1,6 +1,7 @@
 name: Solar Theme
 url: https://orels1.github.io/wows-kancolle/
 description: A stylish blog using the Solarized color palette
+baseurl: /wows-kancolle/
 
 permalink: /:year/:month/:day/:title/
 paginate: 10
