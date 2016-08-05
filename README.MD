@@ -13,6 +13,10 @@
 - [x] Kongo (корпус А)
 - [x] Kongo (корпус B,C)
 
+## Превью
+
+Посмотреть, как выглядят корабли [можно тут](https://github.com/orels1/wows-kancolle/blob/master/PREVIEW.MD)
+
 ## Установка
 
 - Скачать последнюю версию архива из [раздела релизов](https://github.com/orels1/wows-kancolle/releases)
